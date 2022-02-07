@@ -1,0 +1,1 @@
+# global-azure-bootcamp-2022
