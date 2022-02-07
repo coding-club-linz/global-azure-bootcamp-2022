@@ -1,0 +1,23 @@
+{
+  "name": "global-azure-bootcamp-2022",
+  "version": "1.0.0",
+  "description": "[![Build Hugo website](https://github.com/coding-club-linz/global-azure-bootcamp-2022/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/coding-club-linz/global-azure-bootcamp-2022/actions/workflows/ci-cd.yaml)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "hugo serve --baseUrl http://127.0.0.1/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-club-linz/global-azure-bootcamp-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-club-linz/global-azure-bootcamp-2022/issues"
+  },
+  "homepage": "https://github.com/coding-club-linz/global-azure-bootcamp-2022#readme",
+  "devDependencies": {
+    "remove-markdown": "^0.3.0"
+  }
+}
