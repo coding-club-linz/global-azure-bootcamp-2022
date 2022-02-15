@@ -7,7 +7,9 @@ layout: single
 
 We are currently preparing the session content for Global Azure Austria 2022.
 
-Global Azure is from the community, for the community. This is where you come in, dear speakers. GAA would not be possible without your great content and dedication. This year's motto is <b>Practical Cloud Computing</b>. Therefore, we are particularly looking for sessions about how you use cloud computing in general and Microsoft Azure in particular for solving real-world project challenges.
+Global Azure is from the community, for the community. This is where you come in, dear speakers. GAA would not be possible without your great content and dedication.
+
+This year's motto is **Practical Cloud Computing**. Therefore, we are particularly looking for sessions about how you use cloud computing in general and Microsoft Azure in particular for solving real-world project challenges.
 
 ### Topics
 

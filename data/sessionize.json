@@ -1,0 +1,150 @@
+{
+  "sessions": [
+    {
+      "id": "319806",
+      "title": "Migration of a containerized legacy application to the cloud",
+      "description": "A classic legacy desktop application is usually not designed to operate in the cloud, not even as a container. Nevertheless, you can’t refuse cloud adoption and the need for scaling your resources on demand - if you want to continue to be successful and open up new business areas. That’s why we took the plunge with our MS Windows-based monolith, whose development began more than two decades ago. The start of the changeover raised more questions than answers. \r\n\r\n• Which (new) technology services will be included in our technology stack?\r\n• How far will we come within a year?\r\n• Who is the main driver regarding our efforts towards to cloud migration and scalability?\r\n• Which obstacles will we face?\r\n\r\nThis is (among others) what we are trying to answer.\r\n",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52214c40-9cb0-44a6-a1f5-ab2302c9bb40"
+      ],
+      "categoryItems": [
+        110661,
+        110662
+      ],
+      "questionAnswers": [],
+      "roomId": null,
+      "liveUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "id": "319729",
+      "title": "Serverless Rust on Azure - A Deep Dive",
+      "description": "Azure's Serverless offerings keep a lot of promises: Infrastructure people love the painless use-what-you-need nature, developers can use Azure Functions as a stable and rich framework for easily crafting reliable applications. The only thing you need to keep in mind: You pay for the memory you use over the time your application executes.\r\n\r\nEnter Rust: A systems programming language that has gained significant attention over the last couple of years for producing fast applications with optimized use of memory.\r\n\r\nFast applications? Optimized memory usage? That sounds like a perfect match for Azure Functions!\r\n\r\nIn this session, we will learn how we can use Rust to get the best out of Azure Functions. We look into the nitty-gritty details of how Azure's Serverless offering is designed, how it works under the hood, and what you can expect from it. By migrating a typical Node.js function app over to Rust, we see both benefits and drawbacks.\r\n\r\nYou don't need to know Rust nor Azure Functions to get the best out of this session, but an overall curiosity is highly recommended.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
+      ],
+      "categoryItems": [
+        110661,
+        110662
+      ],
+      "questionAnswers": [],
+      "roomId": null,
+      "liveUrl": null,
+      "recordingUrl": null
+    }
+  ],
+  "speakers": [
+    {
+      "id": "52214c40-9cb0-44a6-a1f5-ab2302c9bb40",
+      "firstName": "Patrick",
+      "lastName": "Koch",
+      "bio": "DevOps Engineer | Blogger | Speaker\r\n#cloud #k8s #container #cicd\r\n",
+      "tagLine": "DevOps Engineer at AVL List GmbH",
+      "profilePicture": "https://sessionize.com/image/9a47-400o400o2-Vww9bskqoH9KB1GMqVKkmc.PNG",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/PK_Koch",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/patrick-koch-404a52b0/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://www.patrickkoch.dev/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.avl.com/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        319806
+      ],
+      "fullName": "Patrick Koch",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f62f9691-37cd-4ca6-81f1-14c7234ab46e",
+      "firstName": "Stefan",
+      "lastName": "Baumgartner",
+      "bio": "Stefan Baumgartner is an architect and developer based in Austria. He is the author of \"TypeScript in 50 Lessons\" and writes for Manning, Smashing Magazine, and A List Apart.\r\n\r\nIn his spare time, he organizes ScriptConf and DevOne in Linz as well as the local Rust meetup. Stefan enjoys Italian food, Belgian beer, and British vinyl records.",
+      "tagLine": "Internet Batman",
+      "profilePicture": "https://sessionize.com/image/82a4-400o400o2-VpAJUfhug8zWMPGt8yNEtd.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ddprrt",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://fettblog.eu",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        319729
+      ],
+      "fullName": "Stefan Baumgartner",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [],
+  "categories": [
+    {
+      "id": 36336,
+      "title": "Language",
+      "items": [
+        {
+          "id": 110660,
+          "name": "German",
+          "sort": 1
+        },
+        {
+          "id": 110661,
+          "name": "English",
+          "sort": 2
+        }
+      ],
+      "sort": 5,
+      "type": "session"
+    },
+    {
+      "id": 36337,
+      "title": "Track",
+      "items": [
+        {
+          "id": 110662,
+          "name": "Main Conference",
+          "sort": 1
+        },
+        {
+          "id": 110663,
+          "name": "Junior",
+          "sort": 2
+        }
+      ],
+      "sort": 6,
+      "type": "session"
+    }
+  ],
+  "rooms": []
+}

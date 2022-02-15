@@ -5,40 +5,42 @@
     {{ partial "head.html" . }}
 </head>
 
-{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "YouTube Video") 0).id }}
+<!-- {{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }} -->
 
 <body id="page">
     {{ partial "nav.html" . }}
 
-    {{ partial "schedule.html" . }}
+    <section class="bg-primary" id="register">
+        <div class="container">
+            <div class="row" id="mc_embed_signup">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Sessions</h2>
+    
+                        <hr class="light">
+    
+                        <p class="text-faded">
+                            We are currently in the middle of putting together the conference agenda.
+                            Some sessions are already fixed. <b>More will be announced soon.</b>
+                        </p>
+        
+                        <hr class="light">
+
+                        <p class="text-muted">
+                            If you’re passionate about Azure and want to share your expertise with the community 
+                            then we'd love to hear from you.
+                        </p>
+                        
+                        {{ with .Site.Params.hero.buttonText }}
+                    <a href="https://sessionize.com/global-azure-austria-2022/" class="btn btn-primary btn-xl" target="_blank">Submit Session</a>
+                    {{ end }}
+                    </div>
+            </div>
+        </div>
+    </section>
 
     <section id="sessions" class="sessions">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Sessions</h2>
-
-                    <hr class="primary">
-
-                    <!--<p class="text-muted"><b>More sessions will be announced soon.</b>
-                    </p>
-
-                    <p class="text-muted">If you’re
-                        passionate about Azure and want to share your expertise with the community then we'd love to
-                        hear
-                        from you.
-                    </p> -->
-                </div>
-
-                <!-- <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-                    <a href="https://sessionize.com/global-azure-austria-2021/" target="_blank"><i
-                            class="fa fa-microphone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p>Submit session</p>
-                    </a>
-                </div> -->
-            </div>
-
-            {{ range $index, $element := sort (where $.Site.Data.Y2021.sessionize.sessions "isServiceSession" false) ".title" }}
+            {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title" }}
             <div class="row" id="{{ .id }}">
                 {{ if ne $index 0 }}
                 <hr class="primary full">
@@ -47,25 +49,20 @@
                 <div class="col-md-8">
                     <h3>{{ .title }}</h3>
                     <p>
-                        {{ range where (index $.Site.Data.Y2021.sessionize.categories 1).items "id" "in" .categoryItems }}
+                        {{ range where (index $.Site.Data.sessionize.categories 0).items "id" "in" .categoryItems }}
                         <span class="label label-default">{{ .name }}</span>
                         {{ end }}
 
-                        {{ range where (index $.Site.Data.Y2021.sessionize.categories 0).items "id" "in" .categoryItems }}
+                        {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" .categoryItems }}
                         {{ if eq .name "Junior Bootcamp" }}
                         <span class="label label-default">{{ .name }}</span>
                         {{ end }}
                         {{ end }}
                     </p>
-                    <p>
-                        <div class="text-muted timeslot">
-                            {{ dateFormat "Monday, January 2, 2006" .startsAt }}
-                            {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
-                        </div>
-                    </p>
+
                     <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
 
-                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
+                    {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
                     {{ if ne .id "249535" }}
                     <div class="calendar-link">
                         {{ range $question := .questionAnswers }}
@@ -77,7 +74,7 @@
                     </div>
                     {{ end }}
 
-                    {{ range where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                    {{ range where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
                     <h4>About {{ .firstName }} {{ .lastName }}</h4>
                     <p class="text-muted bio">{{ .bio }}</p>
                     <div class="speaker">
@@ -100,7 +97,7 @@
                 </div>
 
                 <div class="col-md-4 text-center">
-                    {{ range where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                    {{ range where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
                     <div class="speaker">
                         <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
                         </figure>
@@ -116,7 +113,7 @@
 
     <!-- {{ partial "tickets.html" . }} -->
 
-    {{ partial "newsletter.html" . }}
+    {{ partial "register.html" . }}
 
     {{ partial "sponsors.html" . }}
 

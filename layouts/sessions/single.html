@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
-{{ $session := index (where $.Site.Data.Y2021.sessionize.sessions "id" .Params.sessionId) 0 }}
-{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "YouTube Video") 0).id }}
+{{ $session := index (where $.Site.Data.sessionize.sessions "id" .Params.sessionId) 0 }}
+{{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }}
 
 <head>
     <title>{{ .Params.title }} - {{ .Site.Title }}</title>
@@ -26,11 +26,11 @@
                     <h1>{{ .Site.Title }}</h1>
                     <h3>{{ $session.title }}</h3>
                     <p>
-                        {{ range where (index $.Site.Data.Y2021.sessionize.categories 1).items "id" "in" $session.categoryItems }}
+                        {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" $session.categoryItems }}
                         <span class="label label-default">{{ $session.name }}</span>
                         {{ end }}
 
-                        {{ range where (index $.Site.Data.Y2021.sessionize.categories 0).items "id" "in" $session.categoryItems }}
+                        {{ range where (index $.Site.Data.sessionize.categories 0).items "id" "in" $session.categoryItems }}
                         {{ if eq .name "Junior Bootcamp" }}
                         <span class="label label-default">{{ $session.name }}</span>
                         {{ end }}
@@ -47,7 +47,7 @@
                     <!-- <p class="text-muted">{{ safeHTML  (replace $session.description "\r\n" "<br/>") }}</p> -->
                     <div class="text-muted"><p class="">{{ $session.description | markdownify }}</p></div>
 
-                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
+                    {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
                     <div class="links">
                         {{ range $question := $session.questionAnswers }}
                         {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
@@ -86,7 +86,7 @@
                             {{ end }}
                     </p>
 
-                    {{ range where $.Site.Data.Y2021.sessionize.speakers "id" "in" $session.speakers }}
+                    {{ range where $.Site.Data.sessionize.speakers "id" "in" $session.speakers }}
                     <div class="row">
                         <div class="col-md-8">
                             <h4>About {{ .firstName }} {{ .lastName }}</h4>

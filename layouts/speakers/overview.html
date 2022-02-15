@@ -8,18 +8,39 @@
 <body id="page">
     {{ partial "nav.html" . }}
 
+    <section class="bg-primary" id="register">
+        <div class="container">
+            <div class="row" id="mc_embed_signup">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">Speakers</h2>
+    
+                        <hr class="light">
+    
+                        <p class="text-faded">
+                            We are currently in the middle of putting together the conference agenda.
+                            Some speakers are already fixed. <b>More will be announced soon.</b>
+                        </p>
+        
+                        <hr class="light">
+
+                        <p class="text-muted">
+                            If you’re passionate about Azure and want to share your expertise with the community 
+                            then we'd love to hear from you.
+                        </p>
+                        
+                        {{ with .Site.Params.hero.buttonText }}
+                    <a href="https://sessionize.com/global-azure-austria-2022/" class="btn btn-primary btn-xl" target="_blank">Submit Session</a>
+                    {{ end }}
+                    </div>
+            </div>
+        </div>
+    </section>
+
     <section id="speakers" class="speakers">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Speakers</h2>
-
-                    <hr class="primary">
-                </div>
-            </div>
 
             <div class="row equal">
-                {{ range sort $.Site.Data.Y2021.sessionize.speakers ".lastName" }}
+                {{ range sort $.Site.Data.sessionize.speakers ".lastName" }}
                 <div class="col-md-3 col-sm-4 col-xs-12 text-center">
                     <div class="speaker" onclick="$('#{{ .id }}').modal({})">
                         <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
@@ -44,7 +65,7 @@
 
                                 <h5><b>Sessions</b></h5>
                                 <p class="sessions">
-                                    {{ range where $.Site.Data.Y2021.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
+                                    {{ range where $.Site.Data.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
                                     
                                     <a href="/sessions#{{.id}}">{{ .title }}</a>
                                     {{ end }}
@@ -69,6 +90,8 @@
     </section>
 
     <!-- {{ partial "tickets.html" . }} -->
+
+    {{ partial "register.html" . }}
 
     {{ partial "sponsors.html" . }}
 

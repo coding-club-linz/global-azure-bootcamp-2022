@@ -13,7 +13,7 @@
         </div>
 
         <div class="row equal">
-            {{ range sort $.Site.Data.Y2021.sessionize.speakers ".lastName" }}
+            {{ range sort $.Site.Data.sessionize.speakers ".lastName" }}
             <div class="col-md-3 col-sm-4 col-xs-12 text-center">
                 <div class="speaker" onclick="$('#{{ .id }}').modal({})">
                     <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
@@ -29,7 +29,7 @@
     </div>
 </section>
 
-{{ range sort $.Site.Data.Y2021.sessionize.speakers ".lastName" }}
+{{ range sort $.Site.Data.sessionize.speakers ".lastName" }}
 <div class="modal fade" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -49,7 +49,7 @@
 
                 <h5><b>Sessions</b></h5>
                 <p class="sessions">
-                    {{ range where $.Site.Data.Y2021.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
+                    {{ range where $.Site.Data.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
                     
                     <div class="link"><i class="fa fa-microphone" aria-hidden="true"></i><a href="/sessions#{{.id}}">{{ .title }}</a></div>
                     {{ end }}
