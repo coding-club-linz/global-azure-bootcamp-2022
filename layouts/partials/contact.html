@@ -32,7 +32,7 @@
                         <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}" href="/junior-bootcamp#schedule">{{ .Site.Params.navigation.links.juniorBootcampSchedule }}</a>
                     </li> -->
                     <li class="{{ cond (eq .Page.Dir "sponsors\\") "active" "" }}">
-                        <a href="https://hopin.com/events/global-azure-austria-2022/#sponsors" target="_blank">{{ .Site.Params.navigation.links.sponsors }}</a>
+                        <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
                     </li>
                     <li class="{{ cond (eq .Page.Dir "code-of-conduct\\") "active" "" }}">
                         <a href="/code-of-conduct">{{ .Site.Params.navigation.links.codeOfConduct }}</a>

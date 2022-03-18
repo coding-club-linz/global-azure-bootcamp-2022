@@ -1,6 +1,6 @@
 ---
 title: "Microsoft"
-type: "Platinum Sponsor"
+type: "Main Sponsor"
 logo: "microsoft.png"
 priority: 1
 ---
