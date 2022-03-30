@@ -14,7 +14,7 @@ Mit individuell an den Prozess angepasster Software lassen sich Arbeitsprozesse 
 Guid.New - 100% Leidenschaft für die Entwicklung Ihrer Software.
 
 Guid.New GmbH  
-Liebenauer Hauptstraße 2-6  
-A-8041 Graz  
+Johann-Kamp-Platz 1  
+A-8074 Raaba-Grambach  
 [hello@guidnew.com](mailto:hello@guidnew.com)  
 [guidnew.com](https://guidnew.com/?utm_source=globalazure&utm_medium=sponsorship&utm_campaign=traffic)
