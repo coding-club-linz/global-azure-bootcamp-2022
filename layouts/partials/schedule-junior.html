@@ -1,6 +1,6 @@
-{{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
-{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "YouTube Video") 0).id }}
-{{ $streamingUrlQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Streaming URL") 0).id }}
+{{ $shortLinkQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Short Link") 0).id }}
+{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "YouTube Video") 0).id }}
+{{ $streamingUrlQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Streaming URL") 0).id }}
 <section id="schedule-junior" class="bg-dark">
     <div class="container">
         <div class="row">
@@ -16,16 +16,16 @@
             <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0">
                 <table class="table schedule schedule-junior">
                     <!-- <tr class="hidden-xs">
-                        {{ range $room := $.Site.Data.Y2021.rooms.rooms }}
+                        {{ range $room := $.Site.Data.Y2022.rooms.rooms }}
                         <th>Theater {{ .roomNumber }}</th>
                         {{ end }}
                     </tr> -->
-                    {{ range $timeslot := $.Site.Data.Y2021.timeslotsjunior.timeslots }}
+                    {{ range $timeslot := $.Site.Data.Y2022.timeslotsjunior.timeslots }}
                     <tr class="{{ if eq $timeslot.isServiceTimeslot true }}service-session{{ end }}">
 
                         {{ if eq $timeslot.isServiceTimeslot true }}
                         <td colspan="1" class="service-session">
-                            {{ range (where (where $.Site.Data.Y2021.sessionize.sessions "isServiceSession" true ) "startsAt" $timeslot.startsAt) }}
+                            {{ range (where (where $.Site.Data.Y2022.sessionize.sessions "isServiceSession" true ) "startsAt" $timeslot.startsAt) }}
                             <span class="service-session-time">{{ dateFormat "15:04" .startsAt }} -
                                 {{ dateFormat "15:04" .endsAt }}</span>{{ $timeslot.description }}
                             {{ end }}
@@ -35,22 +35,22 @@
                         {{ if eq $timeslot.isServiceTimeslot false }}
                         <!-- <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
                         </td> -->
-                        {{ range $room := $.Site.Data.Y2021.roomsjunior.rooms }}
+                        {{ range $room := $.Site.Data.Y2022.roomsjunior.rooms }}
                         <td class="session">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    {{ if eq (len (where (where ($.Site.Data.Y2021.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt)) 0 }}
+                                    {{ if eq (len (where (where ($.Site.Data.Y2022.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt)) 0 }}
                                     <div class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} -
                                         {{ dateFormat "15:04" $timeslot.endsAt }}</div>
                                     wird in den nächsten Wochen bekanntgegeben
                                     {{ end }}
 
-                                    {{ range (where (where ($.Site.Data.Y2021.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
+                                    {{ range (where (where ($.Site.Data.Y2022.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
                                     {{ if in .categoryItems 77273 }}
                                     <div class="label label-default"><div class="timeslot">
                                         {{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</div></div>
 
-                                    {{ range where (index $.Site.Data.Y2021.sessionize.categories 1).items "id" "in" .categoryItems }}
+                                    {{ range where (index $.Site.Data.Y2022.sessionize.categories 1).items "id" "in" .categoryItems }}
                                     {{ if eq .name "English" }}
                                     <span class="label label-default">{{ .name }}</span>
                                     {{ end }}
@@ -61,8 +61,8 @@
                                     <h4>{{ .title }}</h4>
                                     <div class="description text-faded">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</div>
 
-                                    {{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "YouTube Video") 0).id }}
-                                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
+                                    {{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "YouTube Video") 0).id }}
+                                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Short Link") 0).id }}
                                     <!-- <div class="calendar-link text-center">
                                         {{ range $question := .questionAnswers }}
                                         {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
@@ -75,7 +75,7 @@
                                         {{ end }}
                                     </div> -->
 
-                                    <!-- {{ range where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                                    <!-- {{ range where $.Site.Data.Y2022.sessionize.speakers "id" "in" .speakers }}
                                     <h5>About {{ .firstName }} {{ .lastName }}</h5>
                                     <p class="text-faded bio">{{ .bio }}</p>
                                     <div class="speaker">
@@ -88,7 +88,7 @@
                                 </div>
 
                                 <div class="col-md-4 text-center">
-                                    {{ range $index, $speaker := where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                                    {{ range $index, $speaker := where $.Site.Data.Y2022.sessionize.speakers "id" "in" .speakers }}
                                     <div class="speaker">
                                         <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
                                         </figure>
@@ -111,7 +111,7 @@
     </div>
 </section>
 
-{{ range sort $.Site.Data.Y2021.sessionize.speakers ".lastName" }}
+{{ range sort $.Site.Data.Y2022.sessionize.speakers ".lastName" }}
 <div class="modal fade schedule-speaker" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -129,7 +129,7 @@
                 <h5><b>Sessions</b></h5>
                 <p class="sessions">
                     <ul>
-                    {{ range where $.Site.Data.Y2021.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
+                    {{ range where $.Site.Data.Y2022.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
 
                     <li><a href="/sessions#{{.id}}">{{ .title }}</a></li>
                     {{ end }}

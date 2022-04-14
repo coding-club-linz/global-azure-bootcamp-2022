@@ -25,7 +25,9 @@ jobs:
           extended: true
 
       - name: 📅 Download speakers and sessions from Sessionize
-        run: curl https://sessionize.com/api/v2/v183mon7/view/All -s -o ./data/sessionize.json
+        run: |
+          curl https://sessionize.com/api/v2/v183mon7/view/All -s -o ./data/sessionize.json
+          cp ./data/sessionize.json ./data/Y2022/sessionize.json
 
       - name: 👩‍🏭 Build
         run: hugo --minify

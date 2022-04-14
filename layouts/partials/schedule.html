@@ -1,6 +1,6 @@
-{{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
-{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "YouTube Video") 0).id }}
-{{ $streamingUrlQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Streaming URL") 0).id }}
+<!--//{{ $shortLinkQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Short Link") 0).id }}
+//{{ $youTubeVideoQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "YouTube Video") 0).id }}
+//{{ $streamingUrlQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Streaming URL") 0).id }}-->
 <section id="schedule" class="bg-dark">
     <div class="container">
         <div class="row">
@@ -9,51 +9,30 @@
                 <hr class="light">
                 <p>
                     Below is a listing of the preliminary conference schedule. Until mid April we will provide the final
-                    schedule for the virtual event with links to join the sessions.
+                    schedule. If you want to know more about the sessions, klick on the session title or browse the <a href="/sessions">session catalog</a>.
                 </p>
-                <p>Browse the <a href="/sessions">session catalog</a>.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 text-center">
-                <a class="btn btn-primary page-scroll" href="#newsletter" target="_blank">
-                    Join our mailing list</a>
-            </div>
-            <div class="col-sm-6 text-center">
-                <a class="btn btn-primary" href="https://discord.gg/CVGFZFy" target="_blank">
-                    Join us on Discord</a>
-            </div>
-        </div>
+
         <div class="row">
             <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0">
                 <table class="table schedule">
-                    <!-- <tr class="hidden-xs">
-                        {{ range $room := $.Site.Data.Y2021.rooms.rooms }}
-                        <th>Theater {{ .roomNumber }}</th>
+                    <tr class="hidden-xs">
+                        {{ range $room := $.Site.Data.Y2022.rooms.rooms }}
+                        <th>{{ .name }}</th>
                         {{ end }}
-                    </tr> -->
-                    {{ range $timeslot := $.Site.Data.Y2021.timeslots.timeslots }}
-                    <tr class="{{ if eq $timeslot.isServiceTimeslot true }}service-session{{ end }}">
-                        {{ if eq $timeslot.isServiceTimeslot true }}
-                        <td colspan="5" class="service-session">
-                            {{ range (where (where $.Site.Data.Y2021.sessionize.sessions "isServiceSession" true ) "startsAt" $timeslot.startsAt) }}
-                            <span class="service-session-time">{{ dateFormat "15:04" .startsAt }} -
-                                {{ dateFormat "15:04" .endsAt }}</span>{{ .title }}
-                            {{ end }}
-                        </td>
-                        {{ end }}
-
-                        {{ if eq $timeslot.isServiceTimeslot false }}
+                    </tr>
+                    {{ range $timeslot := $.Site.Data.Y2022.timeslots.timeslots }}
+                    <tr>
                         <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
                         </td>
-                        {{ range $room := $.Site.Data.Y2021.rooms.rooms }}
+                        {{ range $room := $.Site.Data.Y2022.rooms.rooms }}
                         <td class="session">
-                            {{ range (where (where (where $.Site.Data.Y2021.sessionize.sessions "isServiceSession" false ) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
-                                {{ if or (or (or (or (in .categoryItems 77272) (in .categoryItems 81456)) (in .categoryItems 81457)) (in .categoryItems 81458)) (in .categoryItems 81459) }}
+                            {{ range (where (where $.Site.Data.Y2022.sessionize.sessions "roomId" .id ) "startsAt" $timeslot.startsAt) }}
+                                {{ if or (or (or (or (in .categoryItems 110662) (in .categoryItems 81456)) (in .categoryItems 81457)) (in .categoryItems 81458)) (in .categoryItems 81459) }}
 
-                                {{ if ne .id "249036" }}
                                 <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</span>
-                                    {{ range $category := where (index $.Site.Data.Y2021.sessionize.categories 1).items "id" "in" .categoryItems }}
+                                    {{ range $category := where (index $.Site.Data.Y2022.sessionize.categories 0).items "id" "in" .categoryItems }}
                                     <span class="language">{{ .name }}</span>
                                     {{ end }}
                                 </div>
@@ -62,7 +41,7 @@
                                 <a class="session-link" onclick="$('#{{ .id }}').modal({})">{{ .title }}</a>
 
                                 <div class="speaker">
-                                    {{ range $index, $speaker := where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                                    {{ range $index, $speaker := where $.Site.Data.Y2022.sessionize.speakers "id" "in" .speakers }}
                                     {{ if ne $index 0 }}<span>, </span>{{ end }}<span onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
                                     {{ end }}
                                 </div>
@@ -74,7 +53,7 @@
                                     {{ end }}
                                     {{ end }}
                                 </div> -->
-                                {{ if ne .id "249535" }}
+                                <!-- {{ if ne .id "249535" }}
                                 <div class="links">
                                     {{ range $question := .questionAnswers }}
                                     {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
@@ -82,32 +61,21 @@
                                     {{ end }}
                                     {{ end }}
                                 </div>
-                                {{ end }}
-                                {{ end }}
+                                {{ end }} -->
 
                                 {{ end }}
                             {{ end }}
                         </td>
-                        {{ end }}
                         {{ end }}
                     </tr>
                     {{ end }}
                 </table>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 changed-sessions">
-                <p><b>Session Updates</b></p>
-                <p>Unfortunately, the session <i><a href="/sessions/bicep" target="_blank">Let's explore Azure Bicep! ... and compare it to Hashicorp's Terraform</a></i> was cancelled.</p>
-                <p>We have new speakers for the <a href="/sessions/inside-aad" target="_blank">Azure Active Directory related session</a>.</p>
-                <p>New session <i><a href="/sessions/azure-app-gateway" target="_blank">Azure App Gateway and Azure Front Door Reverse Proxy Setup</a></i>.</p>
-            </div>
-        </div>
     </div>
 </section>
 
-{{ range sort $.Site.Data.Y2021.sessionize.speakers ".lastName" }}
+{{ range sort $.Site.Data.Y2022.sessionize.speakers ".lastName" }}
 <div class="modal fade schedule-speaker" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -125,7 +93,7 @@
                 <h5><b>Sessions</b></h5>
                 <p class="sessions">
                     <ul>
-                    {{ range where $.Site.Data.Y2021.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
+                    {{ range where $.Site.Data.Y2022.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
 
                     <li><a href="/sessions#{{.id}}">{{ .title }}</a></li>
                     {{ end }}
@@ -146,14 +114,14 @@
 </div>
 {{ end }}
 
-{{ range sort $.Site.Data.Y2021.sessionize.sessions ".id" }}
+{{ range sort $.Site.Data.Y2022.sessionize.sessions ".id" }}
 <div class="modal fade schedule-session" id="{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">
-                    {{ range where (index $.Site.Data.Y2021.sessionize.categories 1).items "id" "in" .categoryItems }}
+                    {{ range where (index $.Site.Data.Y2022.sessionize.categories 1).items "id" "in" .categoryItems }}
                         <span class="label label-default float-right">{{ .name }}</span>
                     {{ end }}
                     <span>{{ .title }}</span>
@@ -170,7 +138,7 @@
                 
                 <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
                 
-                {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2021.sessionize.questions "question" "Short Link") 0).id }}
+                {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2022.sessionize.questions "question" "Short Link") 0).id }}
                 {{ if ne .id "249535" }}
                 <div class="links">
                     {{ range $question := .questionAnswers }}
@@ -181,7 +149,7 @@
                 </div>
                 {{ end }}
                 
-                {{ range where $.Site.Data.Y2021.sessionize.speakers "id" "in" .speakers }}
+                {{ range where $.Site.Data.Y2022.sessionize.speakers "id" "in" .speakers }}
                 <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
                 </figure>
 
