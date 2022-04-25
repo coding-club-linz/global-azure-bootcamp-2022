@@ -67,7 +67,7 @@
                                 <p class="sessions">
                                     {{ range where $.Site.Data.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
                                     
-                                    <a href="/sessions#{{.id}}">{{ .title }}</a>
+                                    <div><a href="/sessions#{{.id}}">{{ .title }}</a></div>
                                     {{ end }}
                                 </p>
 
