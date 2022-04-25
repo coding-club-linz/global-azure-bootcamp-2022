@@ -2,7 +2,7 @@
 title: "Capgemini"
 type: "Bronze Sponsor"
 logo: "capgemini.jpg"
-priority: 2
+priority: 4
 ---
 
 Capgemini ist einer der weltweit führenden Anbieter von Management- und IT-Beratung, Technologie-Services und Digitaler Transformation. Als ein Wegbereiter für Innovation unterstützt das Unternehmen seine Kunden bei deren komplexen Herausforderungen rund um Cloud, Digital und Plattformen.
