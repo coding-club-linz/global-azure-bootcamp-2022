@@ -3,6 +3,9 @@ const { exec, execSync } = require('child_process');
 
 const rawData = fs.readFileSync('./../../data/sessionize.json');
 const template = fs.readFileSync('template.svg', { encoding: 'utf-8' });
+const templateWithoutLogo = fs.readFileSync('template-without-logo.svg', {
+  encoding: 'utf-8',
+});
 const data = JSON.parse(rawData);
 
 // convert to png
@@ -154,9 +157,41 @@ for (let session of data.sessions) {
       encoding: 'utf-8',
     });
 
+    fs.writeFileSync(
+      './svg/' + shortTitle + '-without-logo.svg',
+      svg.replace(
+        '<image x="1700" y="20" width="200" height="154" xlink:href="../../gab2022.png" />',
+        ''
+      ),
+      {
+        encoding: 'utf-8',
+      }
+    );
+
+    let stage = (
+      data.rooms.find((r) => r.id === session.roomId).sort + 1
+    ).toString();
+    if (stage === '5') {
+      stage = '4';
+    }
+
+    const filename =
+      session.startsAt.substr(11, 5).replace(/:/g, '') +
+      ' - stage ' +
+      stage +
+      ' - ' +
+      shortTitle;
+
     // convert to png
     execSync(
-      `"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/cards/${shortTitle}.png" --export-type "png" "svg\\${shortTitle}.svg"`,
+      `"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/cards/${filename}.png" --export-type "png" "svg\\${shortTitle}.svg"`,
+      (error, stdout, stderr) => {
+        console.log('   ', error, stdout, stderr);
+      }
+    );
+
+    execSync(
+      `"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/cards-without-logo/${filename}.png" --export-type "png" "svg\\${shortTitle}-without-logo.svg"`,
       (error, stdout, stderr) => {
         console.log('   ', error, stdout, stderr);
       }
