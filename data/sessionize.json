@@ -144,7 +144,7 @@
     },
     {
       "id": "332431",
-      "title": "Tips und Tricks für Asp.net Core",
+      "title": "Tipps und Tricks für Asp.net Core",
       "description": "In seinem Alltag als Architektur-Consultant ist Raphael bei verschiedenen Kundenprojekten häufig mit den exakt gleichen Problem- und Aufgabenstellungen konfrontiert. In dieser Session stellt er ein kleines Potpourri aus Tools, Extensions und Design Pattern vor, welches sich aus seiner Projektpraxis mit asp.net Core, während der letzten Jahre zusammengesetzt hat.",
       "startsAt": "2022-05-06T11:00:00",
       "endsAt": "2022-05-06T11:50:00",
@@ -518,6 +518,33 @@
       "questionAnswers": []
     },
     {
+      "id": "9e9361a1-83af-479b-aff8-58943d24f3e4",
+      "firstName": "Andreas",
+      "lastName": "Graf",
+      "bio": "Ich arbeite seit fast 20 Jahren in verschiedenen Bereichen der Umdasch IT. Über die Jahre habe ich viele Teile des Rechenzentrumsbetriebes kennengelernt. Bis ich vor einigen Jahren die Möglichkeit bekommen habe, unsere Software Projekte in die Cloud zu begleiten.",
+      "tagLine": "System Architect, Umdasch Group",
+      "profilePicture": "https://sessionize.com/image/403d-400o400o2-apKJW3nnSMPbN1SGWm2yj2.JPG",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/andreas-graf-555293226/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.doka.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        330907
+      ],
+      "fullName": "Andreas Graf",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "d3677a49-a093-40b4-acf2-71d0bb950820",
       "firstName": "April",
       "lastName": "Edwards",
@@ -562,7 +589,18 @@
       "tagLine": "CTO, Blackshark.ai",
       "profilePicture": "https://sessionize.com/image/ab37-400o400o2-adELo3uCHq9nUg3dFyEYhC.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/arno-hollosi-5556403/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://blackshark.ai/",
+          "linkType": "Company_Website"
+        }
+      ],
       "sessions": [
         327481
       ],
@@ -720,38 +758,11 @@
       "questionAnswers": []
     },
     {
-      "id": "9e9361a1-83af-479b-aff8-58943d24f3e4",
-      "firstName": "Graf",
-      "lastName": "Andreas",
-      "bio": "Ich arbeite seit fast 20 Jahren in verschiedenen Bereichen der Umdasch IT. Über die Jahre habe ich viele Teile des Rechenzentrumsbetriebes kennengelernt. Bis ich vor einigen Jahren die Möglichkeit bekommen habe, unsere Software Projekte in die Cloud zu begleiten.",
-      "tagLine": "System Architect, Umdasch Group",
-      "profilePicture": "https://sessionize.com/image/403d-400o400o2-apKJW3nnSMPbN1SGWm2yj2.JPG",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/andreas-graf-555293226/",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://www.doka.com",
-          "linkType": "Company_Website"
-        }
-      ],
-      "sessions": [
-        330907
-      ],
-      "fullName": "Graf Andreas",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "1b25ccee-afe5-4df5-9016-6398d5c52621",
       "firstName": "Günter",
       "lastName": "Schulmeister",
-      "bio": "Günter Schulmeister is Cloud Transformation Lead at Porsche Holding Salzburg (PHS). Over the past 4 years, he has been focusing on the development of cloud platforms for PHS and the associated organizational changes. ",
-      "tagLine": "Cloud Transformation Lead",
+      "bio": "Günter Schulmeister is focusing on Cloud Transformation at Porsche Holding Salzburg (PHS). Over the past 5 years, he has been involved in building cloud platforms and the associated organizational changes.",
+      "tagLine": "Servant of Cloud Transformation",
       "profilePicture": "https://sessionize.com/image/3844-400o400o2-YGtyXsN6fMnXb1B7A2Q2uS.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -1395,22 +1406,22 @@
   "rooms": [
     {
       "id": 23794,
-      "name": "DevOps, Main Stage",
+      "name": "Stage 1",
       "sort": 0
     },
     {
       "id": 23795,
-      "name": "Development",
+      "name": "Stage 2",
       "sort": 1
     },
     {
       "id": 23796,
-      "name": "Azure",
+      "name": "Stage 3",
       "sort": 2
     },
     {
       "id": 25193,
-      "name": "Data & ML",
+      "name": "Stage 4",
       "sort": 4
     }
   ]

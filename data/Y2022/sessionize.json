@@ -12,7 +12,7 @@
         "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
       ],
       "categoryItems": [
-        110660,
+        110661,
         110662
       ],
       "questionAnswers": [],
@@ -144,7 +144,7 @@
     },
     {
       "id": "332431",
-      "title": "Tips und Tricks für Asp.net Core",
+      "title": "Tipps und Tricks für Asp.net Core",
       "description": "In seinem Alltag als Architektur-Consultant ist Raphael bei verschiedenen Kundenprojekten häufig mit den exakt gleichen Problem- und Aufgabenstellungen konfrontiert. In dieser Session stellt er ein kleines Potpourri aus Tools, Extensions und Design Pattern vor, welches sich aus seiner Projektpraxis mit asp.net Core, während der letzten Jahre zusammengesetzt hat.",
       "startsAt": "2022-05-06T11:00:00",
       "endsAt": "2022-05-06T11:50:00",
@@ -221,6 +221,26 @@
       ],
       "questionAnswers": [],
       "roomId": 23794,
+      "liveUrl": null,
+      "recordingUrl": null
+    },
+    {
+      "id": "321730",
+      "title": "Authentifizierung für SPA und Micro Frontends neu gedacht: Einfach und sicher dank Gateways",
+      "description": "Der Browser ist kein sicherer Ort. Zahlreiche Angriffe erlauben das Entwenden geheimer Informationen. Deswegen empfiehlt mittlerweile sogar die OAuth 2 Arbeitsgruppe, Security-Tokens lediglich serverseitig zu verstauen. Diese Idee lässt sich mit Gateways äußerst elegant, sicher und aus Sicht der Browser-Anwendung auch denkbar einfach realisieren. \r\n\r\nIn dieser Session besprechen wir, was hinter diesen Überlegungen steckt und wie wir sie mit modernen Mitteln realisieren können. Dazu koppeln wir eine Angular-basierte Micro-Frontend-Lösung über ein Gateway mit Azure Active Directory. Das Gateway wird mit YARP, Microsofts Reverse Proxy für ASP.NET Core, realisiert.\r\n\r\nAm Ende wissen Sie, wie Sie diese Authentifizierungs-Architektur in Ihren Projekten nutzen können sowie auf was dabei zu achten ist. ",
+      "startsAt": "2022-05-06T12:00:00",
+      "endsAt": "2022-05-06T12:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a115f4fa-5dbf-45f2-a1b5-4a47802b0664"
+      ],
+      "categoryItems": [
+        110660,
+        110662
+      ],
+      "questionAnswers": [],
+      "roomId": 23795,
       "liveUrl": null,
       "recordingUrl": null
     },
@@ -327,18 +347,18 @@
       "recordingUrl": null
     },
     {
-      "id": "321730",
-      "title": "Authentifizierung für SPA und Micro Frontends neu gedacht: Einfach und sicher dank Gateways",
-      "description": "Der Browser ist kein sicherer Ort. Zahlreiche Angriffe erlauben das Entwenden geheimer Informationen. Deswegen empfiehlt mittlerweile sogar die OAuth 2 Arbeitsgruppe, Security-Tokens lediglich serverseitig zu verstauen. Diese Idee lässt sich mit Gateways äußerst elegant, sicher und aus Sicht der Browser-Anwendung auch denkbar einfach realisieren. \r\n\r\nIn dieser Session besprechen wir, was hinter diesen Überlegungen steckt und wie wir sie mit modernen Mitteln realisieren können. Dazu koppeln wir eine Angular-basierte Micro-Frontend-Lösung über ein Gateway mit Azure Active Directory. Das Gateway wird mit YARP, Microsofts Reverse Proxy für ASP.NET Core, realisiert.\r\n\r\nAm Ende wissen Sie, wie Sie diese Authentifizierungs-Architektur in Ihren Projekten nutzen können sowie auf was dabei zu achten ist. ",
+      "id": "338488",
+      "title": "Porsche Informatik - Our journey into the cloud",
+      "description": "8 years ago, two architects from infrastructure and development started a Kubernetes side project. The goal was a bit more self-service for our developers. Today, we are preparing to migrate the entire enterprise to the public cloud. \r\n\r\nThis talk tells our journey. A story about technology, decisions, DevOps and friendship. ",
       "startsAt": "2022-05-06T14:00:00",
       "endsAt": "2022-05-06T14:50:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "a115f4fa-5dbf-45f2-a1b5-4a47802b0664"
+        "1b25ccee-afe5-4df5-9016-6398d5c52621"
       ],
       "categoryItems": [
-        110660,
+        110661,
         110662
       ],
       "questionAnswers": [],
@@ -447,6 +467,26 @@
       "roomId": 23796,
       "liveUrl": null,
       "recordingUrl": null
+    },
+    {
+      "id": "327481",
+      "title": "Leveraging Microsoft Azure for Geospatial Analytics",
+      "description": "Microsoft Azure provides powerful services for large-scale computations. In this session, we use Azure Synapse in combination with the recently released Azure Orbital Analytics to process large swaths of aerial imagery. Azure Synapse is a highly scalable combination of data integration services and big data analytics. \r\n\r\nWe show the basic Synapse setup and workflow. We then go into more detail about how Azure Orbital Analytics makes use of Synapse and how you can use similar setups for your own computations. We look at how custom activities can be used to start Azure Batch tasks capable of running Docker containers. We share insights into hard-won lessons along the way.",
+      "startsAt": "2022-05-06T15:00:00",
+      "endsAt": "2022-05-06T15:50:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b3ba35ee-bf39-490b-8f07-9e31083caaa7"
+      ],
+      "categoryItems": [
+        110661,
+        110662
+      ],
+      "questionAnswers": [],
+      "roomId": 25193,
+      "liveUrl": null,
+      "recordingUrl": null
     }
   ],
   "speakers": [
@@ -474,6 +514,33 @@
         322658
       ],
       "fullName": "Andreas Grabner",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "9e9361a1-83af-479b-aff8-58943d24f3e4",
+      "firstName": "Andreas",
+      "lastName": "Graf",
+      "bio": "Ich arbeite seit fast 20 Jahren in verschiedenen Bereichen der Umdasch IT. Über die Jahre habe ich viele Teile des Rechenzentrumsbetriebes kennengelernt. Bis ich vor einigen Jahren die Möglichkeit bekommen habe, unsere Software Projekte in die Cloud zu begleiten.",
+      "tagLine": "System Architect, Umdasch Group",
+      "profilePicture": "https://sessionize.com/image/403d-400o400o2-apKJW3nnSMPbN1SGWm2yj2.JPG",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/andreas-graf-555293226/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.doka.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        330907
+      ],
+      "fullName": "Andreas Graf",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -511,6 +578,33 @@
         323994
       ],
       "fullName": "April Edwards",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b3ba35ee-bf39-490b-8f07-9e31083caaa7",
+      "firstName": "Arno",
+      "lastName": "Hollosi",
+      "bio": "Arno is CTO at Blackshark.ai, a company that seeks to unlock planetary insights by building the world’s leading authentic 3D digital map. Previously, he was a professor at FH CAMPUS 02 in Graz, worked for a German e-commerce startup, as well as for Siemens and the Austrian government. In his free time, he runs one of the oldest wikis worldwide.",
+      "tagLine": "CTO, Blackshark.ai",
+      "profilePicture": "https://sessionize.com/image/ab37-400o400o2-adELo3uCHq9nUg3dFyEYhC.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/arno-hollosi-5556403/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://blackshark.ai/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        327481
+      ],
+      "fullName": "Arno Hollosi",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -664,29 +758,29 @@
       "questionAnswers": []
     },
     {
-      "id": "9e9361a1-83af-479b-aff8-58943d24f3e4",
-      "firstName": "Graf",
-      "lastName": "Andreas",
-      "bio": "Ich arbeite seit fast 20 Jahren in verschiedenen Bereichen der Umdasch IT. Über die Jahre habe ich viele Teile des Rechenzentrumsbetriebes kennengelernt. Bis ich vor einigen Jahren die Möglichkeit bekommen habe, unsere Software Projekte in die Cloud zu begleiten.",
-      "tagLine": "System Architect, Umdasch Group",
-      "profilePicture": "https://sessionize.com/image/403d-400o400o2-apKJW3nnSMPbN1SGWm2yj2.JPG",
+      "id": "1b25ccee-afe5-4df5-9016-6398d5c52621",
+      "firstName": "Günter",
+      "lastName": "Schulmeister",
+      "bio": "Günter Schulmeister is focusing on Cloud Transformation at Porsche Holding Salzburg (PHS). Over the past 5 years, he has been involved in building cloud platforms and the associated organizational changes.",
+      "tagLine": "Servant of Cloud Transformation",
+      "profilePicture": "https://sessionize.com/image/3844-400o400o2-YGtyXsN6fMnXb1B7A2Q2uS.jpg",
       "isTopSpeaker": false,
       "links": [
         {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/andreas-graf-555293226/",
-          "linkType": "LinkedIn"
+          "title": "Twitter",
+          "url": "https://twitter.com/Schulmeist4r",
+          "linkType": "Twitter"
         },
         {
           "title": "Company Website",
-          "url": "https://www.doka.com",
+          "url": "https://www.porscheinformatik.com/",
           "linkType": "Company_Website"
         }
       ],
       "sessions": [
-        330907
+        338488
       ],
-      "fullName": "Graf Andreas",
+      "fullName": "Günter Schulmeister",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -708,16 +802,6 @@
           "title": "LinkedIn",
           "url": "https://at.linkedin.com/in/hanneslg",
           "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://cloudblogger.at",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://www.acp.at",
-          "linkType": "Company_Website"
         }
       ],
       "sessions": [
@@ -1297,7 +1381,7 @@
           "sort": 2
         }
       ],
-      "sort": 5,
+      "sort": 0,
       "type": "session"
     },
     {
@@ -1315,29 +1399,29 @@
           "sort": 2
         }
       ],
-      "sort": 6,
+      "sort": 1,
       "type": "session"
     }
   ],
   "rooms": [
     {
       "id": 23794,
-      "name": "DevOps, Main Stage",
+      "name": "Stage 1",
       "sort": 0
     },
     {
       "id": 23795,
-      "name": "Development",
+      "name": "Stage 2",
       "sort": 1
     },
     {
       "id": 23796,
-      "name": "Azure",
+      "name": "Stage 3",
       "sort": 2
     },
     {
       "id": 25193,
-      "name": "Data & ML",
+      "name": "Stage 4",
       "sort": 4
     }
   ]

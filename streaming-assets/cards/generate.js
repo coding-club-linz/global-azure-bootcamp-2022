@@ -44,6 +44,31 @@ execSync(
   }
 );
 
+execSync(
+  `"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/cards/coffee-break.png" --export-type "png" "coffee-break.svg"`,
+  (error, stdout, stderr) => {
+    console.log('   ', error, stdout, stderr);
+  }
+);
+
+const qaTemplate = fs.readFileSync('q-and-a.svg', { encoding: 'utf-8' });
+for (let stage = 1; stage <= 4; stage++) {
+  let svg = qaTemplate.replace('{{stage}}', stage.toString());
+
+  fs.writeFileSync('./svg/q-and-a-stage-' + stage.toString() + '.svg', svg, {
+    encoding: 'utf-8',
+  })
+
+  execSync(
+    `"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/cards/q-and-a-stage-${stage}.png" --export-type "png" "svg/q-and-a-stage-${stage}.svg"`,
+    (error, stdout, stderr) => {
+      console.log('   ', error, stdout, stderr);
+    }
+  );
+}
+
+return;
+
 for (let session of data.sessions) {
   try {
     console.log(session.title);
