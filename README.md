@@ -1,1 +1,1 @@
-# global-azure-bootcamp-2022
+# global-azure-bootcamp-2023

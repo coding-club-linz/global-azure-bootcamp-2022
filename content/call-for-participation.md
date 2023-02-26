@@ -33,7 +33,7 @@ Here are some example topics, but don't feel limited by them. If you have other 
 
 The **session length** at GAA will be **45 minutes**.
 
-If you are a first-time speaker and you want some mentoring from somebody who has given lots of sessions at conferences, contact us at [info@linz.coderojo.net](mailto:info@linz.coderojo.net). Such mentoring can definitely be arranged and we would love for you to share your first conference speech at GAA 2022.
+If you are a first-time speaker and you want some mentoring from somebody who has given lots of sessions at conferences, contact us at [info@linz.coderojo.net](mailto:info@linz.coderojo.net). Such mentoring can definitely be arranged and we would love for you to share your first conference speech at GAA 2023.
 
 {{< rawhtml >}}
 <a href="https://sessionize.com/gaa-2023/" class="btn btn-primary btn-xl" target="_blank">Enter Session Proposal</a>

@@ -1,6 +1,6 @@
 baseurl = "https://globalazure.at/"
 languageCode = "en-us"
-title = "Global Azure Austria 2022"
+title = "Global Azure Austria 2023"
 googleAnalytics = ""
 
 [markup]
@@ -24,8 +24,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Global Azure Austria 2022 "
-	description = "All around the world user groups and communities will come together from May 5 - May7, 2022 once again in the seventh Global Azure Bootcamp event. Join us on Friday, May 6, 2021."
+	name = "Global Azure Austria 2023 "
+	description = "All around the world user groups and communities will come together from May 11 - May 13, 2023 once again in the seventh Global Azure Bootcamp event. Join us on Friday, May 12, 2023."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -33,7 +33,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Global Azure Bootcamp 2022"
+		brand = "Global Azure Austria 2023"
 
 		[params.navigation.links]
 			about     = "About"
@@ -54,8 +54,8 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Global Azure Bootcamp 2022"
-		subtitle   = "Friday, May 6, 2022"
+		slogan     = "Global Azure Austria 2023"
+		subtitle   = "Friday, May 12, 2023"
 		buttonText = "Find out more"
 
 	# Sessions section
