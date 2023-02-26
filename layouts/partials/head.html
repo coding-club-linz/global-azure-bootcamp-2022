@@ -17,12 +17,12 @@
 <meta name="description" content="{{ . }}">{{ end }}
 
 <meta property="og:title" content="{{ .Site.Title }}" />
-<meta property="og:image" content="{{ "/img/gab2022.png" | absURL }}" />
+<meta property="og:image" content="{{ "/img/gab2023.png" | absURL }}" />
 {{ with .Site.Params.description }}
 <meta property="og:description" content="{{ . }}" />{{ end }}
 <meta property="og:url" content="{{ .Permalink | absURL }}" />
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 
 {{ "<!-- Favicon -->" | safeHTML }}

@@ -1,4 +1,0 @@
----
-title: "Sessions"
-kind: page
----

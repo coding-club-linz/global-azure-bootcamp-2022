@@ -6,35 +6,21 @@
                 <h3 class="section-heading">Content</h3>
                 <ul class="footer-content">
                     <li>
-                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll"
-                            href="{{ cond (eq .Page.Dir "") "" "/" }}#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
-                    </li> -->
-                    <!-- <li>
-                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
+                        <a class="page-scroll" href="{{ cond (eq .File.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
-                    </li> -->
-                    <!-- <li>
-                        <a class="page-scroll"
-                            href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
-                    </li> -->
-                    <li class="{{ cond (eq .Page.Dir "sessions-2021\\") "active" "" }}">
-                        <a href="/sessions-2021">Sessions 2021</a>
+                        <a href="https://www.youtube.com/playlist?list=PLGnjm7DS6WaOSXqqePUBEZThkqnAo3Cbd" target="_blank">Sessions 2022</a>
                     </li>
                     <li>
-                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}" href="/junior-bootcamp">{{ .Site.Params.navigation.links.juniorBootcamp }}</a>
+                        <a href="https://www.youtube.com/playlist?list=PLGnjm7DS6WaNYdmDapn-2JdCuPZqImK7z" target="_blank">Sessions 2021</a>
                     </li>
-                    <!-- <li>
-                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}" href="/junior-bootcamp#schedule">{{ .Site.Params.navigation.links.juniorBootcampSchedule }}</a>
-                    </li> -->
-                    <li class="{{ cond (eq .Page.Dir "sponsors\\") "active" "" }}">
+                    <li>
+                        <a href="https://www.youtube.com/playlist?list=PLGnjm7DS6WaOl2M4sNW5SHd2g8AOQ3nce" target="_blank">Sessions 2020</a>
+                    </li>
+                    <li class="{{ cond (eq .File.Dir "sponsors\\") "active" "" }}">
                         <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
                     </li>
-                    <li class="{{ cond (eq .Page.Dir "code-of-conduct\\") "active" "" }}">
+                    <li class="{{ cond (eq .File.Dir "code-of-conduct\\") "active" "" }}">
                         <a href="/code-of-conduct">{{ .Site.Params.navigation.links.codeOfConduct }}</a>
                     </li>
                 </ul>
@@ -46,11 +32,6 @@
                     The Global Azure Bootcamp Linz is organized by the Coding Club Linz e.V., Birkenweg 16, A-4060
                     Leonding. Contact us to get more information on sponsorship and speaking opportunities.
                 </p>
-                <!-- <a href="mailto:{{ .Site.Params.contact.email }}"><i class="fa fa-envelope-o fa-3x wow bounceIn"
-                        data-wow-delay=".1s"></i>
-                    <p>{{ .Site.Params.contact.email }}</p>
-                </a> -->
-
                 <p>
                     <a class="email-link" href="mailto:{{ .Site.Params.contact.email }}">
                         <i class="fa fa-envelope"></i>{{ .Site.Params.contact.email }}</a>

@@ -4,8 +4,8 @@ title = "Global Azure Austria 2022"
 googleAnalytics = ""
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
-  [markup.blackFriday]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
 		hrefTargetBlank = true
 
 [params]
@@ -103,7 +103,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		twitter = "coderdojolinz"
-		email = "info@coderdojo-linz.org"
+		email = "info@linz.coderdojo.net"
 
 	# Google Maps section
 	[params.location]

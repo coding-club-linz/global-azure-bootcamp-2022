@@ -16,15 +16,16 @@ jobs:
       - uses: actions/setup-node@v2
         name: 🔧 Setup Node
         with:
-          node-version: '16'
+          node-version: '18'
 
       - name: 🔧 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.92.2'
+          hugo-version: '0.110.0'
           extended: true
 
       - name: 📅 Download speakers and sessions from Sessionize
+        if: ${{ false }}
         run: |
           curl https://sessionize.com/api/v2/v183mon7/view/All -s -o ./data/sessionize.json
           cp ./data/sessionize.json ./data/Y2022/sessionize.json
