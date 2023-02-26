@@ -29,7 +29,7 @@ Microsoft has been supporting us at Global Azure for many years and we are grate
 
 ## Gold Sponsor Pack
 
-We offer a limited number of **3 Silver Sponsor Packs**. This pack includes:
+We offer a limited number of **3 Gold Sponsor Packs**. This pack includes:
 
 * Everything from the **Silver Sponsor Pack**
 * More prominent logo presence in all our sponsor lists (website, newsletter, social media, gather.town)
