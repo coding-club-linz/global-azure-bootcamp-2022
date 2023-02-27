@@ -5,17 +5,14 @@ logo: "microsoft.png"
 priority: 1
 ---
 
-Seit seiner Gründung 1991 hat sich Microsoft Österreich vom Kleinstbetrieb mit drei Mitarbeitern zu einem Mittelbetrieb mit heute rund 340 Mitarbeitern entwickelt. Seit 1991 ist Microsoft mit einer eigenen Niederlassung in Wien vertreten.
+Microsoft ist das führende Unternehmen für Plattformen und Produktivität für die “mobile first, cloud first”-Welt.
 
-Gemeinsam mit mehr als 5.500 heimischen Partnerunternehmen hat es sich Microsoft Österreich zum Ziel gesetzt, Menschen und Unternehmen zu ermöglichen durch den Einsatz moderner Technologien ihr volles Potenzial zu entfalten.
+Seit 1991 ist Microsoft mit einer Niederlassung in Wien vertreten und beschäftigt rund 330 Mitarbeiter*innen. Das Ziel ist, gemeinsam mit mehr als 4.000 heimischen Partnerunternehmen, Menschen und Unternehmen zu ermöglichen, durch Software ihr volles Potenzial auszuschöpfen.
 
-Es werden laufend Bildungspartnerschaften für Kindergärten, Schulen und Universitäten entwickelt, sowie IT-Ausbildungsprojekte für sozial benachteiligte Bevölkerungsgruppen umgesetzt. Darüber hinaus engagiert sich das Unternehmen für den sicheren Umgang mit Informationstechnik, den Schutz persönlicher Daten,
-sowie Kinder-und Jugendschutz im Web und fördert Innovationsprojekte am Standort Österreich.
+Mit der Ankündigung des ersten Rechenzentrums in Österreich baut Microsoft seine Cloud-Region weiter aus und fördert damit Innovation und Wachstum.
 
-*"Das gesellschaftliche Engagement bei Microsoft setzt ganz stark auf die Themen Bildung und Wissenstransfer. Für uns als IT-Unternehmen geht es dabei besonders um die Überwindung des “Digital Divide” – also der Kluft zwischen Menschen, die die Vorteile der Informationstechnologie bereits tagtäglich nutzen und denjenigen, denen bis dato aus unterschiedlichsten Gründen dieser Zugang verwehrt war. In der Teilhabe an der Informations- und Wissensgesellschaft sehen wir einen wesentlichen Schlüssel zur Vermeidung von Armut und sozialer Benachteiligung."* (Dorothee Ritz, General Manager Microsoft Österreich)
-
-At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. Our mission is grounded in both the world in which we live and the future we strive to create. Today, we live in a mobile-first, cloud-first world, and the transformation we are driving across our businesses is designed to enable Microsoft and our customers to thrive in this world.
-We do business in 170 countries and are made up of 144,000 passionate employees dedicated to fulfilling our mission of helping you and your organization achieve more.
+*„Die Digitalisierung birgt den Schlüssel für eine nachhaltige Zukunft. Sie bewirkt einen langfristigen Wandel. Dadurch entstehen neue Chancen, die neues Denken und neue innovative Lösungen erfordern. Dabei wird und soll der Mensch – ausgerüstet mit neuen Fähigkeiten und Skills - weiter im Mittelpunkt stehen. Genügend Beispiele deuten derzeit das enorme Potenzial der Digitalisierung für den Klimaschutz lediglich an. Aber sie zeigen auch deutlich, welche Kraft die Digitalisierung haben kann: Sie ist in allen Bereichen ein entscheidender Faktor für den Sprung in die Zukunft“*
+Hermann Erlach, General Manager Microsoft Österreich
 
 Microsoft Österreich GmbH  
 Am Euro Platz 3  
