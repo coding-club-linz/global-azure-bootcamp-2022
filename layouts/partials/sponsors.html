@@ -37,6 +37,11 @@
             {{ $colsOffsetXs = 2 }}
             {{ end }}
 
+            {{ if (eq .Params.priority 4) }}
+            {{ $cols = 6 }}
+            {{ $colsXs = 6 }}
+            {{ end }}
+
             {{ if (eq .Params.priority 5) }}
             {{ $cols = 6 }}
             {{ $colsXs = 6 }}
