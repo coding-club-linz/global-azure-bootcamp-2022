@@ -26,6 +26,12 @@
                 <li class="{{ cond (eq .Page.Title "Sponsors") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
                 </li>
+                <li class="{{ cond (eq .Page.Title "Speakers") "active" "" }}">
+                    <a href="/speakers">{{ .Site.Params.navigation.links.speakers }}</a>
+                </li>
+                <li class="{{ cond (eq .Page.Title "Sessions") "active" "" }}">
+                    <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
+                </li>
                 <li class="{{ cond (eq .Page.Title "Code of Conduct") "active" "" }}">
                     <a href="/code-of-conduct">COC</a>
                 </li>
