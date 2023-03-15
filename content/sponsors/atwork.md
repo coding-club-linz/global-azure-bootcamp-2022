@@ -2,7 +2,7 @@
 title: "atwork"
 type: "Bronze Sponsor"
 logo: "atwork.svg"
-priority: 4
+priority: 5
 ---
 
 atwork develops business solutions to meet the growing application of Internet technologies in business processes, including Microsoft 365 and Microsoft Azure. We specialize in consulting and developing lines of business apps, cloud computing workloads and web solutions. The atwork team is a reliable and competent partner for the implementation of IT solutions. We are always looking for new colleagues to help us support our customers in cloud technologies! We are always looking for new dedicated colleagues to help us support our customers in cloud technologies! If interested see [https://www.atwork-it.com/jobs](https://www.atwork-it.com/jobs).
