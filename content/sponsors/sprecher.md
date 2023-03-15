@@ -1,5 +1,5 @@
 ---
-title: "sprecher"
+title: "Sprecher Automation"
 type: "Silver Sponsor"
 logo: "sprecher.jpg"
 priority: 4
