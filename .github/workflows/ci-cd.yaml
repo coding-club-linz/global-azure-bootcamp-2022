@@ -28,6 +28,9 @@ jobs:
         run: |
           curl https://sessionize.com/api/v2/wc4as1wz/view/All -s -o ./data/sessionize.json
           cp ./data/sessionize.json ./data/Y2023/sessionize.json
+          
+      - name: 📆 Generate ICS files
+        run: node utils/generate-ics.js
 
       - name: 👩‍🏭 Build
         run: hugo --minify

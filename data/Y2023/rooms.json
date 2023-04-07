@@ -1,0 +1,28 @@
+{
+    "rooms": [
+      {
+        "id": 33910,
+        "name": "Stage 1",
+        "roomNumber": 1,
+        "sort": 0
+      },
+      {
+        "id": 33911,
+        "name": "Stage 2",
+        "roomNumber": 2,
+        "sort": 1
+      },
+      {
+        "id": 33912,
+        "name": "Stage 3",
+        "roomNumber": 3,
+        "sort": 2
+      },
+      {
+        "id": 35088,
+        "name": "Stage 4",
+        "roomNumber": 4,
+        "sort": 4
+      }
+    ]
+  }

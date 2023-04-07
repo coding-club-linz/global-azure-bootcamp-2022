@@ -20,8 +20,9 @@
                     <a class="page-scroll"
                         href="{{ cond (eq .File.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                 </li>
-                <li class="{{ cond (eq .Page.Title "Call for Participation") "active" "" }}">
-                    <a href="/call-for-participation">{{ .Site.Params.navigation.links.c4p }}</a>
+                <li>
+                    <a class="page-scroll"
+                        href="{{ cond (eq .File.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
                 </li>
                 <li class="{{ cond (eq .Page.Title "Sponsors") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>

@@ -1,6 +1,6 @@
 .vs/
 public/
-/static/ics
+/static/ics/*.ics
 /node_modules/
 /streaming-assets/banners/svg/
 /streaming-assets/cards/svg/

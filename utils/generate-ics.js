@@ -13,7 +13,7 @@ fs.readFile(path.join('.', 'data', 'sessionize.json'), 'utf8', function (err, se
 
             let shortTitle;
             if (session.questionAnswers) {
-                const shortAnswerQuestion = session.questionAnswers.filter(qa => qa.questionId == 28454);
+                const shortAnswerQuestion = session.questionAnswers.filter(qa => qa.questionId == 52401);
                 if (shortAnswerQuestion.length > 0) {
                     shortTitle = shortAnswerQuestion[0].answerValue;
                 }
@@ -24,16 +24,16 @@ fs.readFile(path.join('.', 'data', 'sessionize.json'), 'utf8', function (err, se
             }
 
             const ics = icsTemplateContents
-                .split('[TITLE]').join(session.title)
+                .split('[TITLE]').join('GAA: ' + session.title)
                 .replace('[DESCRIPTION]', session.description)
                 .replace('[DTSTART]', session.startsAt.split('-').join('').split(':').join(''))
                 .replace('[DTEND]', session.endsAt.split('-').join('').split(':').join(''))
-                .replace('[URL]', 'https://globalazure.at/sessions/' + shortTitle);
+                .replace('[URL]', 'https://globalazure.at/streaming/');
 
             fs.writeFileSync(path.join('.', 'static', 'ics', shortTitle + '.ics'), ics);
 
-            const redirectMd = '---\nsessionId: "' + session.id + '"\n---';
-            fs.writeFileSync(path.join('.', 'content', 'sessions', shortTitle + '.md'), redirectMd);
+            // const redirectMd = '---\nsessionId: "' + session.id + '"\n---';
+            // fs.writeFileSync(path.join('.', 'content', 'sessions', shortTitle + '.md'), redirectMd);
         }
     });
 });

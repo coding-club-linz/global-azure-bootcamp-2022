@@ -1167,6 +1167,19 @@ body {
     text-decoration: underline;
 }
 
+.schedule .calendar {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.schedule .calendar a {
+    cursor: pointer;
+}
+
+.schedule .calendar a:hover{
+    text-decoration: underline;
+}
+
 .schedule .links,
 .sessions .links {
     margin-block-end: 1em;

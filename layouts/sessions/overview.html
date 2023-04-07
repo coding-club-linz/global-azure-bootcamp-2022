@@ -9,37 +9,16 @@
 
 <body id="page">
     {{ partial "nav.html" . }}
-
-    <section class="bg-primary" id="register">
+    
+    <section id="sessions" class="sessions">
         <div class="container">
             <div class="row" id="mc_embed_signup">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading">Sessions</h2>
-    
-                        <hr class="light">
-    
-                        <p class="text-faded">
-                            We are currently in the middle of putting together the conference agenda.
-                            Some sessions are already fixed. <b>More will be announced soon.</b>
-                        </p>
         
-                        <hr class="light">
-
-                        <p class="text-muted">
-                            If you’re passionate about Azure and want to share your expertise with the community 
-                            then we'd love to hear from you.
-                        </p>
-                        
-                        {{ with .Site.Params.hero.buttonText }}
-                        <a href="/call-for-participation/" class="btn btn-primary btn-xl">Submit Session</a>
-                        {{ end }}
+                        <hr>
                     </div>
             </div>
-        </div>
-    </section>
-
-    <section id="sessions" class="sessions">
-        <div class="container">
             {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title" }}
             <div class="row" id="{{ .id }}">
                 {{ if ne $index 0 }}
