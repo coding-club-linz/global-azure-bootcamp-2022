@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: The Microsoft Cloud in and for Austria - innovative, secure and sustainable\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nThe Microsoft Cloud Austria will become our most modern, innovative, sustainable and secure local offer for cloud services in Austria. In this session we will look behind the curtain of our cloud region, how we design our datacenters for performance and sustainability, how we implement latest innovation in our operations and how we ensure our services that you use for your ideas are provided in the most secure way.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T091000
+DTEND;VALUE=DATE-TIME:20230512T094500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: The Microsoft Cloud in and for Austria - innovative, secure and sustainable
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

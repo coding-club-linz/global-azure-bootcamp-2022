@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: How Azure helps to build better business processes and customer experiences with AI\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nArtificial Intelligence is not the future, it is NOW. Cloud technology empowers developers and technology leaders to benefit from AI effectively and responsibly with the models and tools they need. In this session, we go through the portfolio of Azure AI services and run some demos to showcase how AI can improve daily life, safety, productivity, accessibility, and business outcomes.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T143000
+DTEND;VALUE=DATE-TIME:20230512T151500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: How Azure helps to build better business processes and customer experiences with AI
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

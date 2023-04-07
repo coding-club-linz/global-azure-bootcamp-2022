@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: DevOps without Secrets: Securely Deploy and Run Applications using GitHub and Azure\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nYou can’t lose what you never had! Join Christian in this session to learn how Azure Managed Identities help you securely deploy and run applications on Azure without needing any pesky API keys, passwords, or certificates. Discover how Managed Identities work and how they can be used in your application to access Azure services. Plus, find out how you can use them with GitHub Actions to simplify and secure your deployment process. Don't miss out on this opportunity to level up your Azure security game!\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T100000
+DTEND;VALUE=DATE-TIME:20230512T104500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: DevOps without Secrets: Securely Deploy and Run Applications using GitHub and Azure
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

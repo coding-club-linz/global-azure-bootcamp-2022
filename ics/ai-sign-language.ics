@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: AI for Good sign language detection research project\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nWe want to present a solution with which we can use AI to recognize sign language in online meetings in real time and translate it into text in a research project in our company.\nThe goal is to provide a tool that, as a first step, can translate sign language into subtitles in Microsoft Teams Meetings to include deaf people in meetings. For this we use a normal webcam, many processes and libraries and of course Azure Tools and Azure Machine Learning. The signs have to be shown, processed and normalized in order to train an ML model with them. Furthermore, the recognition must be able to distinguish between individual signs in order to then recognize individual signs. Since sign language does not contain complete sentences, a sentence must be formed from the individual words with AI. We had to find out and solve all these challenges in a research project. In this session we will show our current state of research and how the implementation with cloud computing in Microsoft Azure can work.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T110000
+DTEND;VALUE=DATE-TIME:20230512T114500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: AI for Good sign language detection research project
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

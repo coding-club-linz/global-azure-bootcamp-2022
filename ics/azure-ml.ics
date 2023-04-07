@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Getting startet in AI - build your first Machine Learning Model right now!\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nCould have imagined a few years ago that you would be able to create an Azure Function that can tell you what is on your images? Good news, this is now possible with a few lines of code and some sample images. In this session we are going to train a ONNX classification Model with the Custom Vision service that will run in an Azure Function. The language of choice is Python and you will use Visual Studio code as the editor and the Azure CLI to manage and create your Azure Resources.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T133000
+DTEND;VALUE=DATE-TIME:20230512T141500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Getting startet in AI - build your first Machine Learning Model right now!
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

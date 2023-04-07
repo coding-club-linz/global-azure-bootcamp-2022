@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Minimal APIs with .NET\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn this session you'll learn the enhancements of Minimal APIs with .NET 7 such as grouping, typed results, and filters, and look into the directions .NET is taking with .NET 8 in relation to hosting applications in cloud environments.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T120000
+DTEND;VALUE=DATE-TIME:20230512T124500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Minimal APIs with .NET
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

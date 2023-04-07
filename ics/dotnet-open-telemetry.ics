@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Beyond Logs: The power of observability with OpenTelemetry for your .NET applications\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nSoftware development has changed a lot over time, becoming more complex by the day with a myriad of frameworks and tools to pick, globally distributed applications and the need for speed and reliability. This complexity makes troubleshooting issues in modern, cloud-native environments a real challenge. The common approach of: “let’s add a few log lines here and there and wait for the problem to happen again” does not scale.\n\nWhile logs are a widespread and powerful tool for troubleshooting, they often lack context and only show part of the problem. Observability and OpenTelemetry are all about providing this missing context. They help you understand and confidently answer questions about the state of your applications.\n\nIn this talk, we'll explore the relationship between Observability and OpenTelemetry and how they can be leveraged in your .NET applications to align with modern observability practices\n\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T143000
+DTEND;VALUE=DATE-TIME:20230512T151500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Beyond Logs: The power of observability with OpenTelemetry for your .NET applications
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

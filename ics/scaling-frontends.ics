@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Stairway to Heaven - Scaling Frontends the Right Way\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nWeb frontend projects tend to become larger and larger with multiple teams working on one application. The problem becomes even more severe with the requirement of including functionality from multiple domains - right now or at some point later on. To scale the development well the micro frontend architecture has been proven successful. But where to start here?\n\nIn this talk micro frontend expert Florian Rappl will give you insights from dozens of successful micro frontend implementations. He will create a scalable solution on stage with you in the first row. Get to know the best practices and see how your next big frontend project can evolve without boundaries.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T110000
+DTEND;VALUE=DATE-TIME:20230512T114500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Stairway to Heaven - Scaling Frontends the Right Way
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

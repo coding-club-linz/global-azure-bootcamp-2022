@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Advanced Cloud Management with AIOPS\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn this session I will show how AIOPS help to become more proactive with help of anomaly detection or faster solve issues.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T143000
+DTEND;VALUE=DATE-TIME:20230512T151500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Advanced Cloud Management with AIOPS
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

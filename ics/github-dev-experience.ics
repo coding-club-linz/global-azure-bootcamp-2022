@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Developer Experience: Helping your team and your business thrive\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nEngineering teams are in demand 📈, but we also know that there's a shortage of talent 😱. How can you make your teams productive and efficient while keeping them happy? By focusing on your developer experience!\n\nJoin Chris as he explores how the SPACE framework, innersourcing, GitHub Codespaces and GitHub Copilot can all contribute towards a more seamless developer experience.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T133000
+DTEND;VALUE=DATE-TIME:20230512T141500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Developer Experience: Helping your team and your business thrive
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

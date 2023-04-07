@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Livin‘ On The (Cheap) Edge\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nDo you want to build a simple web application with rich user interaction? Do you want to have good performance for users? Do you not have a lot of money for hosting? \n\nMany new web frameworks are popping up recently. They provide rich user interaction while sticking to the web principles using progressive enhancement. All those frameworks make deployment as serverless (edge) functions easy. Seems like a perfect match? We will try to find out in this session. \n\nYou can expect the following: \n- A short overview of the frameworks Next.js, Qwik, Remix, SvelteKit, and SolidStart. \n- Comparing some solutions for deploying those apps namely Azure Static Web Apps and Cloudflare Pages. \n- A live demo showing the creation and deployment of a simple application. \n\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T100000
+DTEND;VALUE=DATE-TIME:20230512T104500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Livin‘ On The (Cheap) Edge
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

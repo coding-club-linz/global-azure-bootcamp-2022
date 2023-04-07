@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Optimizing for the Cloud – Lightning-speed .NET Container Apps\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn this session, we will explore how to optimize .NET applications for the cloud by reducing cold start time and performance for containers in Microsoft Azure. Cold start time can be a critical factor for serverless applications, impacting both performance and cost. With the latest features in .NET 6 and 7, such as Profile Guided Optimization (PGO), Native AOT, Trimming and Crossgen2, you can significantly reduce cold start time for your containers, improve serverless performance and thus save money. We will discuss practical ways to utilize these technologies and share best practices for optimizing .NET apps in Microsoft Azure.\n\n\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T110000
+DTEND;VALUE=DATE-TIME:20230512T114500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Optimizing for the Cloud – Lightning-speed .NET Container Apps
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
