@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nNeither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what "an application" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.\nThe CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.\nJoin this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20230512T120000
-DTEND;VALUE=DATE-TIME:20230512T124500
+DTSTART;VALUE=DATE-TIME:20230512T133000
+DTEND;VALUE=DATE-TIME:20230512T141500
 LOCATION:https://globalazure.at/streaming/
 SUMMARY;LANGUAGE=en-us:GAA: OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS
 TRANSP:TRANSPARENT
