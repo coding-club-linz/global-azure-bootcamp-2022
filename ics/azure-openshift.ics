@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Single-Handed Sailing with Azure Red Hat OpenShift: Navigating the Managed Kubernetes Platform\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nJoin Markus Pleil, and Philipp Bergsmann, as they embark on an insightful journey comparing the challenges of single-handed sailing with the efficient management of the Azure Red Hat OpenShift service. In this session, they will delve into two key aspects of managing a Kubernetes platform.\n\nInitially, the session will focus on the team structure and tasks required in a traditional self-managed on-premises environment. Markus and Philipp will shed light on the complexities and responsibilities involved in setting up such a system.\n\nIn the second part, the speakers will demonstrate how managed services can simplify the process, eliminating the need for certain tasks and enabling a single-handed approach to operating the Kubernetes platform. Drawing parallels to sailing, they will highlight how using managed services like Azure Red Hat OpenShift can streamline operations and increase efficiency.\n\nThis session will provide valuable insights for IT professionals and developers interested in exploring the potential of managed Kubernetes platforms and discovering how they can optimize their workflow with Azure Red Hat OpenShift.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20230512T130000
+DTEND;VALUE=DATE-TIME:20230512T134500
+LOCATION:https://globalazure.at/streaming/
+SUMMARY;LANGUAGE=en-us:GAA: Single-Handed Sailing with Azure Red Hat OpenShift: Navigating the Managed Kubernetes Platform
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
