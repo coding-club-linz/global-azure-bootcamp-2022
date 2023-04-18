@@ -1,0 +1,411 @@
+Welcome to Global Azure Austria
+=============================================================================
+Rainer Stropek, chairman of Coding Club Linz, kicks off the day in this short welcome session.
+
+Rainer Stropek, software architects
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/welcome
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+The Microsoft Cloud in and for Austria - innovative, secure and sustainable
+=============================================================================
+The Microsoft Cloud Austria will become our most modern, innovative, sustainable and secure local offer for cloud services in Austria. In this session we will look behind the curtain of our cloud region, how we design our datacenters for performance and sustainability, how we implement latest innovation in our operations and how we ensure our services that you use for your ideas are provided in the most secure way.
+
+Florian Slezak, Microsoft Cloud Region Österreich | #cloud, #security #innovation #sustainability #digitalskilling
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/azure-at
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Building a serverless multiplayer game
+=============================================================================
+Join Daniel as he builds a completely serverless turn-based multiplayer game.
+
+Learn how you can combine Durable Azure Functions, SignalR, Blazor and Static Web Apps to build not only games, but any kind of app that requires workflows with real-time communication, all while keeping costs to a minimum.
+
+Daniel Sklenitzka, softaware gmbh
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/serverless-game
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Livin‘ On The (Cheap) Edge
+=============================================================================
+Do you want to build a simple web application with rich user interaction? Do you want to have good performance for users? Do you not have a lot of money for hosting?
+
+Many new web frameworks are popping up recently. They provide rich user interaction while sticking to the web principles using progressive enhancement. All those frameworks make deployment as serverless (edge) functions easy. Seems like a perfect match? We will try to find out in this session.
+You can expect the following:
+A short overview of the frameworks Next.js, Qwik, Remix, SvelteKit, and SolidStart.
+Comparing some solutions for deploying those apps namely Azure Static Web Apps and Cloudflare Pages.
+A live demo showing the creation and deployment of a simple application.
+
+Köberl Christian, 👨‍💻 All-end developer and software gardener
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/edge-cloud
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+DevOps without Secrets: Securely Deploy and Run Applications using GitHub and Azure
+=============================================================================
+You can’t lose what you never had! Join Christian in this session to learn how Azure Managed Identities help you securely deploy and run applications on Azure without needing any pesky API keys, passwords, or certificates. Discover how Managed Identities work and how they can be used in your application to access Azure services. Plus, find out how you can use them with GitHub Actions to simplify and secure your deployment process. Don't miss out on this opportunity to level up your Azure security game!
+
+Christian Weiss, Cloud Solution Architect @ Nordcloud.com
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/secure-deployment
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Künstliche Intelligenz in der Cloud: Anwendungen und Potenziale für Unternehmen
+=============================================================================
+Begleiten Sie unseren Experten Gregor Biswanger auf einer spannenden Reise durch die Welt der Künstlichen Intelligenz (KI) und Cloud-Integration. In dieser fesselnden Session liegt der Fokus auf der OpenAI API und deren Einsatzmöglichkeiten für Unternehmen.
+
+Gregor wird Ihnen die Vorteile der KI-Cloud-Integration aufzeigen und anhand von praxisnahen Beispielen veranschaulichen, wie verschiedene Branchen davon profitieren. Lassen Sie sich inspirieren, die Potenziale dieser Technologie in Ihrem Unternehmen zu nutzen.
+
+Gregor Biswanger, Freier Berater, Trainer, Autor und Sprecher
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/ki-cloud
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Optimizing for the Cloud – Lightning-speed .NET Container Apps
+=============================================================================
+In this session, we will explore how to optimize .NET applications for the cloud by reducing cold start time and performance for containers in Microsoft Azure. Cold start time can be a critical factor for serverless applications, impacting both performance and cost. With the latest features in .NET 6 and 7, such as Profile Guided Optimization (PGO), Native AOT, Trimming and Crossgen2, you can significantly reduce cold start time for your containers, improve serverless performance and thus save money. We will discuss practical ways to utilize these technologies and share best practices for optimizing .NET apps in Microsoft Azure.
+
+Martin Ullrich, Senior Consultant at Tietoevry Austria
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/dotnet-container
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Stairway to Heaven - Scaling Frontends the Right Way
+=============================================================================
+Web frontend projects tend to become larger and larger with multiple teams working on one application. The problem becomes even more severe with the requirement of including functionality from multiple domains - right now or at some point later on. To scale the development well the micro frontend architecture has been proven successful. But where to start here?
+
+In this talk micro frontend expert Florian Rappl will give you insights from dozens of successful micro frontend implementations. He will create a scalable solution on stage with you in the first row. Get to know the best practices and see how your next big frontend project can evolve without boundaries.
+
+Florian Rappl, Solution Architect at smapiot
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/scaling-frontends
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Central network management in Azure
+=============================================================================
+Do you work with the cloud? Do you have more than one virtual network connected together, region, or maybe global?
+
+Are you also using Azure Network Security Groups and Application security groups? Then you know why it's important to have good centralized network Management.
+In that session, I'll present the answer from Microsoft to that requirement.
+
+Hannes Lagler-Gruener, MVP | ACP IT Solutions GMBH, Lead Cloud Architect 
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/azure-network
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+AI for Good sign language detection research project
+=============================================================================
+We want to present a solution with which we can use AI to recognize sign language in online meetings in real time and translate it into text in a research project in our company.
+
+The goal is to provide a tool that, as a first step, can translate sign language into subtitles in Microsoft Teams Meetings to include deaf people in meetings. For this we use a normal webcam, many processes and libraries and of course Azure Tools and Azure Machine Learning. The signs have to be shown, processed and normalized in order to train an ML model with them. Furthermore, the recognition must be able to distinguish between individual signs in order to then recognize individual signs. Since sign language does not contain complete sentences, a sentence must be formed from the individual words with AI. We had to find out and solve all these challenges in a research project. In this session we will show our current state of research and how the implementation with cloud computing in Microsoft Azure can work.
+
+Marco Marthe, Toni Pohl
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/ai-sign-language
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Minimal APIs with .NET
+=============================================================================
+In this session you'll learn the enhancements of Minimal APIs with .NET 7 such as grouping, typed results, and filters, and look into the directions .NET is taking with .NET 8 in relation to hosting applications in cloud environments.
+
+Christian Nagel, CN innovation - training, coaching, consulting, development
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/aspnet-minimal-api
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS
+=============================================================================
+Neither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what "an application" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.
+
+The CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.
+Join this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!
+
+Andreas Grabner, I am a DevOps Activist: I want to activating the excitement I have about DevOps within others
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/aks-tracing
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Conditional Access - the good, the bad and the ugly (DE)
+=============================================================================
+Was funktioniert in Conditional Access wirklich gut, wo liegen die Problemfelder und wo müssen Sie bei ihrer Konfiguration wirklich aufpassen ? Ein praxisnaher Streifzug durch die Planung, Umsetzung, Aktivierung und Dokumentation von Conditional Access Policies
+
+Christian Decker, Cloud Architect, Microsoft Fanboy and MVP
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/conditional-access
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+A Game of Hierarchies – Hierarchies and Graphs in Power BI
+=============================================================================
+Hierarchies (and graphs) are the bread and butter of most business applications and you find them almost everywhere:
+
+Product Categories
+Sales Territories
+Calendar and Time
+Paths on a map
+In Power BI Desktop you can transform such data into useful information via several approaches: standard & custom visuals, hierarchy slicers, hierarchies in the data model, parent-child hierarchies, etc.
+Join this session for a journey through best practices to transform your hierarchies (and graphs) into useful reports. We will have fun playing around with a sample database based on G. R. R. Martin’s famous “A Game of Thrones”.
+
+Markus Ehrenmueller-Jensen, BI Architect
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/powerbi-hierarchies
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Fast feedback with pull request deployments
+=============================================================================
+A modern DevOps process would no longer be possible without feature branches and pull request workflows. How are the changes of a pull request verified? Often, only a deployment into an isolated PR environment provides clarity. This allows testing in the overall context with surrounding systems and real data persistence, the deployment and upgrade process can be tested as well and last but not least a product owner can look at the change on a running system.
+
+This talk will show everything that is needed for a pull request deployment and also show approaches for challenges like database schema deployment with data initialization as well as regression testing. The examples will be presented using Azure DevOps and Azure Kubernetes Services.
+
+Marc Müller, Principal Consultant @ 4tecture GmbH
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/pull-request-deployments
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Identity Governance for Microsoft Azure
+=============================================================================
+With Microsoft Azure and Microsoft 365 as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end identity governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.
+
+Martina Grom, CEO atwork, MVP Azure and Microsoft 365, Microsoft RD
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/identity-governanace
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Developer Experience: Helping your team and your business thrive
+=============================================================================
+Engineering teams are in demand 📈, but we also know that there's a shortage of talent 😱. How can you make your teams productive and efficient while keeping them happy? By focusing on your developer experience!
+
+Join Chris as he explores how the SPACE framework, innersourcing, GitHub Codespaces and GitHub Copilot can all contribute towards a more seamless developer experience.
+
+Chris Reddington, Helping Enterprises ❤️ GitHub
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/github-dev-experience
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Getting startet in AI - build your first Machine Learning Model right now!
+=============================================================================
+Could have imagined a few years ago that you would be able to create an Azure Function that can tell you what is on your images? Good news, this is now possible with a few lines of code and some sample images. In this session we are going to train a ONNX classification Model with the Custom Vision service that will run in an Azure Function. The language of choice is Python and you will use Visual Studio code as the editor and the Azure CLI to manage and create your Azure Resources.
+
+Matthias Gessenay, Trusted Advisor and MVP @ Corporate Software
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/azure-ml
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Beyond Logs: The power of observability with OpenTelemetry for your .NET applications
+=============================================================================
+Software development has changed a lot over time, becoming more complex by the day with a myriad of frameworks and tools to pick, globally distributed applications and the need for speed and reliability. This complexity makes troubleshooting issues in modern, cloud-native environments a real challenge. The common approach of: “let’s add a few log lines here and there and wait for the problem to happen again” does not scale.
+
+While logs are a widespread and powerful tool for troubleshooting, they often lack context and only show part of the problem. Observability and OpenTelemetry are all about providing this missing context. They help you understand and confidently answer questions about the state of your applications.
+In this talk, we'll explore the relationship between Observability and OpenTelemetry and how they can be leveraged in your .NET applications to align with modern observability practices
+
+Joao Grassi, Senior Open-Source software engineer at Dynatrace
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/dotnet-open-telemetry
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Benefits of using Infrastructure as Code for your Cloud-Native Approach
+=============================================================================
+Why is the usage of 'Infrastructure as Code' essential, if you would like to adopt a cloud-native approach?
+
+This talk is about explaining several benefits and why you need to automate your cloud infrastructure for enabling a modern way of developing and hosting software applications in the cloud.
+This session contains a live demonstration of how fast a resource such as an Azure Kubernetes Cluster can be provisioned using a Terraform configuration.
+
+Patrick Koch, DevOps Engineer at AVL List GmbH
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/iac-cloud
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Advanced Cloud Management with AIOPS
+=============================================================================
+In this session I will show how AIOPS help to become more proactive with help of anomaly detection or faster solve issues.
+
+Jannik Reinhard, Senior Workplace Solution Architect 
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/aiops
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+How Azure helps to build better business processes and customer experiences with AI
+=============================================================================
+Artificial Intelligence is not the future, it is NOW. Cloud technology empowers developers and technology leaders to benefit from AI effectively and responsibly with the models and tools they need. In this session, we go through the portfolio of Azure AI services and run some demos to showcase how AI can improve daily life, safety, productivity, accessibility, and business outcomes.
+
+Maxim Salnikov, Developer Engagement Lead at Microsoft, Tech Communities Lead, Keynote Speaker
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/azure-ux-ai
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
