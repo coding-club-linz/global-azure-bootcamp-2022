@@ -235,7 +235,8 @@
       "isPlenumSession": false,
       "speakers": [
         "6221ae7e-40aa-49f7-9c41-e8a2c5ba1d75",
-        "970f26d9-55d2-4f5a-b3cf-e845068acca6"
+        "970f26d9-55d2-4f5a-b3cf-e845068acca6",
+        "e4440b15-f5a0-472b-bd8f-0541a7485529"
       ],
       "categoryItems": [
         172893
@@ -277,15 +278,15 @@
       "status": "Accepted"
     },
     {
-      "id": "454451",
-      "title": "OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS",
-      "description": "Neither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what \"an application\" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.\r\nThe CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.\r\nJoin this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!",
+      "id": "473494",
+      "title": "Identity Governance for Microsoft Azure",
+      "description": "With Microsoft Azure and Microsoft 365 as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end identity governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.",
       "startsAt": "2023-05-12T12:00:00",
       "endsAt": "2023-05-12T12:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "923ce248-20d9-43fc-a154-1a858f8ff09e"
+        "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
       ],
       "categoryItems": [
         172893
@@ -293,7 +294,7 @@
       "questionAnswers": [
         {
           "questionId": 52401,
-          "answerValue": "aks-tracing"
+          "answerValue": "identity-governanace"
         }
       ],
       "roomId": 33911,
@@ -352,11 +353,62 @@
       "status": "Accepted"
     },
     {
+      "id": "479286",
+      "title": "Kickstart your container journey with Azure Container Apps and GitHub Actions 🚀",
+      "description": "Azure Container Apps is a managed service that simplifies the deployment of containerized applications without requiring any prior knowledge or experience with Kubernetes. You can focus on your application, and the service handles the underlying infrastructure. Additionally, GitHub Actions is a powerful automation tool that can be used to build, test, and deploy your code. By combining Azure Container Apps with GitHub Actions, you can automate your entire deployment workflow, making it more efficient and easier to manage. In this talk, we'll provide you with practical examples and best practices to get started with Azure Container Apps and GitHub Actions, regardless of your level of experience.",
+      "startsAt": "2023-05-12T13:00:00",
+      "endsAt": "2023-05-12T13:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "657a5782-97e3-4c5f-ab08-049487a91d5d"
+      ],
+      "categoryItems": [
+        172893
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 52401,
+          "answerValue": "container-apps-actions"
+        }
+      ],
+      "roomId": 33910,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted"
+    },
+    {
+      "id": "476230",
+      "title": "Single-Handed Sailing with Azure Red Hat OpenShift: Navigating the Managed Kubernetes Platform",
+      "description": "Join Markus Pleil, and Philipp Bergsmann, as they embark on an insightful journey comparing the challenges of single-handed sailing with the efficient management of the Azure Red Hat OpenShift service. In this session, they will delve into two key aspects of managing a Kubernetes platform.\r\n\r\nInitially, the session will focus on the team structure and tasks required in a traditional self-managed on-premises environment. Markus and Philipp will shed light on the complexities and responsibilities involved in setting up such a system.\r\n\r\nIn the second part, the speakers will demonstrate how managed services can simplify the process, eliminating the need for certain tasks and enabling a single-handed approach to operating the Kubernetes platform. Drawing parallels to sailing, they will highlight how using managed services like Azure Red Hat OpenShift can streamline operations and increase efficiency.\r\n\r\nThis session will provide valuable insights for IT professionals and developers interested in exploring the potential of managed Kubernetes platforms and discovering how they can optimize their workflow with Azure Red Hat OpenShift.",
+      "startsAt": "2023-05-12T13:00:00",
+      "endsAt": "2023-05-12T13:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "7b15ca3d-cb1c-48e0-a730-52fad29e27d7",
+        "4e0b0e9e-1e6f-4c16-bda1-2b2ea8576c76"
+      ],
+      "categoryItems": [
+        172893
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 52401,
+          "answerValue": "azure-openshift"
+        }
+      ],
+      "roomId": 33912,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted"
+    },
+    {
       "id": "464540",
       "title": "Fast feedback with pull request deployments",
       "description": "A modern DevOps process would no longer be possible without feature branches and pull request workflows. How are the changes of a pull request verified? Often, only a deployment into an isolated PR environment provides clarity. This allows testing in the overall context with surrounding systems and real data persistence, the deployment and upgrade process can be tested as well and last but not least a product owner can look at the change on a running system. \r\n\r\nThis talk will show everything that is needed for a pull request deployment and also show approaches for challenges like database schema deployment with data initialization as well as regression testing. The examples will be presented using Azure DevOps and Azure Kubernetes Services.",
-      "startsAt": "2023-05-12T13:30:00",
-      "endsAt": "2023-05-12T14:15:00",
+      "startsAt": "2023-05-12T14:00:00",
+      "endsAt": "2023-05-12T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -377,15 +429,15 @@
       "status": "Accepted"
     },
     {
-      "id": "473494",
-      "title": "Identity Governance for Microsoft Azure",
-      "description": "With Microsoft Azure and Microsoft 365 as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end identity governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.",
-      "startsAt": "2023-05-12T13:30:00",
-      "endsAt": "2023-05-12T14:15:00",
+      "id": "454451",
+      "title": "OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS",
+      "description": "Neither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what \"an application\" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.\r\nThe CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.\r\nJoin this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!",
+      "startsAt": "2023-05-12T14:00:00",
+      "endsAt": "2023-05-12T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
+        "923ce248-20d9-43fc-a154-1a858f8ff09e"
       ],
       "categoryItems": [
         172893
@@ -393,7 +445,7 @@
       "questionAnswers": [
         {
           "questionId": 52401,
-          "answerValue": "identity-governanace"
+          "answerValue": "aks-tracing"
         }
       ],
       "roomId": 33911,
@@ -405,8 +457,8 @@
       "id": "466306",
       "title": "Developer Experience: Helping your team and your business thrive",
       "description": "Engineering teams are in demand 📈, but we also know that there's a shortage of talent 😱. How can you make your teams productive and efficient while keeping them happy? By focusing on your developer experience!\r\n\r\nJoin Chris as he explores how the SPACE framework, innersourcing, GitHub Codespaces and GitHub Copilot can all contribute towards a more seamless developer experience.",
-      "startsAt": "2023-05-12T13:30:00",
-      "endsAt": "2023-05-12T14:15:00",
+      "startsAt": "2023-05-12T14:00:00",
+      "endsAt": "2023-05-12T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -430,8 +482,8 @@
       "id": "465012",
       "title": "Getting startet in AI - build your first Machine Learning Model right now!",
       "description": "Could have imagined a few years ago that you would be able to create an Azure Function that can tell you what is on your images? Good news, this is now possible with a few lines of code and some sample images. In this session we are going to train a ONNX classification Model with the Custom Vision service that will run in an Azure Function. The language of choice is Python and you will use Visual Studio code as the editor and the Azure CLI to manage and create your Azure Resources.",
-      "startsAt": "2023-05-12T13:30:00",
-      "endsAt": "2023-05-12T14:15:00",
+      "startsAt": "2023-05-12T14:00:00",
+      "endsAt": "2023-05-12T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -455,8 +507,8 @@
       "id": "468581",
       "title": "Beyond Logs: The power of observability with OpenTelemetry for your .NET applications",
       "description": "Software development has changed a lot over time, becoming more complex by the day with a myriad of frameworks and tools to pick, globally distributed applications and the need for speed and reliability. This complexity makes troubleshooting issues in modern, cloud-native environments a real challenge. The common approach of: “let’s add a few log lines here and there and wait for the problem to happen again” does not scale.\r\n\r\nWhile logs are a widespread and powerful tool for troubleshooting, they often lack context and only show part of the problem. Observability and OpenTelemetry are all about providing this missing context. They help you understand and confidently answer questions about the state of your applications.\r\n\r\nIn this talk, we'll explore the relationship between Observability and OpenTelemetry and how they can be leveraged in your .NET applications to align with modern observability practices\r\n",
-      "startsAt": "2023-05-12T14:30:00",
-      "endsAt": "2023-05-12T15:15:00",
+      "startsAt": "2023-05-12T15:00:00",
+      "endsAt": "2023-05-12T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -480,8 +532,8 @@
       "id": "462827",
       "title": "Benefits of using Infrastructure as Code for your Cloud-Native Approach",
       "description": "Why is the usage of 'Infrastructure as Code' essential, if you would like to adopt a cloud-native approach?\r\nThis talk is about explaining several benefits and why you need to automate your cloud infrastructure for enabling a modern way of developing and hosting software applications in the cloud.\r\nThis session contains a live demonstration of how fast a resource such as an Azure Kubernetes Cluster can be provisioned using a Terraform configuration.\r\n",
-      "startsAt": "2023-05-12T14:30:00",
-      "endsAt": "2023-05-12T15:15:00",
+      "startsAt": "2023-05-12T15:00:00",
+      "endsAt": "2023-05-12T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -505,8 +557,8 @@
       "id": "464485",
       "title": "Advanced Cloud Management with AIOPS",
       "description": "In this session I will show how AIOPS help to become more proactive with help of anomaly detection or faster solve issues.",
-      "startsAt": "2023-05-12T14:30:00",
-      "endsAt": "2023-05-12T15:15:00",
+      "startsAt": "2023-05-12T15:00:00",
+      "endsAt": "2023-05-12T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -530,8 +582,8 @@
       "id": "458767",
       "title": "How Azure helps to build better business processes and customer experiences with AI",
       "description": "Artificial Intelligence is not the future, it is NOW. Cloud technology empowers developers and technology leaders to benefit from AI effectively and responsibly with the models and tools they need. In this session, we go through the portfolio of Azure AI services and run some demos to showcase how AI can improve daily life, safety, productivity, accessibility, and business outcomes.",
-      "startsAt": "2023-05-12T14:30:00",
-      "endsAt": "2023-05-12T15:15:00",
+      "startsAt": "2023-05-12T15:00:00",
+      "endsAt": "2023-05-12T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -558,7 +610,7 @@
       "firstName": "Andreas",
       "lastName": "Grabner",
       "bio": "Andreas Grabner (@grabnerandi) has 20+ years of experience as a software developer, tester and architect and is an advocate for high-performing cloud scale applications. He is a contributor and DevRel for the CNCF open source project keptn (www.keptn.sh). Andreas is also a regular contributor to the DevOps community, a frequent speaker at technology conferences and regularly publishes articles on blog.dynatrace.com or medium. In his spare time you can most likely find him on one of the salsa dancefloors of the world (will resume once Covid is behind us)!",
-      "tagLine": "I am a DevOps Activist: I want to activating the excitement I have about DevOps within others",
+      "tagLine": "I am a DevOps Activist: I want to activate the excitement I have about DevOps within others",
       "profilePicture": "https://sessionize.com/image/f91e-400o400o2-B1w7BMMwki3FiQ9ovZTK7c.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -948,6 +1000,48 @@
       "questionAnswers": []
     },
     {
+      "id": "657a5782-97e3-4c5f-ab08-049487a91d5d",
+      "firstName": "Jürgen",
+      "lastName": "Etzlstorfer",
+      "bio": "Jürgen is an Application Innovation Specialist for Azure at Microsoft Austria, helping customers to succeed on their journey to or in the cloud. He has been working in the industry in the roles of a developer, researcher, product manager, and evangelist for the last 10 years+. He is the co-organizer of the Cloud-Native Computing Linz meetup.",
+      "tagLine": "Azure Application Innovation Specialist, Microsoft",
+      "profilePicture": "https://sessionize.com/image/1180-400o400o2-JdrRb9oeKCpKDBn1WikaUz.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/jetzlstorfer",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://linkedin.com/in/juergenetzlstorfer/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://medium.com/@jetzlstorfer",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Personal",
+          "url": "https://jetzlstorfer.github.io",
+          "linkType": "Other"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/jetzlstorfer",
+          "linkType": "Other"
+        }
+      ],
+      "sessions": [
+        479286
+      ],
+      "fullName": "Jürgen Etzlstorfer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "3920ee8c-8f3c-4d59-9292-fe153d6d16f1",
       "firstName": "Köberl",
       "lastName": "Christian",
@@ -1071,6 +1165,28 @@
         472465
       ],
       "fullName": "Markus Ehrenmueller-Jensen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4e0b0e9e-1e6f-4c16-bda1-2b2ea8576c76",
+      "firstName": "Markus",
+      "lastName": "Pleil",
+      "bio": "Markus Pleil is Service Manager at Austro Control, where he oversees the management and operation of their OpenShift cluster. His deep understanding of OpenShift and Kubernetes architecture has enabled him to design and implement innovative solutions that maximize performance and minimize downtime. Markus is passionate about sharing his knowledge and expertise with others.",
+      "tagLine": "Service Manager",
+      "profilePicture": "https://sessionize.com/image/ba1e-400o400o2-Sy93iqjMwKPh8byKrP9Ezd.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://austrocontrol.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        476230
+      ],
+      "fullName": "Markus Pleil",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -1226,6 +1342,55 @@
         462827
       ],
       "fullName": "Patrick Koch",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e4440b15-f5a0-472b-bd8f-0541a7485529",
+      "firstName": "Peter",
+      "lastName": "Hödl",
+      "bio": "After 13 Years working at Microsoft as an Technical Specialist for SharePoint and Enterprise Architect, I joined atwork, the best Microsoft Cloud Experts in Austria.",
+      "tagLine": "Enterprise Architect - atwork",
+      "profilePicture": "https://sessionize.com/image/430e-400o400o2-P7C4ukQSCfHe1JKiTEQEEg.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/peter-h%C3%B6dl/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.atwork-it.com/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        473510
+      ],
+      "fullName": "Peter Hödl",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "7b15ca3d-cb1c-48e0-a730-52fad29e27d7",
+      "firstName": "Philipp",
+      "lastName": "Bergsmann",
+      "bio": "Philipp is part of the EMEA OpenShift Black Belt team at Red Hat, focusing on the managed cloud offerings. He has worked in the IT industry for about 20 years in various roles, from development to cloud infrastructure consulting. Over the last few years, Philipp has worked extensively on Kubernetes-related topics, planning and implementing Kubernetes platforms with various local and international companies.",
+      "tagLine": "EMEA Black Belt, Managed OpenShift, Red Hat",
+      "profilePicture": "https://sessionize.com/image/ad5a-400o400o2-s3PFaLi3nhVJ3LRUoEh2dY.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/phbergsmann",
+          "linkType": "Twitter"
+        }
+      ],
+      "sessions": [
+        476230
+      ],
+      "fullName": "Philipp Bergsmann",
       "categoryItems": [],
       "questionAnswers": []
     },

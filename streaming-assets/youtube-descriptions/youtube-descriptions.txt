@@ -172,7 +172,7 @@ We want to present a solution with which we can use AI to recognize sign languag
 
 The goal is to provide a tool that, as a first step, can translate sign language into subtitles in Microsoft Teams Meetings to include deaf people in meetings. For this we use a normal webcam, many processes and libraries and of course Azure Tools and Azure Machine Learning. The signs have to be shown, processed and normalized in order to train an ML model with them. Furthermore, the recognition must be able to distinguish between individual signs in order to then recognize individual signs. Since sign language does not contain complete sentences, a sentence must be formed from the individual words with AI. We had to find out and solve all these challenges in a research project. In this session we will show our current state of research and how the implementation with cloud computing in Microsoft Azure can work.
 
-Marco Marthe, Toni Pohl
+Peter Hödl, Marco Marthe, Toni Pohl
 
 Global Azure Austria 2023
 *****************************************************************************
@@ -202,20 +202,17 @@ Join us on Discord: https://discord.gg/CVGFZFy
 =============================================================================
 =============================================================================
 
-OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS
+Identity Governance for Microsoft Azure
 =============================================================================
-Neither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what "an application" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.
+With Microsoft Azure and Microsoft 365 as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end identity governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.
 
-The CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.
-Join this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!
-
-Andreas Grabner, I am a DevOps Activist: I want to activating the excitement I have about DevOps within others
+Martina Grom, CEO atwork, MVP Azure and Microsoft 365, Microsoft RD
 
 Global Azure Austria 2023
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/aks-tracing
+Session Details: https://globalazure.at/sessions/identity-governanace
 Join us on Discord: https://discord.gg/CVGFZFy
 *****************************************************************************
 
@@ -263,6 +260,44 @@ Join us on Discord: https://discord.gg/CVGFZFy
 =============================================================================
 =============================================================================
 
+Kickstart your container journey with Azure Container Apps and GitHub Actions 🚀
+=============================================================================
+Azure Container Apps is a managed service that simplifies the deployment of containerized applications without requiring any prior knowledge or experience with Kubernetes. You can focus on your application, and the service handles the underlying infrastructure. Additionally, GitHub Actions is a powerful automation tool that can be used to build, test, and deploy your code. By combining Azure Container Apps with GitHub Actions, you can automate your entire deployment workflow, making it more efficient and easier to manage. In this talk, we'll provide you with practical examples and best practices to get started with Azure Container Apps and GitHub Actions, regardless of your level of experience.
+
+Jürgen Etzlstorfer, Azure Application Innovation Specialist, Microsoft
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/container-apps-actions
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Single-Handed Sailing with Azure Red Hat OpenShift: Navigating the Managed Kubernetes Platform
+=============================================================================
+Join Markus Pleil, and Philipp Bergsmann, as they embark on an insightful journey comparing the challenges of single-handed sailing with the efficient management of the Azure Red Hat OpenShift service. In this session, they will delve into two key aspects of managing a Kubernetes platform.
+
+Initially, the session will focus on the team structure and tasks required in a traditional self-managed on-premises environment. Markus and Philipp will shed light on the complexities and responsibilities involved in setting up such a system.
+In the second part, the speakers will demonstrate how managed services can simplify the process, eliminating the need for certain tasks and enabling a single-handed approach to operating the Kubernetes platform. Drawing parallels to sailing, they will highlight how using managed services like Azure Red Hat OpenShift can streamline operations and increase efficiency.
+This session will provide valuable insights for IT professionals and developers interested in exploring the potential of managed Kubernetes platforms and discovering how they can optimize their workflow with Azure Red Hat OpenShift.
+
+Philipp Bergsmann, Markus Pleil
+
+Global Azure Austria 2023
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/azure-openshift
+Join us on Discord: https://discord.gg/CVGFZFy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
 Fast feedback with pull request deployments
 =============================================================================
 A modern DevOps process would no longer be possible without feature branches and pull request workflows. How are the changes of a pull request verified? Often, only a deployment into an isolated PR environment provides clarity. This allows testing in the overall context with surrounding systems and real data persistence, the deployment and upgrade process can be tested as well and last but not least a product owner can look at the change on a running system.
@@ -282,17 +317,20 @@ Join us on Discord: https://discord.gg/CVGFZFy
 =============================================================================
 =============================================================================
 
-Identity Governance for Microsoft Azure
+OpenTelemetry for GitOps: Tracing Deployments from Git Commit to Production on AKS
 =============================================================================
-With Microsoft Azure and Microsoft 365 as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end identity governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.
+Neither GitOps (with tools such as ArgoCD or Flux) nor K8s provides a standard in tracing, orchestrating and troubleshooting the lifecycle of complex application deployments. There is no standard to define what "an application" is and there is no standard for lifecycle hooks that would enable easy pre-deployment dependency checks or post deployment health checks on application level.
 
-Martina Grom, CEO atwork, MVP Azure and Microsoft 365, Microsoft RD
+The CNCF project Keptn addresses those challenges by extending the Kubernetes Pod scheduler to provide OpenTelemetry Traces and Prometheus metrics for end-2-end deployment observability. Keptn introduces automated application-aware pre- and post-deployment lifecycle hooks to enforce dependency checks, send notifications or evaluates SLOs that otherwise need a custom K8s operator. As a side benefit you get automatic DORA metrics to measure the success of your DevOps automation.
+Join this talk and learn how the Keptn Lifecycle Toolkit (KLT) Operator extends observability into GitOps deployments and how it enables declarative deployment lifecycle orchestration!
+
+Andreas Grabner, I am a DevOps Activist: I want to activating the excitement I have about DevOps within others
 
 Global Azure Austria 2023
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/identity-governanace
+Session Details: https://globalazure.at/sessions/aks-tracing
 Join us on Discord: https://discord.gg/CVGFZFy
 *****************************************************************************
 

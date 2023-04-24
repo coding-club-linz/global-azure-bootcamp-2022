@@ -19,9 +19,9 @@
         https://globalazure.at
     </text>
 
-    <!-- Gold Sponsor -->
+    <!-- Main Sponsor -->
     <text font-family="Segoe UI" font-size="26" font-weight="300" x="1560" y="1040" fill="#e3c038" text-anchor="middle" alignment-baseline="central">
-        Gold Sponsor
+        Main Sponsor
     </text>
     <image x="1680" y="1010" width="200" height="42.8" xlink:href="../microsoft.png" />
 </svg>
