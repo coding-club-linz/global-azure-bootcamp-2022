@@ -7,7 +7,7 @@ const data = JSON.parse(rawData);
 
 
 // banner-logo
-execSync(`"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "../../static/sessions/banners/banner-logo.png" --export-type "png" "logo.svg"`, (error, stdout, stderr) => {
+execSync(`"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "png/banner-logo.png" --export-type "png" "logo.svg"`, (error, stdout, stderr) => {
     console.log('   ', error, stdout, stderr);
 });
 
@@ -62,6 +62,7 @@ for (let session of data.sessions) {
         let shortTitle = answers.find(q => q.questionId === 52401).answerValue;
 
         const speakers = session.speakers.map(speakerId => data.speakers.find(s => s.id === speakerId));
+        const room = data.rooms.find(s => s.id === session.roomId).name;
         let speakersText = speakers.sort((a, b) => a.lastName > b.lastName ? 1 : -1).map(s => s.firstName + ' ' + s.lastName + (s.tagLine && speakers.length === 1 ? ', ' + s.tagLine : '')).join(', ');
         if (speakers.length > 1 && shortTitle === 'dwh-porsche') {
             speakersText += ' (Porsche Holding Salzburg)';
@@ -72,7 +73,7 @@ for (let session of data.sessions) {
         fs.writeFileSync('./svg/' + shortTitle + '.svg', svg, { encoding: 'utf-8' });
 
         // convert to png
-        execSync(`"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "png/${shortTitle}.png" --export-type "png" "svg\\${shortTitle}.svg"`, (error, stdout, stderr) => {
+        execSync(`"C:\\Program Files\\Inkscape\\bin\\inkscape" --export-filename "png/${room} - ${(new Date(session.startsAt)).getHours()}-00 - ${shortTitle}.png" --export-type "png" "svg\\${shortTitle}.svg"`, (error, stdout, stderr) => {
             console.log('   ', error, stdout, stderr);
         });
     } catch (e) {
