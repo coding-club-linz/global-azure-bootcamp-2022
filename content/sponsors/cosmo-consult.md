@@ -11,7 +11,9 @@ Gemeinsam mit namhaften Industriepartnern begleitet COSMO CONSULT Unternehmen be
 
 Das Produktportfolio wird von einem breiten Consulting-Angebot flankiert. Damit ist gewährleistet, dass Software und Digitalisierung später auch gelebt werden. Mit den Lösungen von COSMO CONSULT arbeiten klassische Mittelständler ebenso wie internationalen Großkonzerne oder hippe Start-ups aus dem E-Commerce-Umfeld.
 
-COSMO CONSULT Group  
-Neumeyerstr. 24  
-90411 Nürnberg  
+COSMO CONSULT GmbH  
+Feldkirchner Straße 9  
+8054 Seiersberg-Pirka  
+Tel: +43 316 269980  
+E-Mail:kontakt@cosmoconsult.com  
 [www.cosmoconsult.com](https://www.cosmoconsult.com)
