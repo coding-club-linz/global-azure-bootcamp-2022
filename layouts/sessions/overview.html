@@ -6,6 +6,7 @@
 </head>
 
 <!-- {{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }} -->
+{{ $shortTitleQuestionId := (index (where $.Site.Data.Y2023.sessionize.questions "question" "Short Title") 0).id }}
 
 <body id="page">
     {{ partial "nav.html" . }}
@@ -21,8 +22,14 @@
             </div>
             {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title" }}
             <div class="row" id="{{ .id }}">
+                {{ range $question := .questionAnswers }}
+                    {{ if eq (int $question.questionId) (int $shortTitleQuestionId) }}
+                    <div id="{{$question.answerValue}}"></div>
+                    {{ end }}
+                {{ end }}
+
                 {{ if ne $index 0 }}
-                <hr class="primary full">
+                <hr class="primary full" id="{{ .sh}}">
                 {{ end }}
 
                 <div class="col-md-8">
@@ -33,17 +40,13 @@
 
                     <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
 
-                    {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
-                    {{ if ne .id "249535" }}
+                    <!-- {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
+                    {{ if ne .id "249535" }} -->
                     <div class="calendar-link">
-                        {{ range $question := .questionAnswers }}
-                        {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
-                        <a class="btn btn-info btn-xs" href="{{$question.answerValue}}" target="_blank"><i
-                                class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a>
-                        {{ end }}
-                        {{ end }}
+                        <a class="btn btn-primary btn-xs" onclick="$('#streaming-{{ .id }}').modal({})"><i
+                                class="fa fa-video-camera" aria-hidden="true"></i>Streaming</a>
                     </div>
-                    {{ end }}
+                    <!-- {{ end }} -->
 
                     {{ range where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
                     <h4>About {{ .firstName }} {{ .lastName }}</h4>
@@ -71,6 +74,72 @@
             {{ end }}
         </div>
     </section>
+
+    {{ range sort $.Site.Data.Y2023.sessionize.sessions ".id" }}
+    <!-- streaming -->
+    <div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        <!--
+                            // { { range where (index $.Site.Data.Y2023.sessionize.categories 1).items "id" "in" .categoryItems }}
+                        -->
+                            <span class="label label-default float-right">{{ .name }}</span>
+                        <!--
+                            // { { end }}
+                        -->
+                        <span>{{ .title }}</span>
+
+                    </h4>
+                </div>
+                <div class="modal-body speaker">
+                    <p>
+                        <div class="text-muted timeslot">
+                            {{ dateFormat "Monday, January 2, 2006" .startsAt }}
+                            {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
+                        </div>
+                    </p>
+
+                    <h4>Gather.town</h4>
+                    
+                    <p class="text-muted">
+                        We are excited to announce that the Global Azure conference this year will be streamed live in <a href="https://www.gather.town/use-cases/virtual-conferences" target="_blank">Gather.town</a>, a virtual event platform that offers an immersive and interactive experience. Gather.town allows you to explore the conference hall, visit exhibitor booths, and connect with other attendees in real-time. To join us in Gather.town, simply click on this button:
+                    </p>
+
+                    <p class="text-center"><a class="btn btn-primary" href="https://meet.coderdojo.net/gaa-gather" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Watch session in Gather.town</a></p>
+
+                    <p class="text-muted">Please note that the Q&A sessions with speakers will only be available in Gather.town, so we highly encourage you to attend the conference through this platform if you wish to participate in these sessions.</p>
+
+                    <h4>YouTube</h4>
+
+                    <p class="text-muted">
+                        Alternatively, for those who prefer a more traditional streaming platform, we will also provide a direct link to the conference on YouTube. To access the conference on YouTube, click on this button:
+                    </p>
+
+                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2023.sessionize.questions "question" "Short Link") 0).id }}
+                    {{ if ne .id "249535" }}
+                    <div class="links">
+                        {{ range $question := .questionAnswers }}
+                        {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
+                        <p class="text-center"><a class="btn btn-primary btn-xs" href="{{$question.answerValue}}" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a></p>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                    {{ end }}
+
+                    <p class="text-muted">
+                        We want to ensure that all attendees have a rewarding and enjoyable experience at the Global Azure conference, regardless of how you choose to join us. We hope to see you there!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
 
     {{ partial "contact.html" . }}
 
