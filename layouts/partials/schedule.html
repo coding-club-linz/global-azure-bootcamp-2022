@@ -45,11 +45,11 @@
 
                                 <div class="calendar">
                                     {{ range $question := .questionAnswers }}
-                                    <!-- { { if eq $question.questionId 52401 }} -->
+                                    {{ if eq (int $question.questionId) 52401 }}
                                     <a href="/ics/{{$question.answerValue}}.ics" download title="Add to calendar">
                                         Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
                                     </a>
-                                    <!-- { { end }} -->
+                                    {{ end }}
                                     {{ end }}
                                 </div>
 
@@ -155,6 +155,15 @@
                     <div class="text-muted timeslot">
                         {{ dateFormat "Monday, January 2, 2006" .startsAt }}
                         {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
+
+                        {{ range $question := .questionAnswers }}
+                        {{ if eq (int $question.questionId) 52401 }}
+                        <br/>
+                        <a href="/ics/{{$question.answerValue}}.ics" download title="Add to calendar">
+                            Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
+                        </a>
+                        {{end}}
+                        {{end}}
                     </div>
                 </p>
 
