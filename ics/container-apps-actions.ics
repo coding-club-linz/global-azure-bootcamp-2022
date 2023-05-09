@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: Kickstart your container journey with Azure Container Apps and GitHub Actions 🚀\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nAzure Container Apps is a managed service that simplifies the deployment of containerized applications without requiring any prior knowledge or experience with Kubernetes. You can focus on your application, and the service handles the underlying infrastructure. Additionally, GitHub Actions is a powerful automation tool that can be used to build, test, and deploy your code. By combining Azure Container Apps with GitHub Actions, you can automate your entire deployment workflow, making it more efficient and easier to manage. In this talk, we'll provide you with practical examples and best practices to get started with Azure Container Apps and GitHub Actions, regardless of your level of experience.\n\n---\n\nVisit https://globalazure.at/streaming/ for instructions how to join and view
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20230512T130000
-DTEND;VALUE=DATE-TIME:20230512T134500
+DTSTART;VALUE=DATE-TIME:20230512T120000
+DTEND;VALUE=DATE-TIME:20230512T124500
 LOCATION:https://globalazure.at/streaming/
 SUMMARY;LANGUAGE=en-us:GAA: Kickstart your container journey with Azure Container Apps and GitHub Actions 🚀
 TRANSP:TRANSPARENT
