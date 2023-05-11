@@ -40,7 +40,7 @@ Veranstalter der Aktion ist der Coding Club Linz, Birkenweg 16, 4060 Leonding. D
 
 ### Laufzeit
 
-Die SH beginnt am 9. Mai 2023, 17:00 Uhr und endet am 12. Mai 2023, 17:00 Uhr. Die GewinnerInnen werden binnen fünf Arbeitstagen nach Ende des SH über die bei der Registrierung angegebene Emailadresse verständigt. Erfolgt von den GewinnerInnen keine Rückmeldung binnen fünf Werktagen nach Verständigung, wird der jeweilige Preis neu verlost.
+Die SH beginnt am 12. Mai 2023, 08:00 Uhr und endet um 17:00 Uhr. Die GewinnerInnen werden binnen fünf Arbeitstagen nach Ende des SH über die bei der Registrierung angegebene Emailadresse verständigt. Erfolgt von den GewinnerInnen keine Rückmeldung binnen fünf Werktagen nach Verständigung, wird der jeweilige Preis neu verlost.
 
 Der Coding Club Linz behält sich vor, den SH ohne Angabe von Gründen und ohne Ankündigung zu verkürzen, zu verlängern, zu verändern oder abzusagen, ohne dass sich daraus Ansprüche auf Haftung bzw. Schadensersatz ableiten lassen. Der Coding Club Linz übernimmt keine Gewähr für entgangene Gewinnchancen.
 
@@ -86,7 +86,7 @@ The organizer of the event is the Coding Club Linz, Birkenweg 16, 4060 Leonding.
 
 ### Duration
 
-The SH begins on May 9th, 2023, at 5:00 PM and ends on May 12th, 2023, at 5:00 PM. The winners will be notified within five working days after the end of the SH via the email address provided during registration. If the winners do not respond within five working days after notification, the respective prize will be redrawn.
+The SH begins on May 12th, 2023, at 08:00 AM and ends at 5:00 PM. The winners will be notified within five working days after the end of the SH via the email address provided during registration. If the winners do not respond within five working days after notification, the respective prize will be redrawn.
 
 The Coding Club Linz reserves the right to shorten, extend, modify, or cancel the SH without giving reasons and without notice, without any liability or claims for compensation. The Coding Club Linz does not guarantee any lost chances of winning.
 
