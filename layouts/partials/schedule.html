@@ -27,7 +27,13 @@
                         <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
                         </td>
                         {{ range $room := $.Site.Data.Y2023.rooms.rooms }}
+                        {{ if or (eq (dateFormat "15:04" $timeslot.startsAt) "09:00") (eq (dateFormat "15:04" $timeslot.startsAt) "09:10") }}
+                            {{ if eq $room.name "Stage 1" }}
+                        <td class="session" colspan="4" style="text-align: center;">
+                            {{ end }}
+                        {{ else }}
                         <td class="session">
+                        {{ end }}
                             {{ range (where (where $.Site.Data.Y2023.sessionize.sessions "roomId" .id ) "startsAt" $timeslot.startsAt) }}
                                 <!--{ { if or (or (or (or (in .categoryItems 110662) (in .categoryItems 81456)) (in .categoryItems 81457)) (in .categoryItems 81458)) (in .categoryItems 81459) }}-->
                                 <div>
