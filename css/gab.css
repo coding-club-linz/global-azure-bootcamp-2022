@@ -888,6 +888,28 @@ body {
     max-width: 90vw;
 }
 
+.gather-town-link {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media (max-width: 767px) {
+    .gather-town-link {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        letter-spacing: normal;
+        font-weight: 700;
+    }
+}
+
+.gather-town-link i {
+    margin-right: 20px !important;
+}
+
 .join-us {
     color: var(--primary-button);
     font-weight: bold;
