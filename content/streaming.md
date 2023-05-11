@@ -19,5 +19,8 @@ layout: single
     Alternatively, for those who prefer a more traditional streaming platform, we will also provide a direct link to the conference on YouTube. To access the conference on YouTube, click on the *Streaming* link in the <a href="/#schedule">Schedule</a>.
 </p>
 
-<img src="/img/gathertown.png" style="width: 100%">
+<h3 class="text-center" style="margin-top: 40px">Get Ready to Teleport to Global Azure Austria in Gather.town!</h3>
+
+<a href="https://meet.coderdojo.net/gaa-gather" target="_blank"><img src="/img/gathertown.png" style="width: 100%"></a>
+
 {{< /rawhtml >}}
