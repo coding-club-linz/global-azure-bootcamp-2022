@@ -393,6 +393,8 @@ section.bg-dark .table > tbody > tr > td {
     .table td,
     .table th {
         display: block;
+        height: auto !important;
+        overflow: hidden;
     }
 }
 
