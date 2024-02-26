@@ -15,7 +15,7 @@ Wir bedanken uns bei Microsoft für die treue Unterstützung von *Global Azure A
 
 **Welche Möglichkeiten bietet mir die österreichische Cloud-Region?**
 
-Datum: 31.05.2023 | 13:00 – 14:30 Uhr  
+Datum: 31.05.2024 | 13:00 – 14:30 Uhr  
 Format: Online (via Microsoft Teams)  
 Sprache: DE  
 Registrierungsseite: [https://aka.ms/CloudExperienceDay](https://msevents.microsoft.com/event?id=499672988)
@@ -31,7 +31,7 @@ Im Rahmen unseres Cloud Experience Days möchten wir Ihnen Möglichkeiten und Be
 
 ### Microsoft Azure Immersion Workshop: Infrastructure Modernization
 
-Datum: Mittwoch, 10. Mai 2023 | 09:00 – 14:00 Uhr  
+Datum: Mittwoch, 10. Mai 2024 | 09:00 – 14:00 Uhr  
 Format: Online (via Microsoft Teams)  
 Sprache: DE  
 Registrierungsseite: [Microsoft Event (mktoevents.com)](https://mktoevents.com/Microsoft+Event/393094/157-GQE-382)
@@ -44,7 +44,7 @@ In diesem interaktiven, praxisnahen Workshop erfahren Sie, wie Sie Workloads fle
 
 ### Microsoft BUILD
 
-Datum / Format: Online: May 23–24, 2023 PDT  
+Datum / Format: Online: May 23–24, 2024 PDT  
 Sprache: EN  
 Registrierungsseite: [Your home for Microsoft Build](https://build.microsoft.com/en-US/home)
 

@@ -6,7 +6,7 @@
 </head>
 
 <!-- {{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }} -->
-{{ $shortTitleQuestionId := (index (where $.Site.Data.Y2023.sessionize.questions "question" "Short Title") 0).id }}
+<!-- {{ $shortTitleQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Title") 0).id }} -->
 
 <body id="page">
     {{ partial "nav.html" . }}
@@ -89,7 +89,7 @@
         </div>
     </section>
 
-    {{ range sort $.Site.Data.Y2023.sessionize.sessions ".id" }}
+    {{ range sort $.Site.Data.Y2024.sessionize.sessions ".id" }}
     <!-- streaming -->
     <div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -98,7 +98,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">
                         <!--
-                            // { { range where (index $.Site.Data.Y2023.sessionize.categories 1).items "id" "in" .categoryItems }}
+                            // { { range where (index $.Site.Data.Y2024.sessionize.categories 1).items "id" "in" .categoryItems }}
                         -->
                             <span class="label label-default float-right">{{ .name }}</span>
                         <!--
@@ -141,7 +141,7 @@
                         Alternatively, for those who prefer a more traditional streaming platform, we will also provide a direct link to the conference on YouTube. To access the conference on YouTube, click on this button:
                     </p>
 
-                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2023.sessionize.questions "question" "Short Link") 0).id }}
+                    {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Link") 0).id }}
                     {{ if ne .id "249535" }}
                     <div class="links">
                         {{ range $question := .questionAnswers }}

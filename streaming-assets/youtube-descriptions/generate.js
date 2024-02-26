@@ -26,7 +26,7 @@ for (let session of data.sessions) {
     result += '\n\n';
     result += speakersText + '\n\n';
 
-    result += 'Global Azure Austria 2023\n';
+    result += 'Global Azure Austria 2024\n';
     result += '*****************************************************************************\n';
     result += `Event Website: https://globalazure.at\n`;
     result += `Event Schedule: https://globalazure.at/schedule\n`;

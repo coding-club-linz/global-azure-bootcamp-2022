@@ -5,7 +5,7 @@ type: sponsor
 
 ## Sponsor Packs
 
-Global Azure Austria is a community event. It is 100% free for everybody. However, even a free, virtual event costs money. Therefore, we are looking for sponsors who help us covering the costs. Collected sponsor fees that exceed the costs of GAA 2023 are used for financing [CoderDojo Linz](https://linz.coderdojo.net), our free, volunteer-driven programming club for kids.
+Global Azure Austria is a community event. It is 100% free for everybody. However, even a free, virtual event costs money. Therefore, we are looking for sponsors who help us covering the costs. Collected sponsor fees that exceed the costs of GAA 2024 are used for financing [CoderDojo Linz](https://linz.coderdojo.net), our free, volunteer-driven programming club for kids.
 
 {{< rawhtml >}}
 <div class="text-center">

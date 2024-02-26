@@ -34,13 +34,13 @@ Welcome to **Global Azure Austria Scavenger Hunt**! We have hidden 15 treasure c
 
 ### Einleitung
 
-Die *Scavenger Hunt* (kurz *SH*) ist ein Geschicklichkeitsspiel, das im Rahmen des *Global Azure Austria* 2023-Events angeboten wird. Mit der Teilnahme am SH bestätigen Sie, dass Sie sich mit diesen Spielbedingungen einverstanden erklären.
+Die *Scavenger Hunt* (kurz *SH*) ist ein Geschicklichkeitsspiel, das im Rahmen des *Global Azure Austria* 2024-Events angeboten wird. Mit der Teilnahme am SH bestätigen Sie, dass Sie sich mit diesen Spielbedingungen einverstanden erklären.
 
 Veranstalter der Aktion ist der Coding Club Linz, Birkenweg 16, 4060 Leonding. Die Teilnahme am SH ist kostenlos und nicht vom Erwerb einer Ware oder der Inanspruchnahme einer Dienstleistung abhängig.
 
 ### Laufzeit
 
-Die SH beginnt am 12. Mai 2023, 08:00 Uhr und endet um 17:00 Uhr. Die GewinnerInnen werden binnen fünf Arbeitstagen nach Ende des SH über die bei der Registrierung angegebene Emailadresse verständigt. Erfolgt von den GewinnerInnen keine Rückmeldung binnen fünf Werktagen nach Verständigung, wird der jeweilige Preis neu verlost.
+Die SH beginnt am 12. Mai 2024, 08:00 Uhr und endet um 17:00 Uhr. Die GewinnerInnen werden binnen fünf Arbeitstagen nach Ende des SH über die bei der Registrierung angegebene Emailadresse verständigt. Erfolgt von den GewinnerInnen keine Rückmeldung binnen fünf Werktagen nach Verständigung, wird der jeweilige Preis neu verlost.
 
 Der Coding Club Linz behält sich vor, den SH ohne Angabe von Gründen und ohne Ankündigung zu verkürzen, zu verlängern, zu verändern oder abzusagen, ohne dass sich daraus Ansprüche auf Haftung bzw. Schadensersatz ableiten lassen. Der Coding Club Linz übernimmt keine Gewähr für entgangene Gewinnchancen.
 
@@ -80,13 +80,13 @@ Für die Teilnahme am SH ist eine Angabe von personenbezogenen Daten (insbesonde
 
 ### Introduction
 
-The *Scavenger Hunt* (short *SH*) is a skill-based game offered as part of the *Global Azure Austria* 2023 event. By participating in the SH, you confirm that you agree to these game terms and conditions.
+The *Scavenger Hunt* (short *SH*) is a skill-based game offered as part of the *Global Azure Austria* 2024 event. By participating in the SH, you confirm that you agree to these game terms and conditions.
 
 The organizer of the event is the Coding Club Linz, Birkenweg 16, 4060 Leonding. Participation in the SH is free and not dependent on the purchase of goods or the use of a service.
 
 ### Duration
 
-The SH begins on May 12th, 2023, at 08:00 AM and ends at 5:00 PM. The winners will be notified within five working days after the end of the SH via the email address provided during registration. If the winners do not respond within five working days after notification, the respective prize will be redrawn.
+The SH begins on May 12th, 2024, at 08:00 AM and ends at 5:00 PM. The winners will be notified within five working days after the end of the SH via the email address provided during registration. If the winners do not respond within five working days after notification, the respective prize will be redrawn.
 
 The Coding Club Linz reserves the right to shorten, extend, modify, or cancel the SH without giving reasons and without notice, without any liability or claims for compensation. The Coding Club Linz does not guarantee any lost chances of winning.
 
