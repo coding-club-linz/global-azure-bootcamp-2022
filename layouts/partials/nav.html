@@ -10,8 +10,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ cond (eq .File.Dir "") "" "/" }}#page-top"><img
-                    src="/img/gab2024.png" height="100%"></a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -20,22 +18,25 @@
                     <a class="page-scroll"
                         href="{{ cond (eq .File.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                 </li>
-                <!-- <li>
+                <li>
                     <a class="page-scroll"
                         href="{{ cond (eq .File.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
                 </li>
                 <li class="{{ cond (eq .Page.Title "Sponsors") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
                 </li>
-                <li class="{{ cond (eq .Page.Title "Streaming") "active" "" }}">
+                <!-- <li class="{{ cond (eq .Page.Title "Streaming") "active" "" }}">
                     <a href="/streaming">Streaming</a>
-                </li>
-                <li class="{{ cond (eq .Page.Title "Speakers") "active" "" }}">
+                </li> -->
+                <!-- <li class="{{ cond (eq .Page.Title "Speakers") "active" "" }}">
                     <a href="/speakers">{{ .Site.Params.navigation.links.speakers }}</a>
-                </li>
+                </li> -->
                 <li class="{{ cond (eq .Page.Title "Sessions") "active" "" }}">
                     <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
-                </li> -->
+                </li>
+                <li class="{{ cond (eq .Page.Title "Tickets") "active" "" }}">
+                    <a href="/tickets">Tickets</a>
+                </li>
                 <li class="{{ cond (eq .Page.Title "Code of Conduct") "active" "" }}">
                     <a href="/code-of-conduct">COC</a>
                 </li>
