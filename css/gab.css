@@ -1346,3 +1346,7 @@ figure.flex {
 figure.flex img {
     width: 100%;
 }
+
+#session-recordings .btn {
+    margin-top: 10px;
+}
