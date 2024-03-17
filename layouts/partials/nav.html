@@ -34,6 +34,9 @@
                 <li class="{{ cond (eq .Page.Title "Sessions") "active" "" }}">
                     <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
                 </li>
+                <li class="{{ cond (eq .Page.Title "Juniors") "active" "" }}">
+                    <a href="/junior">Juniors</a>
+                </li>
                 <li class="{{ cond (eq .Page.Title "Tickets") "active" "" }}">
                     <a href="/tickets">Tickets</a>
                 </li>

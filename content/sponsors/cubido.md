@@ -2,7 +2,7 @@
 title: "cubido"
 type: "Gold Sponsor"
 logo: "cubido.png"
-priority: 3
+priority: 2
 ---
 
 ACP CUBIDO ist Spezialist für die Optimierung und Automatisierung von Geschäftsprozessen, der Entwicklung von individuellen Softwarelösungen sowie Industrial IoT und Data Management. Mit dem Einsatz innovativer Technologien wie Künstliche Intelligenz, Machine Learning und Data Science unterstützt ACP CUBIDO ihre Kunden bei der Erfassung, Analyse und Aufbereitung von Daten jeglicher Art. So können wertvolle Informationen aus Unternehmensdaten gewonnen werden, um nachhaltige Kosteneinsparungen, Produktivitäts- oder Qualitätssteigerungen zu erreichen.
