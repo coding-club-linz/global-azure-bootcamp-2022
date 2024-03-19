@@ -28,7 +28,7 @@
                         <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
                         </td>
                         {{ range $room := where $.Site.Data.Y2024.rooms.rooms "name" "Main Stage" }}
-                            <td class="session" colspan="4" style="text-align: center;">
+                            <td class="session" colspan="4" style="text-align: center; height: 60px;">
                             {{ if (eq (dateFormat "15:04" $timeslot.startsAt) "09:00") }}
                                 <div>
                                     <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
