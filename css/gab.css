@@ -1350,3 +1350,9 @@ figure.flex img {
 #session-recordings .btn {
     margin-top: 10px;
 }
+
+img.index {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
