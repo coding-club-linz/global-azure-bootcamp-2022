@@ -3,9 +3,16 @@ title: "Tickets"
 layout: single
 ---
 
-## Tickets
+## In-Person Tickets
+
+### Note that you only need a ticket for the conference _**if you will participate in person**_.
+
+If you are going to attend the live stream, you do not need a ticket. Streaming links will be published on this website a few days prior to the conference.
+
 
 {{< rawhtml >}}
+<hr/>
+
 <div id="eventbrite-widget-container-861454733297"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
