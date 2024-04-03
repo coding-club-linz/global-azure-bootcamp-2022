@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Transforming diverse system landscapes into sustainable API products with Azure API Management\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nWell-designed, secure and fast APIs are the backbone of many successful digital products. While APIs need to fulfill specific product-related needs, developers must think of security, monitoring, versioning and many further topics for creating a long-lasting robust API. Especially when dealing with a heterogenous system landscape as the starting basis, the integration of different sources into a unified clean API product is a key factor for enabling faster adoption by app developers while making full use of existing data. \nDiscover how Azure API Management revolutionizes API integration and development being a hybrid, multicloud management platform for APIs across all environments. Learn the secrets of analytics-driven decisions, as Azure API Management delivers insightful usage metrics, error diagnostics, and latency analysis while also providing the necessary tools for versioning and lifecycle management. With just a few steps developers can easily abstract backend diversity while securely exposing services hosted inside and outside of Azure. Let’s explore how Azure API Management can help you providing a centralized platform for managing manifold aspects of your APIs. \n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T143000
+DTEND;VALUE=DATE-TIME:20240420T151500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: Transforming diverse system landscapes into sustainable API products with Azure API Management
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

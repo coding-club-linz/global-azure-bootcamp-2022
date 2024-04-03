@@ -1242,7 +1242,7 @@ body {
 .schedule td.session > div {
     display: grid;
     grid-template-rows: auto auto auto 1fr auto;
-    height: 100%;
+    //height: 100%;
 }
 
 #schedule .changed-sessions p {

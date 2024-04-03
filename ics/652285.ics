@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions. \nThis presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.\nA focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.\nJoin me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines. \n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T110000
+DTEND;VALUE=DATE-TIME:20240420T114500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

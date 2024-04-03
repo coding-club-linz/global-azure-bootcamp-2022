@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Keynote: Pioneering the Future of Java with Intelligent Apps\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nDisruptive changes are so called because they cut across traditional boundaries in whatever domain it is they are disrupting. This keynote from 30-year software industry veteran Ed Burns and cutting-edge AI practitioner Sandra Ahlgrimm explores the ways that AI can be practically applied in a typical contemporary cloud-native Java Azure application deployment. We take examples from a full-length workshop and examine each in the context of the AI and cloud-native application patterns being illustrated.\n\n* What is the state of the art for continuing to derive value from existing legacy enterprise Java software line-of-business (LOB) applications?\n* We will use a chatbot to interact with GPT-4 and implement the Retrieval Augmented Generation (RAG) pattern.\n* Using a vector database, the model will be able to answer questions in natural language and generate complete, sourced responses from your own documents.\n* How can AI augment legacy LOB apps?\n* We will create a Quarkus service based on the open-source LangChain4J and ChatBootAI frameworks to test our chatbot.\n* This being Global Azure Austria, naturally, these resources are deployed to Azure.\n\nAfter this keynote, you will have a clearer understanding of large language models and how they work, as well as ideas for using them in your applications. You will also know how to create a functional knowledge base and chatbot, and how to deploy them in the cloud.\n\n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T090000
+DTEND;VALUE=DATE-TIME:20240420T094500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: Keynote: Pioneering the Future of Java with Intelligent Apps
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

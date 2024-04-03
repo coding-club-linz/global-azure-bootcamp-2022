@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Enhance Microsoft 365 Copilot and Microsoft Graph with your own data\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn this session, we explore how to leverage Microsoft Graph to seamlessly integrate custom data into your Microsoft 365 environment, resulting in optimal output when using Copilot. Furthermore, we explore a Microsoft Teams sample bot that seamlessly incorporates personalized data to provide relevant answers and perform actions. Join and see how to integrate custom data into M365 Copilot!\n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T133000
+DTEND;VALUE=DATE-TIME:20240420T141500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: Enhance Microsoft 365 Copilot and Microsoft Graph with your own data
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

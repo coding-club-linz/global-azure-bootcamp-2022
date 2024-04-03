@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Unleashing the Power of AI: Introducing Microsoft Copilot for Azure\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nMicrosoft Copilot for Azure is a revolutionary AI assistant designed to streamline your cloud experience. Leveraging advanced machine learning, it provides intelligent suggestions and solutions for your Azure tasks. Whether you’re deploying services, troubleshooting issues, or optimizing performance, Copilot is your trusted companion. Experience the future of cloud management with Microsoft Copilot for Azure.\n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T100000
+DTEND;VALUE=DATE-TIME:20240420T104500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: Unleashing the Power of AI: Introducing Microsoft Copilot for Azure
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
