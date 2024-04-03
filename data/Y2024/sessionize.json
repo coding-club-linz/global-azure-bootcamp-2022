@@ -2,14 +2,15 @@
   "sessions": [
     {
       "id": "658419",
-      "title": "Keynote",
-      "description": "Details will follow in a few days",
+      "title": "Keynote: Pioneering the Future of Java with Intelligent Apps",
+      "description": "Disruptive changes are so called because they cut across traditional boundaries in whatever domain it is they are disrupting. This keynote from 30-year software industry veteran Ed Burns and cutting-edge AI practitioner Sandra Ahlgrimm explores the ways that AI can be practically applied in a typical contemporary cloud-native Java Azure application deployment. We take examples from a full-length workshop and examine each in the context of the AI and cloud-native application patterns being illustrated.\r\n\r\n* What is the state of the art for continuing to derive value from existing legacy enterprise Java software line-of-business (LOB) applications?\r\n* We will use a chatbot to interact with GPT-4 and implement the Retrieval Augmented Generation (RAG) pattern.\r\n* Using a vector database, the model will be able to answer questions in natural language and generate complete, sourced responses from your own documents.\r\n* How can AI augment legacy LOB apps?\r\n* We will create a Quarkus service based on the open-source LangChain4J and ChatBootAI frameworks to test our chatbot.\r\n* This being Global Azure Austria, naturally, these resources are deployed to Azure.\r\n\r\nAfter this keynote, you will have a clearer understanding of large language models and how they work, as well as ideas for using them in your applications. You will also know how to create a functional knowledge base and chatbot, and how to deploy them in the cloud.\r\n",
       "startsAt": "2024-04-20T09:00:00",
       "endsAt": "2024-04-20T09:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "83c42ccd-b1e3-4c7e-906a-4009f7b52d8f"
+        "83c42ccd-b1e3-4c7e-906a-4009f7b52d8f",
+        "fb1a4080-cb59-4de7-9930-a411667c855f"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -39,6 +40,26 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "655642",
+      "title": "Unleashing the Power of AI: Introducing Microsoft Copilot for Azure",
+      "description": "Microsoft Copilot for Azure is a revolutionary AI assistant designed to streamline your cloud experience. Leveraging advanced machine learning, it provides intelligent suggestions and solutions for your Azure tasks. Whether you’re deploying services, troubleshooting issues, or optimizing performance, Copilot is your trusted companion. Experience the future of cloud management with Microsoft Copilot for Azure.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 47113,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
     },
     {
       "id": "641128",
@@ -101,15 +122,15 @@
       "isConfirmed": true
     },
     {
-      "id": "641462",
-      "title": "Infrastructure as Code and AI - does it fit?",
-      "description": "Infrastructure as Code is crucial for the cloud native development. It allows you to automate the deployment of your resources and comes with a lot of other benefits.\r\nHow does Infrastructure as Code harmonize with AI tools like the GitHub Copilot?\r\nI wanted to investigate the matter and examine how well AI tools can be applied to several use cases related to Infrastructure as Code: for code generation, code interpretation, and error analysis. I intend to publish the results of this session.\r\n",
+      "id": "652285",
+      "title": "The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure",
+      "description": "In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions. \r\nThis presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.\r\nA focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.\r\nJoin me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines. ",
       "startsAt": "2024-04-20T11:00:00",
       "endsAt": "2024-04-20T11:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "52214c40-9cb0-44a6-a1f5-ab2302c9bb40"
+        "b4dd7471-8287-45cf-9473-c33101f3d87a"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -141,6 +162,26 @@
       "isConfirmed": true
     },
     {
+      "id": "655759",
+      "title": "Social Media als Spielfeld für künstliche Intelligenz",
+      "description": "Wir gehen der Frage nach, wie ChatGPT Social Media verändert und welche neuen Chancen sich dadurch für Marketing-Experten eröffnen - in großen Agenturen genauso wie in Ein-Personen-Unternehmen. Dabei werfen wir auch einen kritischen Blick auf die Herausforderungen und unzähligen offenen Fragen, die KI im Bereich Unternehmenspräsentation und Werbung mit sich bringt. Ein spannender Einblick, wie KI im Bereich Social Media bereits tatsächlich genutzt wird und was uns in den nächsten Monaten auf TikTok und Instagram erwarten wird. ",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "af331c59-73fb-4b3d-ad5f-5b80db26ef7b"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
       "id": "650626",
       "title": "Enhance Microsoft 365 Copilot and Microsoft Graph with your own data",
       "description": "In this session, we explore how to leverage Microsoft Graph to seamlessly integrate custom data into your Microsoft 365 environment, resulting in optimal output when using Copilot. Furthermore, we explore a Microsoft Teams sample bot that seamlessly incorporates personalized data to provide relevant answers and perform actions. Join and see how to integrate custom data into M365 Copilot!",
@@ -161,15 +202,15 @@
       "isConfirmed": true
     },
     {
-      "id": "652285",
-      "title": "The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure",
-      "description": "In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions. \r\nThis presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.\r\nA focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.\r\nJoin me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines. ",
+      "id": "653019",
+      "title": "Project Kappa - Or how we successfully failed to avoid our own Serverless platform",
+      "description": "Sometimes things look similar but are fundamentally different. Pasta with bacon and cream is not a Carbonara, the Mega Drive never was a Super Nintendo, and whatever Serverless solution you use, it is not AWS Lambda.\r\n\r\nWhile all of those comparisons make for some inner turmoil, especially the latter one caused severe problems when we tried to move our Serverless workloads to Azure. Simply because they do come with a challenge: Every developer at Dynatrace, every partner, and every customer should have the possibility to run privacy-first, isolated, and secure workloads on top of our data lake infrastructure.\r\n\r\nIn this talk, we will look at how Dynatrace managed to run their Serverless workloads on Azure, with a tailor-made, Kubernetes-based Serverless platform we so dearly tried to avoid at all costs. Not only will we look at the architecture at hand, but we will highlight every right decision that was paramount to solving this problem as painlessly as possible.",
       "startsAt": "2024-04-20T13:30:00",
       "endsAt": "2024-04-20T14:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "b4dd7471-8287-45cf-9473-c33101f3d87a"
+        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -194,6 +235,46 @@
       "categoryItems": [],
       "questionAnswers": [],
       "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "641462",
+      "title": "Infrastructure as Code and AI - does it fit?",
+      "description": "Infrastructure as Code is crucial for the cloud native development. It allows you to automate the deployment of your resources and comes with a lot of other benefits.\r\nHow does Infrastructure as Code harmonize with AI tools like the GitHub Copilot?\r\nI wanted to investigate the matter and examine how well AI tools can be applied to several use cases related to Infrastructure as Code: for code generation, code interpretation, and error analysis. I intend to publish the results of this session.\r\n",
+      "startsAt": "2024-04-20T14:30:00",
+      "endsAt": "2024-04-20T15:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52214c40-9cb0-44a6-a1f5-ab2302c9bb40"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 47113,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "655696",
+      "title": "Transforming diverse system landscapes into sustainable API products with Azure API Management",
+      "description": "Well-designed, secure and fast APIs are the backbone of many successful digital products. While APIs need to fulfill specific product-related needs, developers must think of security, monitoring, versioning and many further topics for creating a long-lasting robust API. Especially when dealing with a heterogenous system landscape as the starting basis, the integration of different sources into a unified clean API product is a key factor for enabling faster adoption by app developers while making full use of existing data. \r\nDiscover how Azure API Management revolutionizes API integration and development being a hybrid, multicloud management platform for APIs across all environments. Learn the secrets of analytics-driven decisions, as Azure API Management delivers insightful usage metrics, error diagnostics, and latency analysis while also providing the necessary tools for versioning and lifecycle management. With just a few steps developers can easily abstract backend diversity while securely exposing services hosted inside and outside of Azure. Let’s explore how Azure API Management can help you providing a centralized platform for managing manifold aspects of your APIs. ",
+      "startsAt": "2024-04-20T14:30:00",
+      "endsAt": "2024-04-20T15:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a2395ea0-1c21-4eed-b8ad-367fa2032cf7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -231,6 +312,22 @@
         658419
       ],
       "fullName": "Ed Burns",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1d18ea23-d6dc-4600-bbae-2916afebb0d7",
+      "firstName": "Hannes",
+      "lastName": "Lagler-Gruener",
+      "bio": "Hannes Lagler-Gruener is a senior cloud architect with consulting experience of more than 15 years.\r\nHannes is focusing on cloud architecture and security.\r\nHannes had deep experience in IaaS, Security, Networking, Governance, and IaC. He started his carrier at one of the biggest Austrian banks and changed to Microsoft Austria after a few years.\r\nCurrently, Hannes is working at ACP IT Solutions GMBH as Lead-Cloud Solutions Architect.",
+      "tagLine": "MVP | ACP IT Solutions GMBH, Lead Cloud Architect ",
+      "profilePicture": "https://sessionize.com/image/e1c0-400o400o1-MRNTE7MYFpYmnEaiwGm6WZ.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        655642
+      ],
+      "fullName": "Hannes Lagler-Gruener",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -347,6 +444,54 @@
       "questionAnswers": []
     },
     {
+      "id": "fb1a4080-cb59-4de7-9930-a411667c855f",
+      "firstName": "Sandra",
+      "lastName": "Ahlgrimm",
+      "bio": "Sandra Ahlgrimm is a Cloud Advocate working for Java Developers at Microsoft. She leads the Berlin JUG and Berlin Docker MeetUp. Sandra has been a Java developer for over a decade and is a container admirer who recently learned to love AI.",
+      "tagLine": "Cloud Advocate working for Java Developers at Microsoft",
+      "profilePicture": "https://sessionize.com/image/9b1f-400o400o1-sWZ6F5fp6D6drmLWUTo3By.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        658419
+      ],
+      "fullName": "Sandra Ahlgrimm",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f62f9691-37cd-4ca6-81f1-14c7234ab46e",
+      "firstName": "Stefan",
+      "lastName": "Baumgartner",
+      "bio": "Stefan Baumgartner is an architect and developer based in Austria. He is the author of \"TypeScript in 50 Lessons\" (Smashing Magazine, 2020) and \"The TypeScript Cookbook\" (O'Reilly, 2023). In his spare time, he organizes ScriptConf and Rust Linz. Stefan enjoys Italian food, Belgian beer, and British vinyl records.",
+      "tagLine": "oida.dev",
+      "profilePicture": "https://sessionize.com/image/3534-400o400o1-47Tv5MbEJ5G86AhNLF8eec.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        653019
+      ],
+      "fullName": "Stefan Baumgartner",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "a2395ea0-1c21-4eed-b8ad-367fa2032cf7",
+      "firstName": "Tobias",
+      "lastName": "Berei",
+      "bio": "Tobias Berei works as a Software Architect at softaware gmbh. Specializing in .NET and Azure, he focuses on delivering optimal cloud-based solutions in complex system landscapes. Beyond his role, he serves as a part-time lecturer for software engineering, sharing practical insights and fostering the next wave of developers. Tobias has a double-degree in Software Engineering and Computer Science, is holding multiple Azure certifications and has made scientific contributions in the field of Answer Set Programming. He likes motorcycles, good coffee and Azure.",
+      "tagLine": "Software Architekt, softaware gmbh",
+      "profilePicture": "https://sessionize.com/image/8b0e-400o400o1-NZfMS1vTkotyJi4Umap54H.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        655696
+      ],
+      "fullName": "Tobias Berei",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "6221ae7e-40aa-49f7-9c41-e8a2c5ba1d75",
       "firstName": "Toni",
       "lastName": "Pohl",
@@ -359,6 +504,22 @@
         650626
       ],
       "fullName": "Toni Pohl",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "af331c59-73fb-4b3d-ad5f-5b80db26ef7b",
+      "firstName": "Verena",
+      "lastName": "Gottwald",
+      "bio": "Ich bin Social Media Enthusiastin mit Weitblick.\r\n\r\nMeine Leidenschaft für Hashtags, Reels, Likes und alles, was dazu gehört, teile ich mit Ärztinnen und Spezialistinnen im Gesundheitswesen. Hier leiste ich Hilfe zur Selbsthilfe und gebe mein Social-Media-Wissen in Workshops und Beratungen weiter.\r\n\r\nDabei liegt mein Fokus derzeit auch auf einer der bedeutendsten technologischen Entwicklungen: Künstliche Intelligenz. Ich beschäftige mich täglich mit Tools und Fragestellungen rund um die vereinfachte und beschleunigte Content Creation mithilfe von KI sowie den damit einhergehenden Herausforderungen für unsere Branche.",
+      "tagLine": "Founder & Social Media Enthusiast",
+      "profilePicture": "https://sessionize.com/image/c699-400o400o1-Mo2Lzt34CEtVfndsDMSwbC.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        655759
+      ],
+      "fullName": "Verena Gottwald",
       "categoryItems": [],
       "questionAnswers": []
     }
