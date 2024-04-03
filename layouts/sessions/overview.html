@@ -19,14 +19,6 @@
         
                         <hr>
                         
-                        <p>
-                            We are currently working on putting together the session schedule for the event. Here is a sneak
-                            peak into the sessions that have already been confirmed. Reserve the date (April 20th, 2024) and 
-                            subscribe to our mailing list (see form at the bottom of the page) to get notified when the final 
-                            schedule is available.
-                        </p>
-                        
-                        <hr>
                     </div>
             </div>
             {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title" }}
