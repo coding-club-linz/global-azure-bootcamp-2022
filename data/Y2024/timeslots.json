@@ -38,7 +38,7 @@
         {
             "startsAt": "2024-04-20T14:15:00",
             "endsAt": "2024-04-20T14:30:00",
-            "isServiceTimeslot": false
+            "isServiceTimeslot": true
         },
         {
             "startsAt": "2024-04-20T14:30:00",

@@ -1,22 +1,19 @@
 {
-    "rooms": [
-      {
-        "id": 33910,
-        "name": "Main Stage",
-        "roomNumber": 1,
-        "sort": 0
-      },
-      {
-        "id": 33911,
-        "name": "Breakout Room 1",
-        "roomNumber": 2,
-        "sort": 1
-      },
-      {
-        "id": 33912,
-        "name": "Breakout Room 2",
-        "roomNumber": 3,
-        "sort": 2
-      }
-    ]
-  }
+  "rooms": [
+    {
+      "id": 47112,
+      "name": "Aula",
+      "sort": 0
+    },
+    {
+      "id": 47113,
+      "name": "Breakout Room 1",
+      "sort": 1
+    },
+    {
+      "id": 47114,
+      "name": "Breakout Room 2",
+      "sort": 2
+    }
+  ]
+}
