@@ -27,7 +27,7 @@ for (let session of data.sessions) {
         console.log(session.title);
 
         const answers = session.questionAnswers;
-        let shortTitle = answers.find(q => q.questionId === 52401).answerValue;
+        let shortTitle = answers.find(q => q.questionId === 71787).answerValue;
         shortTitle = shortTitle.replace('&', 'and');
 
         // title
@@ -62,6 +62,7 @@ for (let session of data.sessions) {
         // speaker
         const speakers = session.speakers.map(speakerId => data.speakers.find(s => s.id === speakerId));
         let speakersText = speakers.sort((a, b) => a.lastName > b.lastName ? 1 : -1).map(s => s.firstName + ' ' + s.lastName + (s.tagLine && speakers.length === 1 ? ', ' + s.tagLine : '')).join(', ');
+        speakersText = speakersText.replace('&', 'and');
         if (speakers.length > 1 && shortTitle === 'dwh-porsche') {
             speakersText += ' (Porsche Holding Salzburg)';
         }
