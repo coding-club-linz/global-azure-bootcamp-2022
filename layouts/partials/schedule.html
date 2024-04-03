@@ -73,7 +73,7 @@
                                 </div>
 
                                 <div class="speaker">
-                                    {{ range $index, $speaker := where $.Site.Data.Y2024.sessionize.speakers "id" "in" .speakers }}{{ if ne $index 0 }}<span style="margin-left: -2px;">, </span>{{ end }}<span onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
+                                    {{ range $index, $speaker := where $.Site.Data.Y2024.sessionize.speakers "id" "in" .speakers }}{{ if ne $index 0 }}<span style="margin-left: -2px;">&nbsp;</span>{{ end }}<span onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
                                     {{ end }}
                                 </div>
 
