@@ -21,7 +21,7 @@
 
     <!-- Date -->
     <text font-family="Segoe UI" font-size="50" font-weight="bold" x="960" y="900" fill="#e3c038" text-anchor="middle" alignment-baseline="central">
-        {{joinText}} on Friday, May 12th, {{startTime}} - {{endTime}} CEST
+        {{joinText}} on Saturday, April 20th, {{startTime}} - {{endTime}} CEST
     </text>
 
     <text font-family="Segoe UI" font-size="40" x="960" y="965" fill="#e3c038" text-anchor="middle" alignment-baseline="central">
