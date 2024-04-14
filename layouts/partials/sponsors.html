@@ -32,13 +32,13 @@
             {{ end }}
             
             {{ if (eq .Params.priority 2) }}
-            {{ $cols = 4 }}
+            {{ $cols = 3 }}
             {{ $colsXs = 8 }}
             {{ $colsOffsetXs = 2 }}
             {{ end }}
             
             {{ if (eq .Params.priority 3) }}
-            {{ $cols = 6 }}
+            {{ $cols = 12 }}
             {{ $colsXs = 12 }}
             {{ $colsOffsetXs = 0 }}
             {{ end }}
@@ -50,6 +50,11 @@
 
             {{ if (eq .Params.priority 5) }}
             {{ $cols = 4 }}
+            {{ $colsXs = 6 }}
+            {{ end }}
+
+            {{ if (eq .Params.priority 6) }}
+            {{ $cols = 6 }}
             {{ $colsXs = 6 }}
             {{ end }}
 
