@@ -5,12 +5,12 @@
     {{ partial "head.html" . }}
 </head>
 
-<!-- {{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }} -->
+{{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }}
 <!-- {{ $shortTitleQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Title") 0).id }} -->
 
 <body id="page">
     {{ partial "nav.html" . }}
-    
+
     <section id="sessions" class="sessions">
         <div class="container">
             <div class="row" id="mc_embed_signup">
@@ -38,7 +38,6 @@
                     <p>
                         <span class="label label-default">{{ .name }}</span>
                     </p>
-
                     <p class="text-muted timeslot">
                         {{ dateFormat "Monday, January 2, 2006" .startsAt }}
                         {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
@@ -52,6 +51,14 @@
                     </p>
 
                     <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
+
+                    <div class="links">
+                        {{ range $question := .questionAnswers }}
+                        {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
+                        <p class="text-center"><a class="btn btn-primary btn-xs" href="{{$question.answerValue}}" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a></p>
+                        {{ end }}
+                        {{ end }}
+                    </div>
 
                     <!-- {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
                     {{ if ne .id "249535" }}

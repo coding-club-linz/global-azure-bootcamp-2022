@@ -17,6 +17,10 @@
         {
           "questionId": 71787,
           "answerValue": "keynote-java-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/mIguuYMFbh0"
         }
       ],
       "roomId": 47112,
@@ -42,6 +46,10 @@
         {
           "questionId": 71787,
           "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
       "roomId": 47112,
@@ -67,6 +75,10 @@
         {
           "questionId": 71787,
           "answerValue": "azure-copilot"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/olvjFwuAr9o"
         }
       ],
       "roomId": 47113,
@@ -92,6 +104,10 @@
         {
           "questionId": 71787,
           "answerValue": "k8s-control-plane"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/8oCxLK5P5I0"
         }
       ],
       "roomId": 47114,
@@ -117,6 +133,10 @@
         {
           "questionId": 71787,
           "answerValue": "wort-zum-vektor"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/vBPeT7OYS5s"
         }
       ],
       "roomId": 47112,
@@ -142,6 +162,10 @@
         {
           "questionId": 71787,
           "answerValue": "microsoft-copilot"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/LoICEwgIUiI"
         }
       ],
       "roomId": 47113,
@@ -167,6 +191,10 @@
         {
           "questionId": 71787,
           "answerValue": "infinite-scale"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/Mr3vOV69CVs"
         }
       ],
       "roomId": 47114,
@@ -192,6 +220,10 @@
         {
           "questionId": 71787,
           "answerValue": "total-rational"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/aOSrbfNR6o0"
         }
       ],
       "roomId": 47112,
@@ -217,6 +249,10 @@
         {
           "questionId": 71787,
           "answerValue": "ki-social-media"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/PrdDiPR46bI"
         }
       ],
       "roomId": 47112,
@@ -242,6 +278,10 @@
         {
           "questionId": 71787,
           "answerValue": "copilot-and-graph"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/N0cuxKkVuyg"
         }
       ],
       "roomId": 47113,
@@ -267,6 +307,10 @@
         {
           "questionId": 71787,
           "answerValue": "project-kappa"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/cneDN4PcVOk"
         }
       ],
       "roomId": 47114,
@@ -292,6 +336,10 @@
         {
           "questionId": 71787,
           "answerValue": "openai-functions"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/5nk3jez0GEk"
         }
       ],
       "roomId": 47112,
@@ -317,6 +365,10 @@
         {
           "questionId": 71787,
           "answerValue": "iac-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/x0xlzGjKcf4"
         }
       ],
       "roomId": 47113,
@@ -342,6 +394,10 @@
         {
           "questionId": 71787,
           "answerValue": "azure-api-mgmt"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/HPpH9E0WlA4"
         }
       ],
       "roomId": 47114,
@@ -600,6 +656,12 @@
       "question": "Short Title",
       "questionType": "Short_Text",
       "sort": 39
+    },
+    {
+      "id": 71788,
+      "question": "YouTube Video",
+      "questionType": "Short_Text",
+      "sort": 26
     }
   ],
   "categories": [],
