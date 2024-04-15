@@ -59,7 +59,7 @@ for (let session of data.sessions) {
 
         // speaker
         const answers = session.questionAnswers;
-        let shortTitle = answers.find(q => q.questionId === 52401).answerValue;
+        let shortTitle = answers.find(q => q.questionId === 71787).answerValue;
 
         const speakers = session.speakers.map(speakerId => data.speakers.find(s => s.id === speakerId));
         const room = data.rooms.find(s => s.id === session.roomId).name;
@@ -67,6 +67,7 @@ for (let session of data.sessions) {
         if (speakers.length > 1 && shortTitle === 'dwh-porsche') {
             speakersText += ' (Porsche Holding Salzburg)';
         }
+        speakersText = speakersText.replace(/\&/, '&amp;');
         svg = svg.replace('{{speakers}}', speakersText);
 
         // save

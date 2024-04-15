@@ -13,7 +13,12 @@
         "fb1a4080-cb59-4de7-9930-a411667c855f"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "keynote-java-ai"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -33,7 +38,12 @@
         "f21baecf-1b61-4e0b-8fb8-71894f39022b"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -53,7 +63,12 @@
         "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "azure-copilot"
+        }
+      ],
       "roomId": 47113,
       "liveUrl": null,
       "recordingUrl": null,
@@ -73,7 +88,12 @@
         "0979c01c-b27b-4c4a-be3b-b1d0a927bd6a"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "k8s-control-plane"
+        }
+      ],
       "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
@@ -93,7 +113,12 @@
         "09ddaf8b-3529-46c5-b7dd-cb3ffd339edc"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "wort-zum-vektor"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -113,7 +138,12 @@
         "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "microsoft-copilot"
+        }
+      ],
       "roomId": 47113,
       "liveUrl": null,
       "recordingUrl": null,
@@ -133,7 +163,12 @@
         "b4dd7471-8287-45cf-9473-c33101f3d87a"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "infinite-scale"
+        }
+      ],
       "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
@@ -153,7 +188,12 @@
         "2f00c5ff-dffa-4f76-aab7-4536cafd9d2e"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "total-rational"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -173,7 +213,12 @@
         "af331c59-73fb-4b3d-ad5f-5b80db26ef7b"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "ki-social-media"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -193,7 +238,12 @@
         "6221ae7e-40aa-49f7-9c41-e8a2c5ba1d75"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "copilot-and-graph"
+        }
+      ],
       "roomId": 47113,
       "liveUrl": null,
       "recordingUrl": null,
@@ -213,7 +263,12 @@
         "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "project-kappa"
+        }
+      ],
       "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
@@ -233,7 +288,12 @@
         "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "openai-functions"
+        }
+      ],
       "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
@@ -253,7 +313,12 @@
         "52214c40-9cb0-44a6-a1f5-ab2302c9bb40"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "iac-ai"
+        }
+      ],
       "roomId": 47113,
       "liveUrl": null,
       "recordingUrl": null,
@@ -273,7 +338,12 @@
         "a2395ea0-1c21-4eed-b8ad-367fa2032cf7"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "azure-api-mgmt"
+        }
+      ],
       "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
@@ -464,7 +534,7 @@
       "firstName": "Stefan",
       "lastName": "Baumgartner",
       "bio": "Stefan Baumgartner is an architect and developer based in Austria. He is the author of \"TypeScript in 50 Lessons\" (Smashing Magazine, 2020) and \"The TypeScript Cookbook\" (O'Reilly, 2023). In his spare time, he organizes ScriptConf and Rust Linz. Stefan enjoys Italian food, Belgian beer, and British vinyl records.",
-      "tagLine": "oida.dev",
+      "tagLine": "Dynatrace",
       "profilePicture": "https://sessionize.com/image/3534-400o400o1-47Tv5MbEJ5G86AhNLF8eec.jpg",
       "isTopSpeaker": false,
       "links": [],
@@ -524,7 +594,14 @@
       "questionAnswers": []
     }
   ],
-  "questions": [],
+  "questions": [
+    {
+      "id": 71787,
+      "question": "Short Title",
+      "questionType": "Short_Text",
+      "sort": 39
+    }
+  ],
   "categories": [],
   "rooms": [
     {

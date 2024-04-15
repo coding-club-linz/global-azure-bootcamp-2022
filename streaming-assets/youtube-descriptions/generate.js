@@ -8,7 +8,7 @@ let result = '';
 for (let session of data.sessions) {
     console.log(session.title);
     const answers = session.questionAnswers;
-    const shortTitle = answers.find(q => q.questionId === 52401).answerValue;
+    const shortTitle = answers.find(q => q.questionId === 71787).answerValue;
 
     // title
     result += session.title + '\n';
@@ -30,8 +30,7 @@ for (let session of data.sessions) {
     result += '*****************************************************************************\n';
     result += `Event Website: https://globalazure.at\n`;
     result += `Event Schedule: https://globalazure.at/schedule\n`;
-    result += `Session Details: https://globalazure.at/sessions/${shortTitle}\n`;
-    result += `Join us on Discord: https://discord.gg/CVGFZFy\n`;
+    result += `Session Details: https://globalazure.at/sessions/#${shortTitle}\n`;
     result += '*****************************************************************************\n\n';
 
     result += '=============================================================================\n'
