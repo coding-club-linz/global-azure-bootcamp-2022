@@ -22,7 +22,7 @@
                     {{ range $timeslot := $.Site.Data.Y2024.timeslots.timeslots }}
 
                     {{ if or (eq (dateFormat "15:04" $timeslot.startsAt) "10:45") (eq (dateFormat "15:04" $timeslot.startsAt) "14:15") }}
-                    <tr><td class="session" colspan="3">
+                    <tr><td class="session" colspan="4">
                         <div>
                             <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
                             </div>
@@ -30,7 +30,7 @@
                         </div>
                     </td></tr>
                     {{ else if (eq (dateFormat "15:04" $timeslot.startsAt) "12:30") }}
-                    <tr><td class="session" colspan="3">
+                    <tr><td class="session" colspan="4">
                         <div>
                             <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
                             </div>

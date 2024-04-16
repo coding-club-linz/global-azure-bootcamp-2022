@@ -176,6 +176,26 @@
       "isConfirmed": true
     },
     {
+      "id": "671571",
+      "title": "Dealing with Kuber-plexity: A perspective on human factors in automation & abstraction",
+      "description": "While Cloud Native technology has many benefits, leading to its wholesale adoption across the globe, there is one big elephant in the room keeping us from making even bigger progress: An ever increasing amount of complex systems interacting with each other.\r\n\r\nWhile we are happily exchanging our on premise hardware for cloudy resources, in other areas Developers and IT Ops personal struggle to let go of doing _everything_ by themselves, causing fatigue, enormous lead times in adopting new technology like kubernetes.\r\n\r\nThis talk will philosophically approach the issue by comparison with another industry (aviation), which already uses a lot of psychological research about how humans fuck up to increase reliability and safety when lives are at stake.",
+      "startsAt": "2024-04-20T11:00:00",
+      "endsAt": "2024-04-20T11:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "48682e96-6443-4b3e-a7ff-045bfff452cc"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 47114,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "652285",
       "title": "The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure",
       "description": "In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions. \r\nThis presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.\r\nA focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.\r\nJoin me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines. ",
@@ -197,7 +217,7 @@
           "answerValue": "https://youtube.com/live/Mr3vOV69CVs"
         }
       ],
-      "roomId": 47114,
+      "roomId": 48770,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -442,6 +462,22 @@
       "questionAnswers": []
     },
     {
+      "id": "48682e96-6443-4b3e-a7ff-045bfff452cc",
+      "firstName": "Franz",
+      "lastName": "Theisen",
+      "bio": "I joined Red Hat in 2015 and have held various positions in sales. From 2022 till 2024 I was responsible for the Presales and Sales Specialists in the Austrian Market, supporting our customers in adopting technologies such as OpenShift, Ansible and Linux.  Since 2024 I have the high pleasure of leading the OpenShift Specialist team for Central Europe.\r\n\r\nBefore joining Red Hat I held positions in Business Development for Virtualization Technology  and as Software Asset Management Consultant at  IT Distribution companies (Arrow, TechData)",
+      "tagLine": "Manager OpenShift Specialists Central Europe at Red Hat",
+      "profilePicture": "https://sessionize.com/image/e792-400o400o1-BcBQcyWmPfuryZpf64iNU.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        671571
+      ],
+      "fullName": "Franz Theisen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "1d18ea23-d6dc-4600-bbae-2916afebb0d7",
       "firstName": "Hannes",
       "lastName": "Lagler-Gruener",
@@ -673,13 +709,18 @@
     },
     {
       "id": 47113,
-      "name": "Breakout Room 1",
+      "name": "Breakout Room 1 (146)",
       "sort": 1
     },
     {
       "id": 47114,
-      "name": "Breakout Room 2",
+      "name": "Breakout Room 2 (147)",
       "sort": 2
+    },
+    {
+      "id": 48770,
+      "name": "Breakout Room 3 (E59-1)",
+      "sort": 4
     }
   ]
 }
