@@ -187,13 +187,22 @@
         "48682e96-6443-4b3e-a7ff-045bfff452cc"
       ],
       "categoryItems": [],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "kuberplexity"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/Mr3vOV69CVs"
+        }
+      ],
       "roomId": 47114,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "652285",
@@ -214,7 +223,7 @@
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/Mr3vOV69CVs"
+          "answerValue": "https://youtube.com/live/DEUG4qj3DE8"
         }
       ],
       "roomId": 48770,

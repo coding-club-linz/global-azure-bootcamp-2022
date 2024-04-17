@@ -1,4 +1,39 @@
+Keynote: Pioneering the Future of Java with Intelligent Apps
+=============================================================================
+Disruptive changes are so called because they cut across traditional boundaries in whatever domain it is they are disrupting. This keynote from 30-year software industry veteran Ed Burns and cutting-edge AI practitioner Sandra Ahlgrimm explores the ways that AI can be practically applied in a typical contemporary cloud-native Java Azure application deployment. We take examples from a full-length workshop and examine each in the context of the AI and cloud-native application patterns being illustrated.
 
+What is the state of the art for continuing to derive value from existing legacy enterprise Java software line-of-business (LOB) applications?
+We will use a chatbot to interact with GPT-4 and implement the Retrieval Augmented Generation (RAG) pattern.
+Using a vector database, the model will be able to answer questions in natural language and generate complete, sourced responses from your own documents.
+How can AI augment legacy LOB apps?
+We will create a Quarkus service based on the open-source LangChain4J and ChatBootAI frameworks to test our chatbot.
+This being Global Azure Austria, naturally, these resources are deployed to Azure.
+After this keynote, you will have a clearer understanding of large language models and how they work, as well as ideas for using them in your applications. You will also know how to create a functional knowledge base and chatbot, and how to deploy them in the cloud.
+
+Sandra Ahlgrimm, Ed Burns
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#keynote-java-ai
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Hello KI - Die Welt der Embeddings und Neuronale Netzwerke
+=============================================================================
+Der Vortrag gibt Einblicke in die Technologie von AI. Mit praktischen Beispielen veranschaulicht er die Arbeitsweise von AI Lösungen und deren Interaktion mit "Weltwissen" erfolgt. Welche Rolle spielen Embeddings, was sind diese und wie entstehen sie.
+
+Mario Schnalzenberger, Data Scientist, cubido business solutions GmbH
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#hello-ai
+*****************************************************************************
 
 =============================================================================
 =============================================================================
@@ -34,7 +69,23 @@ Event Schedule: https://globalazure.at/schedule
 Session Details: https://globalazure.at/sessions/#k8s-control-plane
 *****************************************************************************
 
+=============================================================================
+=============================================================================
 
+Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen
+=============================================================================
+Im Vortrag "Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen" beleuchten wir die essenzielle Rolle von Embeddings in der Entwicklung fortschrittlicher künstlicher Intelligenz. Beginnend mit einer Auffrischung der mathematischen Grundlagen der Vektorrechnung, legen wir das Fundament für ein tiefes Verständnis von Embedding-Vektoren und deren Bedeutung in der modernen KI. Wir untersuchen, wie sowohl OpenAI als auch lokal ausführbare Large Language Models (LLMs) zur Ermittlung von Embeddings eingesetzt werden können, und diskutieren die praktische Integration und Manipulation dieser Embeddings in eigene Softwarelösungen.
+
+Ein weiterer Schwerpunkt liegt auf der Speicherung und effizienten Abfrage von Embeddings in Vektordatenbanken, welche die Grundlage für skalierbare KI-Anwendungen bilden. Abschließend erörtern wir den Zusammenhang zwischen Embeddings und Retrieval-Augmented Generation (RAG) Lösungen, die die Kombination von generativer Sprachmodellierung und informationsbasiertem Retrieval nutzen, um die Qualität und Relevanz der KI-generierten Inhalte zu verbessern.
+
+Alex Kornfellner, Lehrer für Mathematik, KI und Advanced Algorithms an der HTL Leonding
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#wort-zum-vektor
+*****************************************************************************
 
 =============================================================================
 =============================================================================
@@ -62,6 +113,25 @@ Session Details: https://globalazure.at/sessions/#microsoft-copilot
 =============================================================================
 =============================================================================
 
+Dealing with Kuber-plexity: A perspective on human factors in automation & abstraction
+=============================================================================
+While Cloud Native technology has many benefits, leading to its wholesale adoption across the globe, there is one big elephant in the room keeping us from making even bigger progress: An ever increasing amount of complex systems interacting with each other.
+
+While we are happily exchanging our on premise hardware for cloudy resources, in other areas Developers and IT Ops personal struggle to let go of doing everything by themselves, causing fatigue, enormous lead times in adopting new technology like kubernetes.
+This talk will philosophically approach the issue by comparison with another industry (aviation), which already uses a lot of psychological research about how humans fuck up to increase reliability and safety when lives are at stake.
+
+Franz Theisen, Manager OpenShift Specialists Central Europe at Red Hat
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#kuberplexity
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
 The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure
 =============================================================================
 In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions.
@@ -79,6 +149,40 @@ Event Schedule: https://globalazure.at/schedule
 Session Details: https://globalazure.at/sessions/#infinite-scale
 *****************************************************************************
 
+=============================================================================
+=============================================================================
+
+Keynote: Total rational - Das größte Missverständnis im data-driven Business
+=============================================================================
+Als Datenexperten möchten wir, dass unsere Entscheider endlich datengetriebene, rationale Entscheidungen treffen. Doch: Oft fällt es uns schwer unsere Kollegen von Bauchentscheidungen abzuhalten und unsere Dashboards, Datenservices und KI-Produkte bei den Usern so richtig zum Durchbruch zu bringen.
+
+Die schlechte Nachricht zuerst: Das menschliche Gehirn ist biologisch gar nicht in der Lage dazu data-driven rationale Entscheidungen zu treffen, so wie wir uns das idealisiert vorstellen. Heißt das also, dass all unsere Mühen rundum Daten- und KI-Initiativen umsonst sind?
+Jetzt die gute Nachricht: Nein, natürlich nicht! Wir müssen data-driven jedoch neu denken (und umsetzen) um endlich das volle Potenzial unsere Datenprojekte auf die Straße zu bringen. Dann gelingt es uns auch, dass unsere Entscheider:innen und User:innen endlich wirklich datenbasiert arbeiten.
+
+Julia Zukrigl, Head Trainer @ DATA story LAB
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#total-rational
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Social Media als Spielfeld für künstliche Intelligenz
+=============================================================================
+Wir gehen der Frage nach, wie ChatGPT Social Media verändert und welche neuen Chancen sich dadurch für Marketing-Experten eröffnen - in großen Agenturen genauso wie in Ein-Personen-Unternehmen. Dabei werfen wir auch einen kritischen Blick auf die Herausforderungen und unzähligen offenen Fragen, die KI im Bereich Unternehmenspräsentation und Werbung mit sich bringt. Ein spannender Einblick, wie KI im Bereich Social Media bereits tatsächlich genutzt wird und was uns in den nächsten Monaten auf TikTok und Instagram erwarten wird.
+
+Verena Gottwald, Founder & Social Media Enthusiast
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#ki-social-media
+*****************************************************************************
 
 =============================================================================
 =============================================================================
@@ -115,6 +219,21 @@ Event Schedule: https://globalazure.at/schedule
 Session Details: https://globalazure.at/sessions/#project-kappa
 *****************************************************************************
 
+=============================================================================
+=============================================================================
+
+Supercharge Your AI App - OpenAI Function Calling Inside Out
+=============================================================================
+Function calling is an important capability of the OpenAI ChatGPT API. It has been present for a while and gets new features in ChatGPT's upcoming Assistant API. In this session, Rainer Stropek invites you to a deep dive into the capabilities of function calling. Rainer starts by quickly introducing the basics. Based on that he shows advanced features like streaming of function calls, function parallelization, tips for error handling etc.
+
+Rainer Stropek, software architects
+
+Global Azure Austria 2024
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#openai-functions
+*****************************************************************************
 
 =============================================================================
 =============================================================================
