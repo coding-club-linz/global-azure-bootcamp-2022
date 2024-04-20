@@ -21,5 +21,8 @@
   "homepage": "https://github.com/coding-club-linz/global-azure-bootcamp-2022#readme",
   "devDependencies": {
     "remove-markdown": "^0.3.0"
+  },
+  "dependencies": {
+    "hugo-extended": "^0.110.0"
   }
 }

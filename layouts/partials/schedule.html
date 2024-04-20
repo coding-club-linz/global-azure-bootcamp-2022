@@ -59,6 +59,8 @@
                                 <!-- href="/sessions#{{.id}}" -->
                                 <a class="session-link" onclick="$('#{{ .id }}').modal({})">{{ .title }}</a>
 
+                                <div class="room-number">{{ $room.name }}</div>
+
                                 <div class="calendar">
                                     <!-- { { range $question := .questionAnswers } } -->
                                     <!-- { { if eq $question.questionId 52401 }} -->
