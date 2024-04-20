@@ -1062,6 +1062,11 @@ body {
     font-size: 15px;
 }
 
+.room-number {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
 .schedule-speaker .avatar img {
     float: right;
     margin-left: 10px;
