@@ -1,19 +1,19 @@
 ---
-title: "Tickets"
+title: 'Tickets'
 layout: single
 ---
 
-## In-Person Tickets
+## Tickets
 
-### Note that you only need a ticket for the conference _**if you will participate in person**_.
+### Plan Your Attendance & Help Us Prepare!
 
-If you are going to attend the live stream, you do not need a ticket. Streaming links will be published on this website a few days prior to the conference.
+To ensure a great experience for everyone, please only book a ticket if you plan to attend. If your plans change, kindly cancel your ticket so someone else can take your spot.
 
+A few days before the event, we’ll ask you to confirm your attendance to help us plan food and drinks. Thank you for your support! 😊
 
 {{< rawhtml >}}
-<hr/>
 
-<div id="eventbrite-widget-container-861454733297"></div>
+<div id="eventbrite-widget-container-1305717800089"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -25,12 +25,13 @@ If you are going to attend the live stream, you do not need a ticket. Streaming 
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '861454733297',
-        iframeContainerId: 'eventbrite-widget-container-861454733297',
+        eventId: '1305717800089',
+        iframeContainerId: 'eventbrite-widget-container-1305717800089',
 
         // Optional
         iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
+
 {{< /rawhtml >}}

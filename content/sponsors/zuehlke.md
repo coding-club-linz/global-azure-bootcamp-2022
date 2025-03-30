@@ -1,8 +1,9 @@
 ---
-title: "Zühlke - Empowering Ideas"
-type: "Gold Sponsor"
-logo: "zuehlke.png"
+title: 'Zühlke - Empowering Ideas'
+type: 'Gold Sponsor'
+logo: 'zuehlke.png'
 priority: 2
+draft: true
 ---
 
 Zühlke ist ein weltweit tätiger Innovationsdienstleister. Mit modernsten Technologien transformiert das Unternehmen Dienstleistungen und Produkte – von der initialen Vision über die Entwicklung, die Produktion und die Auslieferung bis hin zum Betrieb.
