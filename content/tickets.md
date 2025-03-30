@@ -29,7 +29,7 @@ A few days before the event, we’ll ask you to confirm your attendance to help 
         iframeContainerId: 'eventbrite-widget-container-1305717800089',
 
         // Optional
-        iframeContainerHeight: 600,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        iframeContainerHeight: 800,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
