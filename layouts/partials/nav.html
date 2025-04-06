@@ -18,8 +18,8 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll"
-                        href="{{ cond (eq .File.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
+                    <a class="page-scroll" href="{{ cond (eq .File.Dir "") "" " /" }}#about">{{
+                        .Site.Params.navigation.links.about }}</a>
                 </li>
                 <!-- <li>
                     <a class="page-scroll"
@@ -28,25 +28,25 @@
                 <!-- <li class="{{ cond (eq .Page.Title "Sponsor Packs") "active" "" }}">
                     <a href="/sponsor-packs">Sponsor Packs</a>
                 </li> -->
-                <li class="{{ cond (eq .Page.Title "Sponsors") "active" "" }}">
+                <li class="{{ cond (eq .Page.Title " Sponsors") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
                 </li>
                 <!-- <li class="{{ cond (eq .Page.Title "Streaming") "active" "" }}">
                     <a href="/streaming">Streaming</a>
                 </li> -->
-                <!-- <li class="{{ cond (eq .Page.Title "Speakers") "active" "" }}">
+                <li class="{{ cond (eq .Page.Title " Speakers") "active" "" }}">
                     <a href="/speakers">{{ .Site.Params.navigation.links.speakers }}</a>
-                </li> -->
-                <!-- <li class="{{ cond (eq .Page.Title "Sessions") "active" "" }}">
+                </li>
+                <li class="{{ cond (eq .Page.Title " Sessions") "active" "" }}">
                     <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
-                </li> -->
+                </li>
                 <!-- <li class="{{ cond (eq .Page.Title "Juniors") "active" "" }}">
                     <a href="/junior">Juniors</a>
                 </li> -->
-                <li class="{{ cond (eq .Page.Title "Tickets") "active" "" }}">
+                <li class="{{ cond (eq .Page.Title " Tickets") "active" "" }}">
                     <a href="/tickets">Tickets</a>
                 </li>
-                <li class="{{ cond (eq .Page.Title "Code of Conduct") "active" "" }}">
+                <li class="{{ cond (eq .Page.Title " Code of Conduct") "active" "" }}">
                     <a href="/code-of-conduct">COC</a>
                 </li>
             </ul>

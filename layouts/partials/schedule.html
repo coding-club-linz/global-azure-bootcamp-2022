@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Schedule</h2>
-                
+
                 <hr class="light">
             </div>
         </div>
@@ -21,22 +21,29 @@
                     </tr>
                     {{ range $timeslot := $.Site.Data.Y2024.timeslots.timeslots }}
 
-                    {{ if or (eq (dateFormat "15:04" $timeslot.startsAt) "10:45") (eq (dateFormat "15:04" $timeslot.startsAt) "14:15") }}
-                    <tr><td class="session" colspan="4">
-                        <div>
-                            <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
+                    {{ if or (eq (dateFormat "15:04" $timeslot.startsAt) "10:45") (eq (dateFormat "15:04"
+                    $timeslot.startsAt) "14:15") }}
+                    <tr>
+                        <td class="session" colspan="4">
+                            <div>
+                                <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04"
+                                        $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
+                                </div>
+                                Coffee Break
                             </div>
-                            Coffee Break
-                        </div>
-                    </td></tr>
+                        </td>
+                    </tr>
                     {{ else if (eq (dateFormat "15:04" $timeslot.startsAt) "12:30") }}
-                    <tr><td class="session" colspan="4">
-                        <div>
-                            <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
+                    <tr>
+                        <td class="session" colspan="4">
+                            <div>
+                                <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04"
+                                        $timeslot.startsAt }} - {{ dateFormat "15:04" $timeslot.endsAt }}</span>
+                                </div>
+                                Lunch
                             </div>
-                            Lunch
-                        </div>
-                    </td></tr>
+                        </td>
+                    </tr>
                     {{ else }}
 
                     <tr>
@@ -44,46 +51,50 @@
                         </td>
                         {{ range $room := $.Site.Data.Y2024.rooms.rooms }}
                         <td class="session">
-                            
-                            {{ range (where (where $.Site.Data.Y2024.sessionize.sessions "roomId" .id ) "startsAt" $timeslot.startsAt) }}
-                                <!--{ { if or (or (or (or (in .categoryItems 110662) (in .categoryItems 81456)) (in .categoryItems 81457)) (in .categoryItems 81458)) (in .categoryItems 81459) }}-->
 
-                                <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</span>
-                                    <!-- { { range $category := where (index $.Site.Data.Y2024.sessionize.categories 0).items "id" "in" .categoryItems } }
+                            {{ range (where (where $.Site.Data.Y2024.sessionize.sessions "roomId" .id ) "startsAt"
+                            $timeslot.startsAt) }}
+                            <!--{ { if or (or (or (or (in .categoryItems 110662) (in .categoryItems 81456)) (in .categoryItems 81457)) (in .categoryItems 81458)) (in .categoryItems 81459) }}-->
+
+                            <div class="label label-default"><span class="timeslot">{{ dateFormat "15:04"
+                                    $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</span>
+                                <!-- { { range $category := where (index $.Site.Data.Y2024.sessionize.categories 0).items "id" "in" .categoryItems } }
                                     <span class="language">
                                         { { .name } } 
                                     </span>
                                     { { end } } -->
-                                </div>
-                            
-                                <!-- href="/sessions#{{.id}}" -->
-                                <a class="session-link" onclick="$('#{{ .id }}').modal({})">{{ .title }}</a>
+                            </div>
 
-                                <div class="room-number">{{ $room.name }}</div>
+                            <!-- href="/sessions#{{.id}}" -->
+                            <a class="session-link" onclick="$('#{{ .id }}').modal({})">{{ .title }}</a>
 
-                                <div class="calendar">
-                                    <!-- { { range $question := .questionAnswers } } -->
-                                    <!-- { { if eq $question.questionId 52401 }} -->
-                                    <a href="/ics/{{ .id }}.ics" download title="Add to calendar">
-                                        Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
-                                    </a>
-                                    <!-- { { end }} -->
-                                    <!-- { { end } } -->
-                                </div>
+                            <div class="room-number">{{ $room.name }}</div>
 
-                                <div class="speaker">
-                                    {{ range $index, $speaker := where $.Site.Data.Y2024.sessionize.speakers "id" "in" .speakers }}<span onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
-                                    {{ end }}
-                                </div>
+                            <div class="calendar">
+                                <!-- { { range $question := .questionAnswers } } -->
+                                <!-- { { if eq $question.questionId 52401 }} -->
+                                <a href="/ics/{{ .id }}.ics" download title="Add to calendar">
+                                    Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
+                                </a>
+                                <!-- { { end }} -->
+                                <!-- { { end } } -->
+                            </div>
 
-                                <div class="links">
+                            <div class="speaker">
+                                {{ range $index, $speaker := where $.Site.Data.Y2024.sessionize.speakers "id" "in"
+                                .speakers }}<span onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{
+                                    .lastName }}</span>
+                                {{ end }}
+                            </div>
+
+                            <!-- <div class="links">
                                     {{ range $question := .questionAnswers }}
                                     {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
                                     <a href="{{$question.answerValue}}" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i>Open in YouTube</a>
                                     {{ end }}
                                     {{ end }}
-                                </div>
-                                <!-- {{ if ne .id "249535" }}
+                                </div> -->
+                            <!-- {{ if ne .id "249535" }}
                                 <div class="links">
                                     {{ range $question := .questionAnswers }}
                                     {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
@@ -93,7 +104,7 @@
                                 </div>
                                 {{ end }} -->
 
-                                <!-- { { end }} -->
+                            <!-- { { end }} -->
                             {{ end }}
                         </td>
                         {{ end }}
@@ -108,16 +119,18 @@
 
 {{ range sort $.Site.Data.Y2024.sessionize.sessions ".id" }}
 <!-- streaming -->
-<div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">
                     <!--
                         // { { range where (index $.Site.Data.Y2024.sessionize.categories 1).items "id" "in" .categoryItems }}
                     -->
-                        <span class="label label-default float-right">{{ .name }}</span>
+                    <span class="label label-default float-right">{{ .name }}</span>
                     <!--
                         // { { end }}
                     -->
@@ -127,50 +140,62 @@
             </div>
             <div class="modal-body speaker">
                 <p>
-                    <div class="text-muted timeslot">
-                        {{ dateFormat "Monday, January 2, 2006" .startsAt }}
-                        {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
+                <div class="text-muted timeslot">
+                    {{ dateFormat "Monday, January 2, 2006" .startsAt }}
+                    {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
 
-                        {{ range $question := .questionAnswers }}
-                        {{ if eq (int $question.questionId) 52401 }}
-                        <br/>
-                        <a href="/ics/{{$question.answerValue}}.ics" download title="Add to calendar">
-                            Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
-                        </a>
-                        {{end}}
-                        {{end}}
-                    </div>
+                    {{ range $question := .questionAnswers }}
+                    {{ if eq (int $question.questionId) 52401 }}
+                    <br />
+                    <a href="/ics/{{$question.answerValue}}.ics" download title="Add to calendar">
+                        Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
+                    </a>
+                    {{end}}
+                    {{end}}
+                </div>
                 </p>
 
                 <h4>Gather.town</h4>
-                
+
                 <p class="text-muted">
-                    We are excited to announce that the Global Azure conference this year will be streamed live in <a href="https://www.gather.town/use-cases/virtual-conferences" target="_blank">Gather.town</a>, a virtual event platform that offers an immersive and interactive experience. Gather.town allows you to explore the conference hall, visit exhibitor booths, and connect with other attendees in real-time. To join us in Gather.town, simply click on this button:
+                    We are excited to announce that the Global Azure conference this year will be streamed live in <a
+                        href="https://www.gather.town/use-cases/virtual-conferences" target="_blank">Gather.town</a>, a
+                    virtual event platform that offers an immersive and interactive experience. Gather.town allows you
+                    to explore the conference hall, visit exhibitor booths, and connect with other attendees in
+                    real-time. To join us in Gather.town, simply click on this button:
                 </p>
 
-                <p class="text-center"><a class="btn btn-primary" href="https://meet.coderdojo.net/gaa-gather" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Watch session in Gather.town</a></p>
+                <p class="text-center"><a class="btn btn-primary" href="https://meet.coderdojo.net/gaa-gather"
+                        target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Watch session in
+                        Gather.town</a></p>
 
-                <p class="text-muted">Please note that the Q&A sessions with speakers will only be available in Gather.town, so we highly encourage you to attend the conference through this platform if you wish to participate in these sessions.</p>
+                <p class="text-muted">Please note that the Q&A sessions with speakers will only be available in
+                    Gather.town, so we highly encourage you to attend the conference through this platform if you wish
+                    to participate in these sessions.</p>
 
                 <h4>YouTube</h4>
 
                 <p class="text-muted">
-                    Alternatively, for those who prefer a more traditional streaming platform, we will also provide a direct link to the conference on YouTube. To access the conference on YouTube, click on this button:
+                    Alternatively, for those who prefer a more traditional streaming platform, we will also provide a
+                    direct link to the conference on YouTube. To access the conference on YouTube, click on this button:
                 </p>
 
-                {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Link") 0).id }}
+                {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Link")
+                0).id }}
                 {{ if ne .id "249535" }}
                 <div class="links">
                     {{ range $question := .questionAnswers }}
                     {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
-                    <p class="text-center"><a class="btn btn-primary btn-xs" href="{{$question.answerValue}}" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a></p>
+                    <p class="text-center"><a class="btn btn-primary btn-xs" href="{{$question.answerValue}}"
+                            target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a></p>
                     {{ end }}
                     {{ end }}
                 </div>
                 {{ end }}
 
                 <p class="text-muted">
-                    We want to ensure that all attendees have a rewarding and enjoyable experience at the Global Azure conference, regardless of how you choose to join us. We hope to see you there!
+                    We want to ensure that all attendees have a rewarding and enjoyable experience at the Global Azure
+                    conference, regardless of how you choose to join us. We hope to see you there!
                 </p>
             </div>
             <div class="modal-footer">
@@ -185,12 +210,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">
                     <!--
                         // { { range where (index $.Site.Data.Y2024.sessionize.categories 1).items "id" "in" .categoryItems }}
                     -->
-                        <span class="label label-default float-right">{{ .name }}</span>
+                    <span class="label label-default float-right">{{ .name }}</span>
                     <!--
                         // { { end }}
                     -->
@@ -200,14 +226,14 @@
             </div>
             <div class="modal-body speaker">
                 <p>
-                    <div class="text-muted timeslot">
-                        {{ dateFormat "Monday, January 2, 2006" .startsAt }}
-                        {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
-                    </div>
+                <div class="text-muted timeslot">
+                    {{ dateFormat "Monday, January 2, 2006" .startsAt }}
+                    {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
+                </div>
                 </p>
-                
-                <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
-                
+
+                <p class="text-muted">{{ safeHTML (replace .description "\r\n" "<br />") }}</p>
+
                 <!-- {{ $shortLinkQuestionId := (index (where $.Site.Data.Y2024.sessionize.questions "question" "Short Link") 0).id }}
                 {{ if ne .id "249535" }}
                 <div class="links">
@@ -218,21 +244,27 @@
                     {{ end }}
                 </div>
                 {{ end }} -->
-                
+
                 {{ range where $.Site.Data.Y2024.sessionize.speakers "id" "in" .speakers }}
                 <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
                 </figure>
 
-                    <h4>About {{ .firstName }} {{ .lastName }}</h4>
-                    <h5><b>{{ .tagLine }}</b></h5>
-                    <p class="text-muted bio">{{ .bio }}</p>
+                <h4>About {{ .firstName }} {{ .lastName }}</h4>
+                <h5><b>{{ .tagLine }}</b></h5>
+                <p class="text-muted bio">{{ .bio }}</p>
 
-                    <div class="speaker">
-                        {{ range .links }}
-                        <div class="link"><a href="{{ .url }}" target="_blank">
-                            {{ with eq .linkType "LinkedIn"}}<i class="fa fa-linkedin" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Blog"}}<i class="fa fa-rss" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Company_Website"}}<i class="fa fa-home" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Other"}}<i class="fa fa-link" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Twitter"}}<i class="fa fa-twitter" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Instagram"}}<i class="fa fa-instagram" aria-hidden="true"></i>{{ end }}{{ .url }}</a></div>
-                        {{ end }}
-                    </div>
+                <div class="speaker">
+                    {{ range .links }}
+                    <div class="link"><a href="{{ .url }}" target="_blank">
+                            {{ with eq .linkType "LinkedIn"}}<i class="fa fa-linkedin" aria-hidden="true"></i>{{ end
+                            }}{{ with eq .linkType "Blog"}}<i class="fa fa-rss" aria-hidden="true"></i>{{ end }}{{ with
+                            eq .linkType "Company_Website"}}<i class="fa fa-home" aria-hidden="true"></i>{{ end }}{{
+                            with eq .linkType "Other"}}<i class="fa fa-link" aria-hidden="true"></i>{{ end }}{{ with eq
+                            .linkType "Twitter"}}<i class="fa fa-twitter" aria-hidden="true"></i>{{ end }}{{ with eq
+                            .linkType "Instagram"}}<i class="fa fa-instagram" aria-hidden="true"></i>{{ end }}{{ .url
+                            }}</a></div>
+                    {{ end }}
+                </div>
                 {{ end }}
 
             </div>

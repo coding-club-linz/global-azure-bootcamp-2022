@@ -1074,12 +1074,20 @@ body {
     margin-bottom: 10px;
 }
 
+.speakers {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .speakers .speaker {
     cursor: pointer;
 }
 
-.speaker {
+.speaker:not(.modal-body) {
     margin-bottom: 20px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .speaker .link {

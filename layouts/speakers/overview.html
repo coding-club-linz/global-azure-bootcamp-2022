@@ -7,13 +7,13 @@
 
 <body id="page">
     {{ partial "nav.html" . }}
-    
+
     <section id="speakers" class="speakers">
         <div class="row" id="mc_embed_signup">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Speakers</h2>
-                    <hr/>
+                    <hr />
                 </div>
             </div>
 
@@ -43,16 +43,17 @@
 
                                 <h5><b>Sessions</b></h5>
                                 <p class="sessions">
-                                    {{ range where $.Site.Data.sessionize.sessions "id" "in" (apply .sessions "string" ".") }}
-                                    
-                                    <div><a href="/sessions#{{.id}}">{{ .title }}</a></div>
-                                    {{ end }}
+                                    {{ range where $.Site.Data.sessionize.sessions "id" "in" (apply .sessions "string"
+                                    ".") }}
+
+                                <div><a href="/sessions#{{.id}}">{{ .title }}</a></div>
+                                {{ end }}
                                 </p>
 
                                 <h5><b>Links</b></h5>
                                 <p>{{ range .links }}
-                                    <div><a href="{{ .url }}" target="_blank">{{ .title }}</a></div>
-                                    {{ end }}
+                                <div><a href="{{ .url }}" target="_blank">{{ .title }}</a></div>
+                                {{ end }}
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -62,6 +63,10 @@
                     </div>
                 </div>
                 {{ end }}
+            </div>
+
+            <div class="row text-center">
+                <h3>We'll be announcing more speakers soon — stay tuned!</h3>
             </div>
 
         </div>

@@ -1,16 +1,15 @@
 {
   "sessions": [
     {
-      "id": "658419",
-      "title": "Keynote: Pioneering the Future of Java with Intelligent Apps",
-      "description": "Disruptive changes are so called because they cut across traditional boundaries in whatever domain it is they are disrupting. This keynote from 30-year software industry veteran Ed Burns and cutting-edge AI practitioner Sandra Ahlgrimm explores the ways that AI can be practically applied in a typical contemporary cloud-native Java Azure application deployment. We take examples from a full-length workshop and examine each in the context of the AI and cloud-native application patterns being illustrated.\r\n\r\n* What is the state of the art for continuing to derive value from existing legacy enterprise Java software line-of-business (LOB) applications?\r\n* We will use a chatbot to interact with GPT-4 and implement the Retrieval Augmented Generation (RAG) pattern.\r\n* Using a vector database, the model will be able to answer questions in natural language and generate complete, sourced responses from your own documents.\r\n* How can AI augment legacy LOB apps?\r\n* We will create a Quarkus service based on the open-source LangChain4J and ChatBootAI frameworks to test our chatbot.\r\n* This being Global Azure Austria, naturally, these resources are deployed to Azure.\r\n\r\nAfter this keynote, you will have a clearer understanding of large language models and how they work, as well as ideas for using them in your applications. You will also know how to create a functional knowledge base and chatbot, and how to deploy them in the cloud.\r\n",
+      "id": "1",
+      "title": "Central Network Management in Azure",
+      "description": "Arbeiten Sie mit der Cloud? Haben Sie mehr als ein virtuelles Netzwerk miteinander verbunden, regional oder vielleicht global? Verwenden Sie auch Azure-NSGs und ASGs? Dann wissen Sie, warum ein gutes zentralisiertes Netzwerkmanagement wichtig ist. In dieser Session werde ich die Antwort von Microsoft auf diese Anforderung vorstellen.",
       "startsAt": "2024-04-20T09:00:00",
       "endsAt": "2024-04-20T09:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "83c42ccd-b1e3-4c7e-906a-4009f7b52d8f",
-        "fb1a4080-cb59-4de7-9930-a411667c855f"
+        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
       ],
       "categoryItems": [],
       "questionAnswers": [
@@ -31,15 +30,15 @@
       "isConfirmed": true
     },
     {
-      "id": "646535",
-      "title": "Hello KI - Die Welt der Embeddings und Neuronale Netzwerke",
-      "description": "Der Vortrag gibt Einblicke in die Technologie von AI. Mit praktischen Beispielen veranschaulicht er die Arbeitsweise von AI Lösungen und deren Interaktion mit \"Weltwissen\" erfolgt. Welche Rolle spielen Embeddings, was sind diese und wie entstehen sie.\r\n\r\n",
+      "id": "2",
+      "title": "Declarative Agents in M365 mit REST-API Anbindung",
+      "description": "Declarative Agents in Microsoft 365 eröffnen neue Möglichkeiten zur Interaktion mit Daten und externen Systemen. In dieser Session zeige ich anhand von Beispielen, wie solche Agents erstellt werden.\r\n\r\nEin Agent unterstützt beim Schreiben, während ein anderer Informationen aus einem Fremdsystem abruft. Wir betrachten die technischen Grundlagen, mögliche Herausforderungen und den praktischen Nutzen. Nach dieser Session wissen Sie, wie Sie eigene Declarative Agents in M365 integrieren und sinnvoll einsetzen können.",
       "startsAt": "2024-04-20T10:00:00",
       "endsAt": "2024-04-20T10:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f21baecf-1b61-4e0b-8fb8-71894f39022b"
+        "278a9d7a-2419-404d-8ea4-a833d53ab387"
       ],
       "categoryItems": [],
       "questionAnswers": [
@@ -60,330 +59,11 @@
       "isConfirmed": true
     },
     {
-      "id": "655642",
-      "title": "Unleashing the Power of AI: Introducing Microsoft Copilot for Azure",
-      "description": "Microsoft Copilot for Azure is a revolutionary AI assistant designed to streamline your cloud experience. Leveraging advanced machine learning, it provides intelligent suggestions and solutions for your Azure tasks. Whether you’re deploying services, troubleshooting issues, or optimizing performance, Copilot is your trusted companion. Experience the future of cloud management with Microsoft Copilot for Azure.",
+      "id": "3",
+      "title": "How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions",
+      "description": "Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\r\n\r\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.",
       "startsAt": "2024-04-20T10:00:00",
       "endsAt": "2024-04-20T10:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "azure-copilot"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/olvjFwuAr9o"
-        }
-      ],
-      "roomId": 47113,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
-    },
-    {
-      "id": "641128",
-      "title": "To Containers and Beyond - Kubernetes as a Universal Control Plane",
-      "description": "Kubernetes has evolved beyond container orchestration - it is a powerful tool for managing diverse resources, from deployments to infrastructure and cloud resources. It is designed for extensibility and offers a robust foundation for more than just deployments. \r\n\r\nThis talk will dive into the exciting world of extending Kubernetes. We'll explore how Crossplane, an open source CNCF project, takes Kubernetes to a new level and enhances it to a versatile control plane. Further, it'll cover how GitOps can boost this powerful combination by providing automation, security, improved collaboration and more.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "0979c01c-b27b-4c4a-be3b-b1d0a927bd6a"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "k8s-control-plane"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/8oCxLK5P5I0"
-        }
-      ],
-      "roomId": 47114,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "649740",
-      "title": "Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen",
-      "description": "Im Vortrag \"Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen\" beleuchten wir die essenzielle Rolle von Embeddings in der Entwicklung fortschrittlicher künstlicher Intelligenz. Beginnend mit einer Auffrischung der mathematischen Grundlagen der Vektorrechnung, legen wir das Fundament für ein tiefes Verständnis von Embedding-Vektoren und deren Bedeutung in der modernen KI. Wir untersuchen, wie sowohl OpenAI als auch lokal ausführbare Large Language Models (LLMs) zur Ermittlung von Embeddings eingesetzt werden können, und diskutieren die praktische Integration und Manipulation dieser Embeddings in eigene Softwarelösungen.\r\n\r\nEin weiterer Schwerpunkt liegt auf der Speicherung und effizienten Abfrage von Embeddings in Vektordatenbanken, welche die Grundlage für skalierbare KI-Anwendungen bilden. Abschließend erörtern wir den Zusammenhang zwischen Embeddings und Retrieval-Augmented Generation (RAG) Lösungen, die die Kombination von generativer Sprachmodellierung und informationsbasiertem Retrieval nutzen, um die Qualität und Relevanz der KI-generierten Inhalte zu verbessern.",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "09ddaf8b-3529-46c5-b7dd-cb3ffd339edc"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "wort-zum-vektor"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/vBPeT7OYS5s"
-        }
-      ],
-      "roomId": 47112,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
-    },
-    {
-      "id": "650719",
-      "title": "Navigating the AI Skies: Unleashing Microsoft Copilot and Azure AI",
-      "description": "In today’s dynamic workplace, efficiency and innovation are paramount. Enter Microsoft Copilot and Azure AI—the dynamic duo that can revolutionize your workflows within Microsoft 365. But how do you harness their full potential to tackle real-world challenges?\r\n \r\nJoin Martina in this engaging session as she demystifies Copilot and Azure AI. Through practical examples and real-world use cases, you’ll discover how to:\r\n•\tAutomate Repetitive Tasks: Copilot’s intelligent suggestions streamline your work, freeing you to focus on what truly matters.\r\n•\tIntegrate Data Seamlessly: Learn how to leverage Azure AI to connect disparate data sources, transforming raw information into actionable insights.\r\n•\tOptimize Business Outcomes: Explore success stories where Copilot and Azure AI have driven efficiency, productivity, and growth.\r\n•\tCreate Your Own Solutions: Discover out-of-the-box tools and techniques to build custom Copilot solutions tailored to your organization’s needs.\r\nWhether you’re a seasoned pro or just dipping your toes into AI waters, this session promises practical takeaways that will elevate your Microsoft 365 experience. Get ready to soar with Copilot and Azure AI!\r\n",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "microsoft-copilot"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/LoICEwgIUiI"
-        }
-      ],
-      "roomId": 47113,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "671571",
-      "title": "Dealing with Kuber-plexity: A perspective on human factors in automation & abstraction",
-      "description": "While Cloud Native technology has many benefits, leading to its wholesale adoption across the globe, there is one big elephant in the room keeping us from making even bigger progress: An ever increasing amount of complex systems interacting with each other.\r\n\r\nWhile we are happily exchanging our on premise hardware for cloudy resources, in other areas Developers and IT Ops personal struggle to let go of doing _everything_ by themselves, causing fatigue, enormous lead times in adopting new technology like kubernetes.\r\n\r\nThis talk will philosophically approach the issue by comparison with another industry (aviation), which already uses a lot of psychological research about how humans fuck up to increase reliability and safety when lives are at stake.",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "48682e96-6443-4b3e-a7ff-045bfff452cc"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "kuberplexity"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/Mr3vOV69CVs"
-        }
-      ],
-      "roomId": 47114,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "652285",
-      "title": "The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure",
-      "description": "In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions. \r\nThis presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.\r\nA focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.\r\nJoin me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines. ",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "b4dd7471-8287-45cf-9473-c33101f3d87a"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "infinite-scale"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/DEUG4qj3DE8"
-        }
-      ],
-      "roomId": 48770,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "651098",
-      "title": "Keynote: Total rational - Das größte Missverständnis im data-driven Business",
-      "description": "Als Datenexperten möchten wir, dass unsere Entscheider endlich datengetriebene, rationale Entscheidungen treffen. Doch: Oft fällt es uns schwer unsere Kollegen von Bauchentscheidungen abzuhalten und unsere Dashboards, Datenservices und KI-Produkte bei den Usern so richtig zum Durchbruch zu bringen.\r\n\r\nDie schlechte Nachricht zuerst: Das menschliche Gehirn ist biologisch gar nicht in der Lage dazu data-driven rationale Entscheidungen zu treffen, so wie wir uns das idealisiert vorstellen. Heißt das also, dass all unsere Mühen rundum Daten- und KI-Initiativen umsonst sind?\r\n\r\nJetzt die gute Nachricht: Nein, natürlich nicht! Wir müssen data-driven jedoch neu denken (und umsetzen) um endlich das volle Potenzial unsere Datenprojekte auf die Straße zu bringen. Dann gelingt es uns auch, dass unsere Entscheider:innen und User:innen endlich wirklich datenbasiert arbeiten.",
-      "startsAt": "2024-04-20T12:00:00",
-      "endsAt": "2024-04-20T12:30:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "2f00c5ff-dffa-4f76-aab7-4536cafd9d2e"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "total-rational"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/aOSrbfNR6o0"
-        }
-      ],
-      "roomId": 47112,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "655759",
-      "title": "Social Media als Spielfeld für künstliche Intelligenz",
-      "description": "Wir gehen der Frage nach, wie ChatGPT Social Media verändert und welche neuen Chancen sich dadurch für Marketing-Experten eröffnen - in großen Agenturen genauso wie in Ein-Personen-Unternehmen. Dabei werfen wir auch einen kritischen Blick auf die Herausforderungen und unzähligen offenen Fragen, die KI im Bereich Unternehmenspräsentation und Werbung mit sich bringt. Ein spannender Einblick, wie KI im Bereich Social Media bereits tatsächlich genutzt wird und was uns in den nächsten Monaten auf TikTok und Instagram erwarten wird. ",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "af331c59-73fb-4b3d-ad5f-5b80db26ef7b"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "ki-social-media"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/PrdDiPR46bI"
-        }
-      ],
-      "roomId": 47112,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "650626",
-      "title": "Enhance Microsoft 365 Copilot and Microsoft Graph with your own data",
-      "description": "In this session, we explore how to leverage Microsoft Graph to seamlessly integrate custom data into your Microsoft 365 environment, resulting in optimal output when using Copilot. Furthermore, we explore a Microsoft Teams sample bot that seamlessly incorporates personalized data to provide relevant answers and perform actions. Join and see how to integrate custom data into M365 Copilot!",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "6221ae7e-40aa-49f7-9c41-e8a2c5ba1d75"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "copilot-and-graph"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/N0cuxKkVuyg"
-        }
-      ],
-      "roomId": 47113,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "653019",
-      "title": "Project Kappa - Or how we successfully failed to avoid our own Serverless platform",
-      "description": "Sometimes things look similar but are fundamentally different. Pasta with bacon and cream is not a Carbonara, the Mega Drive never was a Super Nintendo, and whatever Serverless solution you use, it is not AWS Lambda.\r\n\r\nWhile all of those comparisons make for some inner turmoil, especially the latter one caused severe problems when we tried to move our Serverless workloads to Azure. Simply because they do come with a challenge: Every developer at Dynatrace, every partner, and every customer should have the possibility to run privacy-first, isolated, and secure workloads on top of our data lake infrastructure.\r\n\r\nIn this talk, we will look at how Dynatrace managed to run their Serverless workloads on Azure, with a tailor-made, Kubernetes-based Serverless platform we so dearly tried to avoid at all costs. Not only will we look at the architecture at hand, but we will highlight every right decision that was paramount to solving this problem as painlessly as possible.",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "project-kappa"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/cneDN4PcVOk"
-        }
-      ],
-      "roomId": 47114,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "648654",
-      "title": "Supercharge Your AI App - OpenAI Function Calling Inside Out",
-      "description": "Function calling is an important capability of the OpenAI ChatGPT API. It has been present for a while and gets new features in ChatGPT's upcoming Assistant API. In this session, Rainer Stropek invites you to a deep dive into the capabilities of function calling. Rainer starts by quickly introducing the basics. Based on that he shows advanced features like streaming of function calls, function parallelization, tips for error handling etc.",
-      "startsAt": "2024-04-20T14:30:00",
-      "endsAt": "2024-04-20T15:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [
-        {
-          "questionId": 71787,
-          "answerValue": "openai-functions"
-        },
-        {
-          "questionId": 71788,
-          "answerValue": "https://youtube.com/live/5nk3jez0GEk"
-        }
-      ],
-      "roomId": 47112,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "641462",
-      "title": "Infrastructure as Code and AI - does it fit?",
-      "description": "Infrastructure as Code is crucial for the cloud native development. It allows you to automate the deployment of your resources and comes with a lot of other benefits.\r\nHow does Infrastructure as Code harmonize with AI tools like the GitHub Copilot?\r\nI wanted to investigate the matter and examine how well AI tools can be applied to several use cases related to Infrastructure as Code: for code generation, code interpretation, and error analysis. I intend to publish the results of this session.\r\n",
-      "startsAt": "2024-04-20T14:30:00",
-      "endsAt": "2024-04-20T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -393,14 +73,14 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "iac-ai"
+          "answerValue": "hello-ai"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/x0xlzGjKcf4"
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47113,
+      "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -408,28 +88,28 @@
       "isConfirmed": true
     },
     {
-      "id": "655696",
-      "title": "Transforming diverse system landscapes into sustainable API products with Azure API Management",
-      "description": "Well-designed, secure and fast APIs are the backbone of many successful digital products. While APIs need to fulfill specific product-related needs, developers must think of security, monitoring, versioning and many further topics for creating a long-lasting robust API. Especially when dealing with a heterogenous system landscape as the starting basis, the integration of different sources into a unified clean API product is a key factor for enabling faster adoption by app developers while making full use of existing data. \r\nDiscover how Azure API Management revolutionizes API integration and development being a hybrid, multicloud management platform for APIs across all environments. Learn the secrets of analytics-driven decisions, as Azure API Management delivers insightful usage metrics, error diagnostics, and latency analysis while also providing the necessary tools for versioning and lifecycle management. With just a few steps developers can easily abstract backend diversity while securely exposing services hosted inside and outside of Azure. Let’s explore how Azure API Management can help you providing a centralized platform for managing manifold aspects of your APIs. ",
-      "startsAt": "2024-04-20T14:30:00",
-      "endsAt": "2024-04-20T15:15:00",
+      "id": "4",
+      "title": "Finetuning of OpenAI LLMs",
+      "description": "Prompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "a2395ea0-1c21-4eed-b8ad-367fa2032cf7"
+        "1f57cdc5-8341-4f9c-95af-4f334e41dc65"
       ],
       "categoryItems": [],
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "azure-api-mgmt"
+          "answerValue": "hello-ai"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/HPpH9E0WlA4"
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47114,
+      "roomId": 47112,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -439,146 +119,34 @@
   ],
   "speakers": [
     {
-      "id": "09ddaf8b-3529-46c5-b7dd-cb3ffd339edc",
-      "firstName": "Alex",
-      "lastName": "Kornfellner",
-      "bio": "Alexander Kornfellner unterricht an der HTBLA Leonding sowie an der HAK Eferding Mathematik, Programmieren, Data Science und Artificial Intelligence. In seiner Freizeit ist Alex begeisterter Fußballer und Tennisspieler.",
-      "tagLine": "Lehrer für Mathematik, KI und Advanced Algorithms an der HTL Leonding",
-      "profilePicture": "https://sessionize.com/image/cbd4-400o400o1-wET4tXku1j7qexMoM5FyNW.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        649740
-      ],
-      "fullName": "Alex Kornfellner",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "83c42ccd-b1e3-4c7e-906a-4009f7b52d8f",
-      "firstName": "Ed",
-      "lastName": "Burns",
-      "bio": "Ed Burns is currently Principal Architect on the Java Tooling and Experiences team at Microsoft. In this role, Ed will help make Azure the best place for Enterprise Java. Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at https://ridingthecrest.com.",
-      "tagLine": "Principal Architect on the Java Tooling and Experiences team at Microsoft",
-      "profilePicture": "https://sessionize.com/image/a468-400o400o1-nb1Up93c7w6tM3bwitP5d1.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        658419
-      ],
-      "fullName": "Ed Burns",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "48682e96-6443-4b3e-a7ff-045bfff452cc",
-      "firstName": "Franz",
-      "lastName": "Theisen",
-      "bio": "I joined Red Hat in 2015 and have held various positions in sales. From 2022 till 2024 I was responsible for the Presales and Sales Specialists in the Austrian Market, supporting our customers in adopting technologies such as OpenShift, Ansible and Linux.  Since 2024 I have the high pleasure of leading the OpenShift Specialist team for Central Europe.\r\n\r\nBefore joining Red Hat I held positions in Business Development for Virtualization Technology  and as Software Asset Management Consultant at  IT Distribution companies (Arrow, TechData)",
-      "tagLine": "Manager OpenShift Specialists Central Europe at Red Hat",
-      "profilePicture": "https://sessionize.com/image/e792-400o400o1-BcBQcyWmPfuryZpf64iNU.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        671571
-      ],
-      "fullName": "Franz Theisen",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "1d18ea23-d6dc-4600-bbae-2916afebb0d7",
       "firstName": "Hannes",
       "lastName": "Lagler-Gruener",
-      "bio": "Hannes Lagler-Gruener is a senior cloud architect with consulting experience of more than 15 years.\r\nHannes is focusing on cloud architecture and security.\r\nHannes had deep experience in IaaS, Security, Networking, Governance, and IaC. He started his carrier at one of the biggest Austrian banks and changed to Microsoft Austria after a few years.\r\nCurrently, Hannes is working at ACP IT Solutions GMBH as Lead-Cloud Solutions Architect.",
+      "bio": "Hannes Lagler-Gruener ist Senior Cloud Architect mit über 15 Jahren Beratungserfahrung. Er konzentriert sich auf Cloud Sicherheit und Architektur Konzepte wie auch Implementierung. Hannes verfügt über umfassende Erfahrung in den Bereichen IaaS, Sicherheit, Netzwerk, Governance und IaC. Er begann seine Karriere bei einer der größten österreichischen Banken und wechselte nach einigen Jahren zu Microsoft Österreich. Heute arbeitet Hannes als Cloud Technology Lead bei der ACP IT Solutions GmbH wo er das CCoE der ACP ständig weiter entwickelt. Zusätzlich unterstützt er in Kunden Architekturen und Beratung im Bereich Sicherheit wie auch Infrastruktur.",
       "tagLine": "MVP | ACP IT Solutions GMBH, Lead Cloud Architect ",
       "profilePicture": "https://sessionize.com/image/e1c0-400o400o1-MRNTE7MYFpYmnEaiwGm6WZ.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        655642
+        1
       ],
       "fullName": "Hannes Lagler-Gruener",
       "categoryItems": [],
       "questionAnswers": []
     },
     {
-      "id": "2f00c5ff-dffa-4f76-aab7-4536cafd9d2e",
-      "firstName": "Julia",
-      "lastName": "Zukrigl",
-      "bio": "Julia Zukrigl ist promovierte Verhaltensforscherin,\r\ndie Data Scientist wurde und bei so manchen Datenprojekt einfach nicht zu Entscheidern und Usern durchgedrungen ist. \r\nDann hat sie sich an ihren Ursprung in den Verhaltenswissenschaften erinnert. Sie hat das Wissen über menschliches Entscheidungs- und Informationsverhalten auf die Welt der Daten umgelegt, mit Kommunikationswerkzeugen verbunden und in einen Methodenkoffer verpackt. Ab dann hatten sie und ihre Kollegen Erfolg bei Entscheidern, Kunden und Usern. \r\n\r\nIrgendwann nannte man das, was sie tut, dann Data Storytelling. Heute teilt sie diesen Methodenkoffer mit Datenexperten als Trainerin im DATA story LAB. \r\n",
-      "tagLine": "Head Trainer @ DATA story LAB",
-      "profilePicture": "https://sessionize.com/image/5160-400o400o1-TFtU2DVfv43ayXqSXPzH1q.jpg",
+      "id": "278a9d7a-2419-404d-8ea4-a833d53ab387",
+      "firstName": "Peter Paul",
+      "lastName": "Kirschner",
+      "bio": "Peter has over a decade of experience as a SharePoint and Microsoft 365 consultant and works as a software architect at ACP CUBIDO Digital Solutions GmbH. He specializes in developing high-quality web-based, hybrid, and mobile applications using a wide range of technologies.\r\n\r\nWith a deep passion for software development and a strong focus on automation, he eagerly takes on technical and conceptual challenges in projects. His current focus is on developing apps and bots within the Microsoft 365 ecosystem, with a particular emphasis on integrating AI systems in enterprise environments.\r\n\r\nBeyond his technical expertise, Peter is an active member of the community, sharing his knowledge through presentations and blog posts while contributing to the advancement of modern cloud, AI, and automation solutions. His combination of expertise, innovation, and hands-on experience makes him a valued expert in delivering sustainable and efficient solutions for businesses.",
+      "tagLine": "Microsoft M365 Dev MVP | ACP CUBIDO Digital Solutions GmbH, Software Architect",
+      "profilePicture": "https://sessionize.com/image/bc3d-400o400o2-fb-c6ca-4fb3-854d-d426ccb22881.3afe749e-881f-43a2-ab2a-1fd0a4d0ea75.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        651098
+        2
       ],
-      "fullName": "Julia Zukrigl",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "0979c01c-b27b-4c4a-be3b-b1d0a927bd6a",
-      "firstName": "Katharina",
-      "lastName": "Sick",
-      "bio": "I'm all about making things user-friendly, especially when it comes to Cloud Native and Kubernetes.\r\n\r\nI've done a fair share of mobile app and backend work, but lately, I'm really into Cloud Native computing and enjoy it a lot.\r\n\r\nOutside of work, you'll find me hanging out in tech and sports communities, cruising on inline skates, exploring new places, or challenging myself with quizzes and games.",
-      "tagLine": "Software Engineer at Dynatrace",
-      "profilePicture": "https://sessionize.com/image/7aa6-400o400o1-YBTp7dF7xfej9ijKQcRWB8.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        641128
-      ],
-      "fullName": "Katharina Sick",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "f21baecf-1b61-4e0b-8fb8-71894f39022b",
-      "firstName": "Mario",
-      "lastName": "Schnalzenberger",
-      "bio": "Mario Schnalzenberger ist seit über 25 Jahren in der IT-Industrie tätig und setzt sich seit über 15 Jahren im Bereich Statistik und AI als auch im Predictive Bereich mit vielseitigen Lösungen auseinander. Seit 10 Jahren ist er im cubido-Team und unterstützt die Kunden in diesem spannenden Umfeld. Mario hat Abschlüsse in Statistik, Volkswirtschaftslehre und Sozial- und Wirtschaftswissenschaften. Er unterrichtet(e) an mehreren Universitäten und Hochschulen in Österreich sowie der HTL Leonding. Er trägt regelmäßig bei verschiedensten Konferenzen in den vielfältigen Themen der angewandten Statistik, Informatik, IOT und AI vor.",
-      "tagLine": "Data Scientist, cubido business solutions GmbH",
-      "profilePicture": "https://sessionize.com/image/95d3-400o400o1-R5d3ztRAEtpDbLUkL9oCBf.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        646535
-      ],
-      "fullName": "Mario Schnalzenberger",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "72d847d4-d71a-48b9-9788-5bc1471d3ea4",
-      "firstName": "Martina",
-      "lastName": "Grom",
-      "bio": "I am a Principal at atwork currently living in Vienna, Austria. My interests range from technology to travel. I am also interested in science fiction, writing, and innovation. I am recognized as an expert in Microsoft Cloud solutions. Since 2015, I am a Regional Director for Microsoft. My expertise is related to online technologies, and my specialty is in Microsoft Cloud Services like Azure and Microsoft 365. I help with architecture planning companies with cloud solutions, and provide strategy, consulting, governance, security and compliance and architectural planning of cloud projects. In addition, I am one of the organizational heads of cloudusergroup for Germany, Austria, and Switzerland. I have authored numerous books, articles and blogs. My passion is online and social media, cloud computing, cybersecurity. I have a Master’s of International Business Administration from the University of Vienna, Austria. Talk to me about: Cloud Computing, Cloud Architecture & Strategy, Change Management, Microsoft Azure, Microsoft 365, Enterprise Social.",
-      "tagLine": "CEO atwork, MVP Azure and Microsoft 365, Microsoft RD",
-      "profilePicture": "https://sessionize.com/image/401c-400o400o1-LLLR1dWVDKJRQDEaE31XYW.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        650719
-      ],
-      "fullName": "Martina Grom",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "b4dd7471-8287-45cf-9473-c33101f3d87a",
-      "firstName": "Michael",
-      "lastName": "Mittermayr",
-      "bio": "Michael Mittermayr is working as Principal Software Architect at Zühlke. He is passionate about modern software development using Azure, mostly focusing on distributed systems in the IoT and Data domain. With a strong engineering background in .NET, Michael loves to get his hands dirty and enjoys challenging projects as a Coding Architect. ",
-      "tagLine": "Principal Software Architect, Zühlke Group",
-      "profilePicture": "https://sessionize.com/image/7c40-400o400o1-UTbfHt9xfuENbjeeWiLAvc.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        652285
-      ],
-      "fullName": "Michael Mittermayr",
+      "fullName": "Peter Paul Kirschnler",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -586,111 +154,31 @@
       "id": "52214c40-9cb0-44a6-a1f5-ab2302c9bb40",
       "firstName": "Patrick",
       "lastName": "Koch",
-      "bio": "Cloud Adoption Engineer & Cloud Evangelist | Blogger \"DevOps Experiences\" 🚀 | Speaker | Co-organizer Microsoft Developer User Group Graz | Microsoft MVP | HashiCorp Ambassador\r\n",
+      "bio": "Cloud Adoption Engineer & Cloud Evangelist | Blogger \"DevOps Experiences\" 🚀 | Speaker | Co-organizer Microsoft Developer User Group Graz | Microsoft MVP | HashiCorp Ambassador",
       "tagLine": "Cloud Adoption Engineer & Cloud Evangelist at AVL List GmbH",
-      "profilePicture": "https://sessionize.com/image/8a2b-400o400o1-Mc8gNnBmwjdydofLFuRELK.jpg",
+      "profilePicture": "/img/speakers/patrick-koch.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        641462
+        3
       ],
       "fullName": "Patrick Koch",
       "categoryItems": [],
       "questionAnswers": []
     },
     {
-      "id": "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7",
-      "firstName": "Rainer",
-      "lastName": "Stropek",
-      "bio": "Rainer Stropek is co-founder and CEO of the company software architects and has been serving this role since 2008. At software architects Rainer and his team are developing the award-winning SaaS time tracking solution “time cockpit”. Previously, Rainer founded and led two IT consulting firms that worked in the area of developing software solution based on the Microsoft technology stack.\r\n\r\nRainer is recognized as an expert concerning .NET development, software architecture and databases. He has written numerous books and articles on C#, database development, Microsoft Azure, XAML, and web development. Additionally he regularly speaks at conferences, workshops and trainings in Europe and the US. In 2010 Rainer has become one of the first MVPs for the Microsoft Windows Azure platform. In 2015, Rainer also became a Microsoft Regional Director. 2016, Rainer also got the MVP award for Visual Studio and Developer Technologies.\r\n\r\nRainer graduated the Higher Technical School Leonding (AT) for MIS with honors and holds a BSc (Hons) Computer Studies of the University of Derby (UK).",
-      "tagLine": "software architects",
-      "profilePicture": "https://sessionize.com/image/a360-400o400o1-BR1Mti2Z8sUDM3oGxycDc8.jpg",
+      "id": "1f57cdc5-8341-4f9c-95af-4f334e41dc65",
+      "firstName": "Melanie",
+      "lastName": "Bauer",
+      "bio": "Melanie Bauer is a passionate young programmer with a strong interest in artificial intelligence. She is currently a student at the Higher Technical School for MIS in Leonding, Austria. Despite her young age, Melanie has already gained experience in software development, focusing on AI-driven applications and innovative technologies. She actively expands her knowledge by working on projects, participating in coding contests, and engaging with the developer community.",
+      "tagLine": "Learning, creating, sharing — together with the developer community",
+      "profilePicture": "/img/speakers/melanie-bauer.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        648654
+        4
       ],
-      "fullName": "Rainer Stropek",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "fb1a4080-cb59-4de7-9930-a411667c855f",
-      "firstName": "Sandra",
-      "lastName": "Ahlgrimm",
-      "bio": "Sandra Ahlgrimm is a Cloud Advocate working for Java Developers at Microsoft. She leads the Berlin JUG and Berlin Docker MeetUp. Sandra has been a Java developer for over a decade and is a container admirer who recently learned to love AI.",
-      "tagLine": "Cloud Advocate working for Java Developers at Microsoft",
-      "profilePicture": "https://sessionize.com/image/9b1f-400o400o1-sWZ6F5fp6D6drmLWUTo3By.png",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        658419
-      ],
-      "fullName": "Sandra Ahlgrimm",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "f62f9691-37cd-4ca6-81f1-14c7234ab46e",
-      "firstName": "Stefan",
-      "lastName": "Baumgartner",
-      "bio": "Stefan Baumgartner is an architect and developer based in Austria. He is the author of \"TypeScript in 50 Lessons\" (Smashing Magazine, 2020) and \"The TypeScript Cookbook\" (O'Reilly, 2023). In his spare time, he organizes ScriptConf and Rust Linz. Stefan enjoys Italian food, Belgian beer, and British vinyl records.",
-      "tagLine": "Dynatrace",
-      "profilePicture": "https://sessionize.com/image/3534-400o400o1-47Tv5MbEJ5G86AhNLF8eec.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        653019
-      ],
-      "fullName": "Stefan Baumgartner",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "a2395ea0-1c21-4eed-b8ad-367fa2032cf7",
-      "firstName": "Tobias",
-      "lastName": "Berei",
-      "bio": "Tobias Berei works as a Software Architect at softaware gmbh. Specializing in .NET and Azure, he focuses on delivering optimal cloud-based solutions in complex system landscapes. Beyond his role, he serves as a part-time lecturer for software engineering, sharing practical insights and fostering the next wave of developers. Tobias has a double-degree in Software Engineering and Computer Science, is holding multiple Azure certifications and has made scientific contributions in the field of Answer Set Programming. He likes motorcycles, good coffee and Azure.",
-      "tagLine": "Software Architekt, softaware gmbh",
-      "profilePicture": "https://sessionize.com/image/8b0e-400o400o1-NZfMS1vTkotyJi4Umap54H.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        655696
-      ],
-      "fullName": "Tobias Berei",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "6221ae7e-40aa-49f7-9c41-e8a2c5ba1d75",
-      "firstName": "Toni",
-      "lastName": "Pohl",
-      "bio": "I work as consultant and I am specialized in designing solutions for Microsoft 365 and Microsoft Azure. I'm a conference speaker, blogger, and Microsoft MVP.",
-      "tagLine": "CTO atwork, Microsoft MVP",
-      "profilePicture": "https://sessionize.com/image/6e77-400o400o1-4oNabEf5HJiazvw3LSn1hk.png",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        650626
-      ],
-      "fullName": "Toni Pohl",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "af331c59-73fb-4b3d-ad5f-5b80db26ef7b",
-      "firstName": "Verena",
-      "lastName": "Gottwald",
-      "bio": "Ich bin Social Media Enthusiastin mit Weitblick.\r\n\r\nMeine Leidenschaft für Hashtags, Reels, Likes und alles, was dazu gehört, teile ich mit Ärztinnen und Spezialistinnen im Gesundheitswesen. Hier leiste ich Hilfe zur Selbsthilfe und gebe mein Social-Media-Wissen in Workshops und Beratungen weiter.\r\n\r\nDabei liegt mein Fokus derzeit auch auf einer der bedeutendsten technologischen Entwicklungen: Künstliche Intelligenz. Ich beschäftige mich täglich mit Tools und Fragestellungen rund um die vereinfachte und beschleunigte Content Creation mithilfe von KI sowie den damit einhergehenden Herausforderungen für unsere Branche.",
-      "tagLine": "Founder & Social Media Enthusiast",
-      "profilePicture": "https://sessionize.com/image/c699-400o400o1-Mo2Lzt34CEtVfndsDMSwbC.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        655759
-      ],
-      "fullName": "Verena Gottwald",
+      "fullName": "Melanie Bauer",
       "categoryItems": [],
       "questionAnswers": []
     }

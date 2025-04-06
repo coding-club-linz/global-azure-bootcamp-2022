@@ -14,19 +14,20 @@
     <section id="sessions" class="sessions">
         <div class="container">
             <div class="row" id="mc_embed_signup">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Sessions</h2>
-        
-                        <hr>
-                        
-                    </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Sessions</h2>
+
+                    <hr>
+
+                </div>
             </div>
-            {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title" }}
+            {{ range $index, $element := sort (where $.Site.Data.sessionize.sessions "isServiceSession" false) ".title"
+            }}
             <div class="row" id="{{ .id }}">
                 {{ range $question := .questionAnswers }}
-                    {{ if eq (int $question.questionId) (int $shortTitleQuestionId) }}
-                    <div id="{{$question.answerValue}}"></div>
-                    {{ end }}
+                {{ if eq (int $question.questionId) (int $shortTitleQuestionId) }}
+                <div id="{{$question.answerValue}}"></div>
+                {{ end }}
                 {{ end }}
 
                 {{ if ne $index 0 }}
@@ -43,22 +44,22 @@
                         {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }} CEST
 
                         <!-- { { range $question := .questionAnswers } } -->
-                        <br/>
+                        <br />
                         <a href="/ics/{{ .id }}.ics" download title="Add to calendar">
                             Add to calendar <i class="fa fa-calendar" style="margin-left: 5px"></i>
                         </a>
                         <!-- { {end} } -->
                     </p>
 
-                    <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
+                    <p class="text-muted">{{ safeHTML (replace .description "\r\n" "<br />") }}</p>
 
-                    <div class="links">
+                    <!-- <div class="links">
                         {{ range $question := .questionAnswers }}
                         {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
                         <p class="text-center"><a class="btn btn-primary btn-xs" href="{{$question.answerValue}}" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open in YouTube</a></p>
                         {{ end }}
                         {{ end }}
-                    </div>
+                    </div> -->
 
                     <!-- {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
                     {{ if ne .id "249535" }}
@@ -72,10 +73,16 @@
                     <h4>About {{ .firstName }} {{ .lastName }}</h4>
                     <p class="text-muted bio">{{ .bio }}</p>
                     <div class="speaker">
-                    {{ range .links }}
-                    <div class="link"><a href="{{ .url }}" target="_blank">
-                        {{ with eq .linkType "LinkedIn"}}<i class="fa fa-linkedin" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Blog"}}<i class="fa fa-rss" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Company_Website"}}<i class="fa fa-home" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Other"}}<i class="fa fa-link" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Twitter"}}<i class="fa fa-twitter" aria-hidden="true"></i>{{ end }}{{ with eq .linkType "Instagram"}}<i class="fa fa-instagram" aria-hidden="true"></i>{{ end }}{{ .url }}</a></div>
-                    {{ end }}
+                        {{ range .links }}
+                        <div class="link"><a href="{{ .url }}" target="_blank">
+                                {{ with eq .linkType "LinkedIn"}}<i class="fa fa-linkedin" aria-hidden="true"></i>{{ end
+                                }}{{ with eq .linkType "Blog"}}<i class="fa fa-rss" aria-hidden="true"></i>{{ end }}{{
+                                with eq .linkType "Company_Website"}}<i class="fa fa-home" aria-hidden="true"></i>{{ end
+                                }}{{ with eq .linkType "Other"}}<i class="fa fa-link" aria-hidden="true"></i>{{ end }}{{
+                                with eq .linkType "Twitter"}}<i class="fa fa-twitter" aria-hidden="true"></i>{{ end }}{{
+                                with eq .linkType "Instagram"}}<i class="fa fa-instagram" aria-hidden="true"></i>{{ end
+                                }}{{ .url }}</a></div>
+                        {{ end }}
                     </div>
                     {{ end }}
                 </div>
@@ -92,21 +99,27 @@
                 </div>
             </div>
             {{ end }}
+
+            <div class="row text-center">
+                <h3>We'll be announcing more sessions soon — stay tuned!</h3>
+            </div>
         </div>
     </section>
 
     {{ range sort $.Site.Data.Y2024.sessionize.sessions ".id" }}
     <!-- streaming -->
-    <div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade schedule-session" id="streaming-{{ .id }}" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">
                         <!--
                             // { { range where (index $.Site.Data.Y2024.sessionize.categories 1).items "id" "in" .categoryItems }}
                         -->
-                            <span class="label label-default float-right">{{ .name }}</span>
+                        <span class="label label-default float-right">{{ .name }}</span>
                         <!--
                             // { { end }}
                         -->
