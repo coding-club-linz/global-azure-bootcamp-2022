@@ -24,11 +24,6 @@ jobs:
           hugo-version: '0.110.0'
           extended: true
 
-      - name: 📅 Download speakers and sessions from Sessionize
-        run: |
-          curl https://sessionize.com/api/v2/w92m62v2/view/All -s -o ./data/sessionize.json
-          cp ./data/sessionize.json ./data/Y2024/sessionize.json
-          
       - name: 📆 Generate ICS files
         run: node utils/generate-ics.js
 
