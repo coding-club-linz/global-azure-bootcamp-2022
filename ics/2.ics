@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: Declarative Agents in M365 mit REST-API Anbindung\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nDeclarative Agents in Microsoft 365 eröffnen neue Möglichkeiten zur Interaktion mit Daten und externen Systemen. In dieser Session zeige ich anhand von Beispielen, wie solche Agents erstellt werden.\n\nEin Agent unterstützt beim Schreiben, während ein anderer Informationen aus einem Fremdsystem abruft. Wir betrachten die technischen Grundlagen, mögliche Herausforderungen und den praktischen Nutzen. Nach dieser Session wissen Sie, wie Sie eigene Declarative Agents in M365 integrieren und sinnvoll einsetzen können.\n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T100000
+DTEND;VALUE=DATE-TIME:20240420T104500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: Declarative Agents in M365 mit REST-API Anbindung
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
