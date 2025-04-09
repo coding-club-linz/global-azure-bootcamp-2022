@@ -115,6 +115,64 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "5",
+      "title": "Empowering Austria with Azure: Innovation & Trust in the Age of AI",
+      "description": "In today's rapidly evolving digital landscape, trust and innovation are paramount. Join us for an insightful keynote on how Microsoft Azure is revolutionizing the way we develop and deploy applications around the globe, in Europe, and soon also in our own cloud region in Austria. Discover how Azure's robust infrastructure supports cutting-edge AI models, ensuring compliance with European data privacy regulations. Learn about Microsoft's unwavering commitment to data security and privacy, and how Azure empowers developers to build scalable, secure, and innovative solutions. This session will provide a comprehensive overview of Azure's capabilities, highlighting its role in fostering trust and driving technological advancements within Europe.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e2b0f382-5dea-4b75-a94d-1fc5cccc3b31"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "6",
+      "title": "Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025",
+      "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3d5a217b-0765-4698-999b-1fd2a749b344"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     }
   ],
   "speakers": [
@@ -179,6 +237,38 @@
         4
       ],
       "fullName": "Melanie Bauer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e2b0f382-5dea-4b75-a94d-1fc5cccc3b31",
+      "firstName": "Jürgen",
+      "lastName": "Etzlstorfer",
+      "bio": "Jürgen Etzlstorfer is an Azure Application Innovation Specialist at Microsoft Austria, helping customers building new, innovative solutions in Azure, or migrating and modernizing legacy applications. Jürgen has been working in the industry in the roles of a developer and architect, researcher, product manager, and evangelist in the last 10+ years. He has been an active contributor to open-source and a leader and organizer of the Cloud-Native community Linz.",
+      "tagLine": "Application Innovation Specialist",
+      "profilePicture": "/img/speakers/juergen-etzlstorfer.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        5
+      ],
+      "fullName": "Jürgen Etzlstorfer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "3d5a217b-0765-4698-999b-1fd2a749b344",
+      "firstName": "Christian",
+      "lastName": "Schabetsberger",
+      "bio": "Christian Schabetsberger, the world's okayest developer, is a Freelance Software Engineer & Architect from Linz, Austria. Having spent half of his life in the .NET ecosystem, he likes to stay on the bleeding edge of technology to become the (tech-savvy) ninja he pretends to be since he is six.",
+      "tagLine": "Freelance Software Engineer & Architect",
+      "profilePicture": "https://www.finxit.at/assets/img/profile.webp",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        6
+      ],
+      "fullName": "Christian Schabetsberger",
       "categoryItems": [],
       "questionAnswers": []
     }
