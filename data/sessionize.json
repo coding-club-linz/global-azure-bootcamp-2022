@@ -173,6 +173,35 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "7",
+      "title": "Build Their Platform, Not Yours: Empowering Developers",
+      "description": "Developer platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.\r\n\r\nThis naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?\r\n\r\nThis talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "870c4e80-80f7-4bd6-baab-e0e029e588fb"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     }
   ],
   "speakers": [
@@ -269,6 +298,22 @@
         6
       ],
       "fullName": "Christian Schabetsberger",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "870c4e80-80f7-4bd6-baab-e0e029e588fb",
+      "firstName": "Katharina",
+      "lastName": "Sick",
+      "bio": "I'm a developer advocate at Dynatrace and passionate about making things user-friendly, especially in the realms of Cloud Native and Kubernetes. My background includes experience in mobile and backend development, but my current focus and enthusiasm lie in the world of Cloud Native computing. Outside of work, I enjoy spending quality time with my family. You'll also often find me engaged in tech and sports communities, cruising on inline skates, exploring new places, or challenging myself with quizzes and games.",
+      "tagLine": "Cloud Native & Open Source Enthusiast | DevRel @Dynatrace",
+      "profilePicture": "/img/speakers/katharina-sick.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        7
+      ],
+      "fullName": "Katharina Sick",
       "categoryItems": [],
       "questionAnswers": []
     }
