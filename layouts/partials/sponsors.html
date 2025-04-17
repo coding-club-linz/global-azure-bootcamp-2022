@@ -26,23 +26,23 @@
             {{ $colsXs := 6 }}
             {{ $colsOffsetXs := 0 }}
 
-            {{ if or (eq .Params.priority 1)  }}
+            {{ if or (eq .Params.priority 1) }}
             {{ $cols = 12 }}
             {{ $colsXs = 12 }}
             {{ end }}
-            
+
             {{ if (eq .Params.priority 2) }}
-            {{ $cols = 3 }}
+            {{ $cols = 6 }}
             {{ $colsXs = 8 }}
             {{ $colsOffsetXs = 2 }}
             {{ end }}
-            
+
             {{ if (eq .Params.priority 3) }}
             {{ $cols = 12 }}
             {{ $colsXs = 12 }}
             {{ $colsOffsetXs = 0 }}
             {{ end }}
-            
+
             {{ if (eq .Params.priority 4) }}
             {{ $cols = 6 }}
             {{ $colsXs = 12 }}
@@ -62,7 +62,8 @@
             {{ if isset .Params "logooverview" }}
             {{ $logo = .Params.logooverview }}
             {{ end }}
-            <div class="col-sm-{{$cols}} col-sm-offset-0 col-xs-{{$colsXs}} col-xs-offset-{{$colsOffsetXs}} text-center sponsor-logo">
+            <div
+                class="col-sm-{{$cols}} col-sm-offset-0 col-xs-{{$colsXs}} col-xs-offset-{{$colsOffsetXs}} text-center sponsor-logo">
                 <p>
                     <a href="/sponsors#{{ .Params.title }}"><img class="prio{{.Params.priority}}"
                             src="/img/sponsors/{{ $logo }}" /></a>

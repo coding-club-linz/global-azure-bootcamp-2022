@@ -2,20 +2,20 @@
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <image x="0" y="0" width="1920" height="1080" xlink:href="../hero-bkg-1920x1080.png" />
 
-    <image x="660" y="150" width="600" height="462" xlink:href="../gab2024.png" />
+    <image x="660" y="150" width="600" height="462" xlink:href="../gab2025.png" />
 
 
     <!-- Speaker -->
     <rect x="100" y="700" width="1720" height="100" rx="50" ry="50" fill="#e3c038" />
     <text font-family="Segoe UI" font-size="40" x="960" y="765" fill="#000" text-anchor="middle"
         alignment-baseline="central">
-        Our focus this year: AI and DevOps
+        Popcorn Meets Cloud – GAA 2025 at the Hollywood Megaplex PlusCity
     </text>
 
     <!-- Date -->
     <text font-family="Segoe UI" font-size="50" font-weight="bold" x="960" y="900" fill="#e3c038"
         text-anchor="middle" alignment-baseline="central">
-        Join us on Saturday, April 20th, 09:00 AM CEST
+        Join us on Saturday, May 10th, 09:00 AM CEST
     </text>
 
     <text font-family="Segoe UI" font-size="40" x="960" y="965" fill="#e3c038" text-anchor="middle"
