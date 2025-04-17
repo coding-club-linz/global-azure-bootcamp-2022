@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gaaustria2021
+CLASS:PUBLIC
+DESCRIPTION:Global Azure Austria: GAA: AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.\n\n---\n\nVisit https://globalazure.at/ for more information
+DTSTAMP;VALUE=DATE-TIME:20210416T120000
+DTSTART;VALUE=DATE-TIME:20240420T100000
+DTEND;VALUE=DATE-TIME:20240420T104500
+LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
+SUMMARY;LANGUAGE=en-us:GAA: AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
