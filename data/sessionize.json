@@ -261,6 +261,35 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "10",
+      "title": "IT-Spielplatz für 1000+ Poweruser - Proxmox in der Praxis an der HTL Leonding",
+      "description": "In dieser Session stellt Michael Wagner die Virtualisierungsumgebung an der HTL Leonding vor, in der über 1.000 Schüler:innen und Lehrer:innen mit Proxmox arbeiten. Er zeigt, wie Proxmox für den flexiblen Einsatz im Unterricht und in der Administration konfiguriert wurde, um skalierbare und sichere virtuelle Maschinen und LXC-Container bereitzustellen.\r\n\r\nAnhand konkreter Anwendungsfälle – von Entwicklerumgebungen über Netzwerklabore bis hin zu containerbasierten Microservices – demonstriert Michael Wagner Good Practices für Storage, Backup und Betrieb. Teilnehmende gewinnen wertvolle Einblicke in Projektplanung, Rollout und Betrieb einer sicheren und flexiblen Proxmox-Infrastruktur für kleine und mittelgroße Organisationen.",
+      "startsAt": "2024-04-20T10:00:00",
+      "endsAt": "2024-04-20T10:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d69c6c3f-4a48-4ed3-8a5d-2f3b2a7a1e2c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 47112,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     }
   ],
   "speakers": [
@@ -419,6 +448,22 @@
       "links": [],
       "sessions": [
         9
+      ],
+      "fullName": "Rainer Stropek",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d69c6c3f-4a48-4ed3-8a5d-2f3b2a7a1e2c",
+      "firstName": "Michael",
+      "lastName": "Wagner",
+      "bio": "Ich bin seit fünf Jahren Lehrer an der HTL Leonding mit dem Schwerpunkt auf Netzwerktechnik, IT-Infrastruktur und Automatisierung. Zuvor war ich 18 Jahre lang als technischer Verantwortlicher und Projektleiter tätig und konnte in dieser Zeit zahlreiche IT- und Industrieprojekte erfolgreich umsetzen – von der Planung über die Implementierung bis hin zum laufenden Betrieb. Diese umfassende Praxiserfahrung bringe ich heute in den Unterricht ein, um junge Talente praxisnah und zukunftsorientiert auszubilden. Mein Fokus liegt auf der Verbindung von Theorie und realen Anwendungsfällen, insbesondere in den Bereichen Virtualisierung, Netzwerktechnik und IT-Systemintegration.",
+      "tagLine": "HTL Leonding",
+      "profilePicture": "https://media.licdn.com/dms/image/v2/C4E03AQGytDF4CmDd9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632605570434?e=1750896000&v=beta&t=C7GL4esNqKmOd-UVFIVFlM5RbFct1rTulaOG-usTGX8",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        10
       ],
       "fullName": "Rainer Stropek",
       "categoryItems": [],
