@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: Finetuning of OpenAI LLMs\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nPrompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.\n\n---\n\nVisit https://globalazure.at/ for more information
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20240420T100000
-DTEND;VALUE=DATE-TIME:20240420T104500
+DTSTART;VALUE=DATE-TIME:20240420T115500
+DTEND;VALUE=DATE-TIME:20240420T124000
 LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
 SUMMARY;LANGUAGE=en-us:GAA: Finetuning of OpenAI LLMs
 TRANSP:TRANSPARENT
