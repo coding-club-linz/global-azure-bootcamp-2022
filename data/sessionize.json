@@ -62,8 +62,8 @@
       "id": "3",
       "title": "How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions",
       "description": "Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\r\n\r\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.",
-      "startsAt": "2024-04-20T11:45:00",
-      "endsAt": "2024-04-20T12:30:00",
+      "startsAt": "2024-04-20T11:00:00",
+      "endsAt": "2024-04-20T11:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -80,7 +80,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 1,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -196,7 +196,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 3,
+      "roomId": 2,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -205,15 +205,14 @@
     },
     {
       "id": "8",
-      "title": "AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht",
+      "title": "LEARN OVER LUNCH: AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht",
       "description": "In unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
+      "startsAt": "2024-04-20T12:40:00",
+      "endsAt": "2024-04-20T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "ca6b3f58-057d-4549-b976-f8266ed9f814",
-        "b03c2c39-feca-4dfd-9e0f-99b01c470373"
+        "ca6b3f58-057d-4549-b976-f8266ed9f814"
       ],
       "categoryItems": [],
       "questionAnswers": [
@@ -226,7 +225,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 1,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -255,7 +254,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 2,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -285,6 +284,64 @@
         }
       ],
       "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "11",
+      "title": "Welcome",
+      "description": "",
+      "startsAt": "2024-04-20T09:00:00",
+      "endsAt": "2024-04-20T09:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 1,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "12",
+      "title": "Deployment Strategie für Multitenant fähige Azure Anwendungen mit Azure DevOps Pipelines",
+      "description": "Bei einer Vielzahl meiner Projekte der letzten Jahre ging es neben der allgemeinen Software-Architektur zunehmend auch darum, Hosting- und Deployment-Strategien zu entwickeln, die es ermöglichen, eine gemeinsame Hosting-Infrastruktur für eine Vielzahl von Kunden zu betreiben und gleichzeitig Updates gestaffelt über einen längeren Zeitraum auszuliefern. Daraus ergibt sich die Notwendigkeit, mehrere Versionen der Software parallel zu betreiben. Zusätzlich zu einer dynamischen Menge an Entwicklungs- und Testsystemen wurde relativ schnell klar, dass der Aufbau dieser Umgebungen automatisiert erfolgen muss. Als Nebeneffekt dieser Deployment-Automatisierung entstand so auch die Möglichkeit, gezielt temporäre Testumgebungen für Feature-Branches zu erstellen, um auf einem dem Produktionssystem maximal identischen Setup testen zu können.",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0557df69-a8a6-49d8-9cbf-1d9e405f273d"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -422,22 +479,6 @@
       "questionAnswers": []
     },
     {
-      "id": "b03c2c39-feca-4dfd-9e0f-99b01c470373",
-      "firstName": "Mojmír",
-      "lastName": "Horváth",
-      "bio": "Mojmír Horváth ist Schüler an der HTL Spengergasse, wo er Teil der Hochbegabtenförderung ist und sich auf Machine Learning und Data Science spezialisiert hat. Zudem ist er aktives Mitglied im KI-Forschungsteam von Tietoevry. Mojmír engagiert sich leidenschaftlich in innovativen Wettbewerben und hat im vergangenen Jahr insgesamt fünf nationale sowie internationale Auszeichnungen gewonnen - darunter den Bundeswettbewerb für Künstliche Intelligenz.",
-      "tagLine": "AI Enthusiast | HTL Spengergasse",
-      "profilePicture": "/img/speakers/mormir-horvath.jpeg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        8
-      ],
-      "fullName": "Mojmír Horváth",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7",
       "firstName": "Rainer",
       "lastName": "Stropek",
@@ -466,6 +507,22 @@
         10
       ],
       "fullName": "Rainer Stropek",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "0557df69-a8a6-49d8-9cbf-1d9e405f273d",
+      "firstName": "Raphael",
+      "lastName": "Schwarz",
+      "bio": "Raphael Schwarz entdeckte bereits in der Jugend seine Leidenschaft für die IT. Nach einer fachspezifischen Ausbildung beschloss er mit 18 Jahren, sich parallel zu seiner beruflichen Tätigkeit selbständig zu machen. 2011 traf er die Entscheidung, sich ganz auf sein eigenes Unternehmen zu fokussieren. Neben seiner Tätigkeit als Geschäftsführer und Consultant bei codeworx ist Raphael als gefragter Sprecher auf diversen Konferenzen zu finden.",
+      "tagLine": "codeworx GmbH",
+      "profilePicture": "/img/speakers/raphael-schwarz.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        12
+      ],
+      "fullName": "Raphael Schwarz",
       "categoryItems": [],
       "questionAnswers": []
     }

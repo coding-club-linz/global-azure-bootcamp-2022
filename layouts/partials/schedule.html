@@ -33,7 +33,8 @@
                             </div>
                         </td>
                     </tr>
-                    {{ else if (eq (dateFormat "15:04" $timeslot.startsAt) "12:40") }}
+                    {{ else if and (eq (dateFormat "15:04" $timeslot.startsAt) "12:40") (not
+                    $timeslot.isServiceTimeslot) }}
                     <tr>
                         <td class="session" colspan="4">
                             <div>
