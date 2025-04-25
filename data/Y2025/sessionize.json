@@ -1,0 +1,534 @@
+{
+  "sessions": [
+    {
+      "id": "1",
+      "title": "Central Network Management in Azure",
+      "description": "Arbeiten Sie mit der Cloud? Haben Sie mehr als ein virtuelles Netzwerk miteinander verbunden, regional oder vielleicht global? Verwenden Sie auch Azure-NSGs und ASGs? Dann wissen Sie, warum ein gutes zentralisiertes Netzwerkmanagement wichtig ist. In dieser Session werde ich die Antwort von Microsoft auf diese Anforderung vorstellen.",
+      "startsAt": "2024-04-20T09:55:00",
+      "endsAt": "2024-04-20T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "keynote-java-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/mIguuYMFbh0"
+        }
+      ],
+      "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "2",
+      "title": "Declarative Agents in M365 mit REST-API Anbindung",
+      "description": "Declarative Agents in Microsoft 365 eröffnen neue Möglichkeiten zur Interaktion mit Daten und externen Systemen. In dieser Session zeige ich anhand von Beispielen, wie solche Agents erstellt werden.\r\n\r\nEin Agent unterstützt beim Schreiben, während ein anderer Informationen aus einem Fremdsystem abruft. Wir betrachten die technischen Grundlagen, mögliche Herausforderungen und den praktischen Nutzen. Nach dieser Session wissen Sie, wie Sie eigene Declarative Agents in M365 integrieren und sinnvoll einsetzen können.",
+      "startsAt": "2024-04-20T09:55:00",
+      "endsAt": "2024-04-20T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "278a9d7a-2419-404d-8ea4-a833d53ab387"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "3",
+      "title": "How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions",
+      "description": "Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\r\n\r\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.",
+      "startsAt": "2024-04-20T11:00:00",
+      "endsAt": "2024-04-20T11:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52214c40-9cb0-44a6-a1f5-ab2302c9bb40"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "4",
+      "title": "Finetuning of OpenAI LLMs",
+      "description": "Prompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.",
+      "startsAt": "2024-04-20T11:55:00",
+      "endsAt": "2024-04-20T12:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1f57cdc5-8341-4f9c-95af-4f334e41dc65"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "5",
+      "title": "Empowering Austria with Azure: Innovation & Trust in the Age of AI",
+      "description": "In today's rapidly evolving digital landscape, trust and innovation are paramount. Join us for an insightful keynote on how Microsoft Azure is revolutionizing the way we develop and deploy applications around the globe, in Europe, and soon also in our own cloud region in Austria. Discover how Azure's robust infrastructure supports cutting-edge AI models, ensuring compliance with European data privacy regulations. Learn about Microsoft's unwavering commitment to data security and privacy, and how Azure empowers developers to build scalable, secure, and innovative solutions. This session will provide a comprehensive overview of Azure's capabilities, highlighting its role in fostering trust and driving technological advancements within Europe.",
+      "startsAt": "2024-04-20T09:10:00",
+      "endsAt": "2024-04-20T09:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e2b0f382-5dea-4b75-a94d-1fc5cccc3b31"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 1,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "6",
+      "title": "Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025",
+      "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.",
+      "startsAt": "2024-04-20T11:00:00",
+      "endsAt": "2024-04-20T11:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3d5a217b-0765-4698-999b-1fd2a749b344"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "7",
+      "title": "Build Their Platform, Not Yours: Empowering Developers",
+      "description": "Developer platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.\r\n\r\nThis naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?\r\n\r\nThis talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.",
+      "startsAt": "2024-04-20T11:55:00",
+      "endsAt": "2024-04-20T12:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "870c4e80-80f7-4bd6-baab-e0e029e588fb"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "8",
+      "title": "AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht",
+      "description": "In unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ca6b3f58-057d-4549-b976-f8266ed9f814",
+        "b03c2c39-feca-4dfd-9e0f-99b01c470373"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "9",
+      "title": "Let’s build an AI agent",
+      "description": "In this session, we’ll explore how modern AI systems leverage external tools to extend their capabilities beyond pure language understanding. First, we’ll examine the central role of tools (including a short intro to the Model Context Protocol) in enabling agents to perform tasks such as retrieval, computation and real‑world action. Next, we’ll survey advances in reasoning‑focused models that dynamically plan and execute tool calls, highlighting recent model developments in OpenAI models. Finally, we’ll introduce the OpenAI Agent SDK, demonstrating step‑by‑step how to assemble AI agents.",
+      "startsAt": "2024-04-20T14:25:00",
+      "endsAt": "2024-04-20T15:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 3,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "10",
+      "title": "IT-Spielplatz für 1000+ Poweruser - Proxmox in der Praxis an der HTL Leonding",
+      "description": "In dieser Session stellt Michael Wagner die Virtualisierungsumgebung an der HTL Leonding vor, in der über 1.000 Schüler:innen und Lehrer:innen mit Proxmox arbeiten. Er zeigt, wie Proxmox für den flexiblen Einsatz im Unterricht und in der Administration konfiguriert wurde, um skalierbare und sichere virtuelle Maschinen und LXC-Container bereitzustellen.\r\n\r\nAnhand konkreter Anwendungsfälle – von Entwicklerumgebungen über Netzwerklabore bis hin zu containerbasierten Microservices – demonstriert Michael Wagner Good Practices für Storage, Backup und Betrieb. Teilnehmende gewinnen wertvolle Einblicke in Projektplanung, Rollout und Betrieb einer sicheren und flexiblen Proxmox-Infrastruktur für kleine und mittelgroße Organisationen.",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d69c6c3f-4a48-4ed3-8a5d-2f3b2a7a1e2c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "11",
+      "title": "Welcome",
+      "description": "",
+      "startsAt": "2024-04-20T09:00:00",
+      "endsAt": "2024-04-20T09:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 1,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    }
+  ],
+  "speakers": [
+    {
+      "id": "1d18ea23-d6dc-4600-bbae-2916afebb0d7",
+      "firstName": "Hannes",
+      "lastName": "Lagler-Gruener",
+      "bio": "Hannes Lagler-Gruener ist Senior Cloud Architect mit über 15 Jahren Beratungserfahrung. Er konzentriert sich auf Cloud Sicherheit und Architektur Konzepte wie auch Implementierung. Hannes verfügt über umfassende Erfahrung in den Bereichen IaaS, Sicherheit, Netzwerk, Governance und IaC. Er begann seine Karriere bei einer der größten österreichischen Banken und wechselte nach einigen Jahren zu Microsoft Österreich. Heute arbeitet Hannes als Cloud Technology Lead bei der ACP IT Solutions GmbH wo er das CCoE der ACP ständig weiter entwickelt. Zusätzlich unterstützt er in Kunden Architekturen und Beratung im Bereich Sicherheit wie auch Infrastruktur.",
+      "tagLine": "MVP | ACP IT Solutions GMBH, Lead Cloud Architect ",
+      "profilePicture": "https://sessionize.com/image/e1c0-400o400o1-MRNTE7MYFpYmnEaiwGm6WZ.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1
+      ],
+      "fullName": "Hannes Lagler-Gruener",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "278a9d7a-2419-404d-8ea4-a833d53ab387",
+      "firstName": "Peter Paul",
+      "lastName": "Kirschner",
+      "bio": "Peter has over a decade of experience as a SharePoint and Microsoft 365 consultant and works as a software architect at ACP CUBIDO Digital Solutions GmbH. He specializes in developing high-quality web-based, hybrid, and mobile applications using a wide range of technologies.\r\n\r\nWith a deep passion for software development and a strong focus on automation, he eagerly takes on technical and conceptual challenges in projects. His current focus is on developing apps and bots within the Microsoft 365 ecosystem, with a particular emphasis on integrating AI systems in enterprise environments.\r\n\r\nBeyond his technical expertise, Peter is an active member of the community, sharing his knowledge through presentations and blog posts while contributing to the advancement of modern cloud, AI, and automation solutions. His combination of expertise, innovation, and hands-on experience makes him a valued expert in delivering sustainable and efficient solutions for businesses.",
+      "tagLine": "Microsoft M365 Dev MVP | ACP CUBIDO Digital Solutions GmbH, Software Architect",
+      "profilePicture": "https://sessionize.com/image/bc3d-400o400o2-fb-c6ca-4fb3-854d-d426ccb22881.3afe749e-881f-43a2-ab2a-1fd0a4d0ea75.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        2
+      ],
+      "fullName": "Peter Paul Kirschnler",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "52214c40-9cb0-44a6-a1f5-ab2302c9bb40",
+      "firstName": "Patrick",
+      "lastName": "Koch",
+      "bio": "Cloud Adoption Engineer & Cloud Evangelist | Blogger \"DevOps Experiences\" 🚀 | Speaker | Co-organizer Microsoft Developer User Group Graz | Microsoft MVP | HashiCorp Ambassador",
+      "tagLine": "Cloud Adoption Engineer & Cloud Evangelist at AVL List GmbH",
+      "profilePicture": "/img/speakers/patrick-koch.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        3
+      ],
+      "fullName": "Patrick Koch",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1f57cdc5-8341-4f9c-95af-4f334e41dc65",
+      "firstName": "Melanie",
+      "lastName": "Bauer",
+      "bio": "Melanie Bauer is a passionate young programmer with a strong interest in artificial intelligence. She is currently a student at the Higher Technical School for MIS in Leonding, Austria. Despite her young age, Melanie has already gained experience in software development, focusing on AI-driven applications and innovative technologies. She actively expands her knowledge by working on projects, participating in coding contests, and engaging with the developer community.",
+      "tagLine": "AI Enthusiast | HTL Leonding",
+      "profilePicture": "/img/speakers/melanie-bauer.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        4
+      ],
+      "fullName": "Melanie Bauer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e2b0f382-5dea-4b75-a94d-1fc5cccc3b31",
+      "firstName": "Jürgen",
+      "lastName": "Etzlstorfer",
+      "bio": "Jürgen Etzlstorfer is an Azure Application Innovation Specialist at Microsoft Austria, helping customers building new, innovative solutions in Azure, or migrating and modernizing legacy applications. Jürgen has been working in the industry in the roles of a developer and architect, researcher, product manager, and evangelist in the last 10+ years. He has been an active contributor to open-source and a leader and organizer of the Cloud-Native community Linz.",
+      "tagLine": "Application Innovation Specialist",
+      "profilePicture": "/img/speakers/juergen-etzlstorfer.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        5
+      ],
+      "fullName": "Jürgen Etzlstorfer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "3d5a217b-0765-4698-999b-1fd2a749b344",
+      "firstName": "Christian",
+      "lastName": "Schabetsberger",
+      "bio": "Christian Schabetsberger, the world's okayest developer, is a Freelance Software Engineer & Architect from Linz, Austria. Having spent half of his life in the .NET ecosystem, he likes to stay on the bleeding edge of technology to become the (tech-savvy) ninja he pretends to be since he is six.",
+      "tagLine": "Freelance Software Engineer & Architect",
+      "profilePicture": "https://www.finxit.at/assets/img/profile.webp",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        6
+      ],
+      "fullName": "Christian Schabetsberger",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "870c4e80-80f7-4bd6-baab-e0e029e588fb",
+      "firstName": "Katharina",
+      "lastName": "Sick",
+      "bio": "I'm a developer advocate at Dynatrace and passionate about making things user-friendly, especially in the realms of Cloud Native and Kubernetes. My background includes experience in mobile and backend development, but my current focus and enthusiasm lie in the world of Cloud Native computing. Outside of work, I enjoy spending quality time with my family. You'll also often find me engaged in tech and sports communities, cruising on inline skates, exploring new places, or challenging myself with quizzes and games.",
+      "tagLine": "Cloud Native & Open Source Enthusiast | DevRel @Dynatrace",
+      "profilePicture": "/img/speakers/katharina-sick.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        7
+      ],
+      "fullName": "Katharina Sick",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "ca6b3f58-057d-4549-b976-f8266ed9f814",
+      "firstName": "Paul",
+      "lastName": "Wenth",
+      "bio": "Paul Wenth ist Schüler der HTL-Spengergasse und Teil der Hochbegabtenförderung der Schule. Er ist begeisterter Software Developer im Bereich Backend and Data Science. Letztes Jahr bot sich ihm die Möglichkeit an zahlreichen Wettbewerben erfolgreich teilzunehmen, welche alle darauf ausgelegt waren innovative Lösungen zu entwickeln. Des weiteren studiert er Computer Science an der TU-Wien",
+      "tagLine": "AI Enthusiast | HTL Spengergasse",
+      "profilePicture": "/img/speakers/paul-wenth.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        8
+      ],
+      "fullName": "Paul Wenth",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b03c2c39-feca-4dfd-9e0f-99b01c470373",
+      "firstName": "Mojmír",
+      "lastName": "Horváth",
+      "bio": "Mojmír Horváth ist Schüler an der HTL Spengergasse, wo er Teil der Hochbegabtenförderung ist und sich auf Machine Learning und Data Science spezialisiert hat. Zudem ist er aktives Mitglied im KI-Forschungsteam von Tietoevry. Mojmír engagiert sich leidenschaftlich in innovativen Wettbewerben und hat im vergangenen Jahr insgesamt fünf nationale sowie internationale Auszeichnungen gewonnen - darunter den Bundeswettbewerb für Künstliche Intelligenz.",
+      "tagLine": "AI Enthusiast | HTL Spengergasse",
+      "profilePicture": "/img/speakers/mormir-horvath.jpeg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        8
+      ],
+      "fullName": "Mojmír Horváth",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "7d6ddad1-fc5e-4fb8-b882-c3878168e8c7",
+      "firstName": "Rainer",
+      "lastName": "Stropek",
+      "bio": "Rainer Stropek is co-founder and CEO of the company software architects and has been serving this role since 2008. At software architects Rainer and his team are developing the award-winning SaaS time tracking solution “time cockpit”. Previously, Rainer founded and led two IT consulting firms that worked in the area of developing software solution based on the Microsoft technology stack.\r\n\r\nRainer is recognized as an expert concerning .NET development, software architecture and databases. He has written numerous books and articles on C#, database development, Microsoft Azure, XAML, and web development. Additionally he regularly speaks at conferences, workshops and trainings in Europe and the US. In 2010 Rainer has become one of the first MVPs for the Microsoft Windows Azure platform. In 2015, Rainer also became a Microsoft Regional Director. 2016, Rainer also got the MVP award for Visual Studio and Developer Technologies.\r\n\r\nRainer graduated the Higher Technical School Leonding (AT) for MIS with honors and holds a BSc (Hons) Computer Studies of the University of Derby (UK).",
+      "tagLine": "Software Engineer, Microsoft Regional Director | software architects",
+      "profilePicture": "https://sessionize.com/image/a360-400o400o1-BR1Mti2Z8sUDM3oGxycDc8.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        9
+      ],
+      "fullName": "Rainer Stropek",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d69c6c3f-4a48-4ed3-8a5d-2f3b2a7a1e2c",
+      "firstName": "Michael",
+      "lastName": "Wagner",
+      "bio": "Ich bin seit fünf Jahren Lehrer an der HTL Leonding mit dem Schwerpunkt auf Netzwerktechnik, IT-Infrastruktur und Automatisierung. Zuvor war ich 18 Jahre lang als technischer Verantwortlicher und Projektleiter tätig und konnte in dieser Zeit zahlreiche IT- und Industrieprojekte erfolgreich umsetzen – von der Planung über die Implementierung bis hin zum laufenden Betrieb. Diese umfassende Praxiserfahrung bringe ich heute in den Unterricht ein, um junge Talente praxisnah und zukunftsorientiert auszubilden. Mein Fokus liegt auf der Verbindung von Theorie und realen Anwendungsfällen, insbesondere in den Bereichen Virtualisierung, Netzwerktechnik und IT-Systemintegration.",
+      "tagLine": "HTL Leonding",
+      "profilePicture": "https://media.licdn.com/dms/image/v2/C4E03AQGytDF4CmDd9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632605570434?e=1750896000&v=beta&t=C7GL4esNqKmOd-UVFIVFlM5RbFct1rTulaOG-usTGX8",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        10
+      ],
+      "fullName": "Rainer Stropek",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [
+    {
+      "id": 71787,
+      "question": "Short Title",
+      "questionType": "Short_Text",
+      "sort": 39
+    },
+    {
+      "id": 71788,
+      "question": "YouTube Video",
+      "questionType": "Short_Text",
+      "sort": 26
+    }
+  ],
+  "categories": [],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Saal 1",
+      "sort": 0
+    },
+    {
+      "id": 2,
+      "name": "Saal 2",
+      "sort": 1
+    },
+    {
+      "id": 3,
+      "name": "Saal 3",
+      "sort": 2
+    }
+  ]
+}

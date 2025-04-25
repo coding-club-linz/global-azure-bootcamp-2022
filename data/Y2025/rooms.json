@@ -1,0 +1,19 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Saal 1",
+            "sort": 0
+        },
+        {
+            "id": 2,
+            "name": "Saal 2",
+            "sort": 1
+        },
+        {
+            "id": 3,
+            "name": "Saal 3",
+            "sort": 2
+        }
+    ]
+}

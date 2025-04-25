@@ -1086,7 +1086,7 @@ body {
 .speaker:not(.modal-body) {
     margin-bottom: 20px;
     max-width: 250px;
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: auto;
 }
 

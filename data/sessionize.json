@@ -4,8 +4,8 @@
       "id": "1",
       "title": "Central Network Management in Azure",
       "description": "Arbeiten Sie mit der Cloud? Haben Sie mehr als ein virtuelles Netzwerk miteinander verbunden, regional oder vielleicht global? Verwenden Sie auch Azure-NSGs und ASGs? Dann wissen Sie, warum ein gutes zentralisiertes Netzwerkmanagement wichtig ist. In dieser Session werde ich die Antwort von Microsoft auf diese Anforderung vorstellen.",
-      "startsAt": "2024-04-20T09:00:00",
-      "endsAt": "2024-04-20T09:45:00",
+      "startsAt": "2024-04-20T09:55:00",
+      "endsAt": "2024-04-20T10:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -22,7 +22,7 @@
           "answerValue": "https://youtube.com/live/mIguuYMFbh0"
         }
       ],
-      "roomId": 47112,
+      "roomId": 2,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -33,8 +33,8 @@
       "id": "2",
       "title": "Declarative Agents in M365 mit REST-API Anbindung",
       "description": "Declarative Agents in Microsoft 365 eröffnen neue Möglichkeiten zur Interaktion mit Daten und externen Systemen. In dieser Session zeige ich anhand von Beispielen, wie solche Agents erstellt werden.\r\n\r\nEin Agent unterstützt beim Schreiben, während ein anderer Informationen aus einem Fremdsystem abruft. Wir betrachten die technischen Grundlagen, mögliche Herausforderungen und den praktischen Nutzen. Nach dieser Session wissen Sie, wie Sie eigene Declarative Agents in M365 integrieren und sinnvoll einsetzen können.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T09:55:00",
+      "endsAt": "2024-04-20T10:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -51,7 +51,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -62,8 +62,8 @@
       "id": "3",
       "title": "How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions",
       "description": "Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\r\n\r\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T11:45:00",
+      "endsAt": "2024-04-20T12:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -80,7 +80,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 1,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -91,8 +91,8 @@
       "id": "4",
       "title": "Finetuning of OpenAI LLMs",
       "description": "Prompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T11:55:00",
+      "endsAt": "2024-04-20T12:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -109,7 +109,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -120,8 +120,8 @@
       "id": "5",
       "title": "Empowering Austria with Azure: Innovation & Trust in the Age of AI",
       "description": "In today's rapidly evolving digital landscape, trust and innovation are paramount. Join us for an insightful keynote on how Microsoft Azure is revolutionizing the way we develop and deploy applications around the globe, in Europe, and soon also in our own cloud region in Austria. Discover how Azure's robust infrastructure supports cutting-edge AI models, ensuring compliance with European data privacy regulations. Learn about Microsoft's unwavering commitment to data security and privacy, and how Azure empowers developers to build scalable, secure, and innovative solutions. This session will provide a comprehensive overview of Azure's capabilities, highlighting its role in fostering trust and driving technological advancements within Europe.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T09:10:00",
+      "endsAt": "2024-04-20T09:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -138,7 +138,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 1,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -149,8 +149,8 @@
       "id": "6",
       "title": "Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025",
       "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T11:00:00",
+      "endsAt": "2024-04-20T11:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -167,7 +167,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 2,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -178,8 +178,8 @@
       "id": "7",
       "title": "Build Their Platform, Not Yours: Empowering Developers",
       "description": "Developer platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.\r\n\r\nThis naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?\r\n\r\nThis talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T11:55:00",
+      "endsAt": "2024-04-20T12:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -196,7 +196,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 3,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -207,8 +207,8 @@
       "id": "8",
       "title": "AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht",
       "description": "In unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -226,7 +226,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 1,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -237,8 +237,8 @@
       "id": "9",
       "title": "Let’s build an AI agent",
       "description": "In this session, we’ll explore how modern AI systems leverage external tools to extend their capabilities beyond pure language understanding. First, we’ll examine the central role of tools (including a short intro to the Model Context Protocol) in enabling agents to perform tasks such as retrieval, computation and real‑world action. Next, we’ll survey advances in reasoning‑focused models that dynamically plan and execute tool calls, highlighting recent model developments in OpenAI models. Finally, we’ll introduce the OpenAI Agent SDK, demonstrating step‑by‑step how to assemble AI agents.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T14:25:00",
+      "endsAt": "2024-04-20T15:10:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -255,7 +255,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 2,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -266,8 +266,8 @@
       "id": "10",
       "title": "IT-Spielplatz für 1000+ Poweruser - Proxmox in der Praxis an der HTL Leonding",
       "description": "In dieser Session stellt Michael Wagner die Virtualisierungsumgebung an der HTL Leonding vor, in der über 1.000 Schüler:innen und Lehrer:innen mit Proxmox arbeiten. Er zeigt, wie Proxmox für den flexiblen Einsatz im Unterricht und in der Administration konfiguriert wurde, um skalierbare und sichere virtuelle Maschinen und LXC-Container bereitzustellen.\r\n\r\nAnhand konkreter Anwendungsfälle – von Entwicklerumgebungen über Netzwerklabore bis hin zu containerbasierten Microservices – demonstriert Michael Wagner Good Practices für Storage, Backup und Betrieb. Teilnehmende gewinnen wertvolle Einblicke in Projektplanung, Rollout und Betrieb einer sicheren und flexiblen Proxmox-Infrastruktur für kleine und mittelgroße Organisationen.",
-      "startsAt": "2024-04-20T10:00:00",
-      "endsAt": "2024-04-20T10:45:00",
+      "startsAt": "2024-04-20T13:30:00",
+      "endsAt": "2024-04-20T14:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -284,7 +284,7 @@
           "answerValue": "https://youtube.com/live/qQzet_dzPuY"
         }
       ],
-      "roomId": 47112,
+      "roomId": 2,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -487,24 +487,19 @@
   "categories": [],
   "rooms": [
     {
-      "id": 47112,
-      "name": "Aula",
+      "id": 1,
+      "name": "Saal 1",
       "sort": 0
     },
     {
-      "id": 47113,
-      "name": "Breakout Room 1 (146)",
+      "id": 2,
+      "name": "Saal 2",
       "sort": 1
     },
     {
-      "id": 47114,
-      "name": "Breakout Room 2 (147)",
+      "id": 3,
+      "name": "Saal 3",
       "sort": 2
-    },
-    {
-      "id": 48770,
-      "name": "Breakout Room 3 (E59-1)",
-      "sort": 4
     }
   ]
 }
