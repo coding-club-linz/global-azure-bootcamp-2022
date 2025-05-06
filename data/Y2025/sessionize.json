@@ -31,8 +31,8 @@
     },
     {
       "id": "2",
-      "title": "Declarative Agents in M365 mit REST-API Anbindung",
-      "description": "Declarative Agents in Microsoft 365 eröffnen neue Möglichkeiten zur Interaktion mit Daten und externen Systemen. In dieser Session zeige ich anhand von Beispielen, wie solche Agents erstellt werden.\r\n\r\nEin Agent unterstützt beim Schreiben, während ein anderer Informationen aus einem Fremdsystem abruft. Wir betrachten die technischen Grundlagen, mögliche Herausforderungen und den praktischen Nutzen. Nach dieser Session wissen Sie, wie Sie eigene Declarative Agents in M365 integrieren und sinnvoll einsetzen können.",
+      "title": "Declarative Agents in M365 with REST API Integration",
+      "description": "Declarative Agents in Microsoft 365 open up new possibilities for interacting with data and external systems. In this session, I will demonstrate through examples how to create such agents.\r\n\r\nOne agent assists with writing, while another retrieves information from an external system. We will explore the technical foundations, potential challenges, and practical benefits. After this session, you will understand how to integrate and effectively use your own declarative agents in M365.",
       "startsAt": "2024-04-20T09:55:00",
       "endsAt": "2024-04-20T10:40:00",
       "isServiceSession": false,
