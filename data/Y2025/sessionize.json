@@ -347,6 +347,35 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "13",
+      "title": "Between Skills, Sales & Success - Leading Through AI-Driven Transformation at Microsoft",
+      "description": "What does it mean to lead a sales and tech team in a world shaped by AI, innovation, and constant change? In this session, I'll share my personal journey as a Data & AI & App Innovation Sales Manager at Microsoft – leading a male-dominated team, navigating rapid upskilling, and learning what leadership really means when the ground is constantly shifting.\r\n\r\nYou’ll hear real stories from the field: how Austrian customers are rethinking their business models with Azure, what it takes to sell innovation in an AI-first world, and how trust, empathy, and continuous learning can become superpowers in tech leadership. This talk is not about technology alone - it's about mindset, momentum, and making meaningful impact in times of transformation.",
+      "startsAt": "2024-04-20T14:25:00",
+      "endsAt": "2024-04-20T15:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "cb40ed2b-454d-406e-bdd2-ad127b5d6d64"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [
+        {
+          "questionId": 71787,
+          "answerValue": "hello-ai"
+        },
+        {
+          "questionId": 71788,
+          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+        }
+      ],
+      "roomId": 2,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     }
   ],
   "speakers": [
@@ -525,6 +554,22 @@
       "fullName": "Raphael Schwarz",
       "categoryItems": [],
       "questionAnswers": []
+    },
+    {
+      "id": "cb40ed2b-454d-406e-bdd2-ad127b5d6d64",
+      "firstName": "Michaela",
+      "lastName": "Loher",
+      "bio": "Michaela Loher is a Data & AI & App Innovation Sales Manager at Microsoft Austria, leading customer engagements at the intersection of cloud, AI, and innovation. With a background in driving digital transformation across industries, she brings a unique mix of business acumen, technical curiosity, and a passion for empowering teams, customers and partners. Known for her positive mindset and authentic leadership style, she advocates for inclusive leadership and continuous learning in a fast-changing tech world.",
+      "tagLine": "Microsoft",
+      "profilePicture": "/img/speakers/michaela-loher.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        13
+      ],
+      "fullName": "Michaela Loher",
+      "categoryItems": [],
+      "questionAnswers": []
     }
   ],
   "questions": [
@@ -545,17 +590,17 @@
   "rooms": [
     {
       "id": 1,
-      "name": "Saal 1",
+      "name": "Saal 9",
       "sort": 0
     },
     {
       "id": 2,
-      "name": "Saal 2",
+      "name": "Saal 12",
       "sort": 1
     },
     {
       "id": 3,
-      "name": "Saal 3",
+      "name": "Saal 13",
       "sort": 2
     }
   ]
