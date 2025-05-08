@@ -1,6 +1,6 @@
 <svg width="1920" height="1080" viewbox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
     <image x="0" y="0" width="1920" height="1080" xlink:href="../hero-bkg-1920x1080.png" />
-    <image x="1700" y="20" width="200" height="154" xlink:href="../gab2024.png" />
+    <image x="1700" y="20" width="200" height="154" xlink:href="../gab2025.png" />
     <text font-family="Segoe UI" font-size="68" font-weight="700" x="960" y="520" fill="#e3c038" text-anchor="middle" alignment-baseline="central">
         Sorry! We are experiencing technical difficulties.
     </text>

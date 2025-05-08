@@ -1,275 +1,217 @@
-Keynote: Pioneering the Future of Java with Intelligent Apps
+Central Network Management in Azure
 =============================================================================
-Disruptive changes are so called because they cut across traditional boundaries in whatever domain it is they are disrupting. This keynote from 30-year software industry veteran Ed Burns and cutting-edge AI practitioner Sandra Ahlgrimm explores the ways that AI can be practically applied in a typical contemporary cloud-native Java Azure application deployment. We take examples from a full-length workshop and examine each in the context of the AI and cloud-native application patterns being illustrated.
-
-What is the state of the art for continuing to derive value from existing legacy enterprise Java software line-of-business (LOB) applications?
-We will use a chatbot to interact with GPT-4 and implement the Retrieval Augmented Generation (RAG) pattern.
-Using a vector database, the model will be able to answer questions in natural language and generate complete, sourced responses from your own documents.
-How can AI augment legacy LOB apps?
-We will create a Quarkus service based on the open-source LangChain4J and ChatBootAI frameworks to test our chatbot.
-This being Global Azure Austria, naturally, these resources are deployed to Azure.
-After this keynote, you will have a clearer understanding of large language models and how they work, as well as ideas for using them in your applications. You will also know how to create a functional knowledge base and chatbot, and how to deploy them in the cloud.
-
-Sandra Ahlgrimm, Ed Burns
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#keynote-java-ai
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Hello KI - Die Welt der Embeddings und Neuronale Netzwerke
-=============================================================================
-Der Vortrag gibt Einblicke in die Technologie von AI. Mit praktischen Beispielen veranschaulicht er die Arbeitsweise von AI Lösungen und deren Interaktion mit "Weltwissen" erfolgt. Welche Rolle spielen Embeddings, was sind diese und wie entstehen sie.
-
-Mario Schnalzenberger, Data Scientist, cubido business solutions GmbH
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#hello-ai
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Unleashing the Power of AI: Introducing Microsoft Copilot for Azure
-=============================================================================
-Microsoft Copilot for Azure is a revolutionary AI assistant designed to streamline your cloud experience. Leveraging advanced machine learning, it provides intelligent suggestions and solutions for your Azure tasks. Whether you’re deploying services, troubleshooting issues, or optimizing performance, Copilot is your trusted companion. Experience the future of cloud management with Microsoft Copilot for Azure.
+Arbeiten Sie mit der Cloud? Haben Sie mehr als ein virtuelles Netzwerk miteinander verbunden, regional oder vielleicht global? Verwenden Sie auch Azure-NSGs und ASGs? Dann wissen Sie, warum ein gutes zentralisiertes Netzwerkmanagement wichtig ist. In dieser Session werde ich die Antwort von Microsoft auf diese Anforderung vorstellen.
 
 Hannes Lagler-Gruener, MVP | ACP IT Solutions GMBH, Lead Cloud Architect 
 
-Global Azure Austria 2024
+Global Azure Austria 2025
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#azure-copilot
+Session Details: https://globalazure.at/sessions/#central-network-management
 *****************************************************************************
 
 =============================================================================
 =============================================================================
 
-To Containers and Beyond - Kubernetes as a Universal Control Plane
+Declarative Agents in M365 with REST API Integration
 =============================================================================
-Kubernetes has evolved beyond container orchestration - it is a powerful tool for managing diverse resources, from deployments to infrastructure and cloud resources. It is designed for extensibility and offers a robust foundation for more than just deployments.
+Declarative Agents in Microsoft 365 open up new possibilities for interacting with data and external systems. In this session, I will demonstrate through examples how to create such agents.
 
-This talk will dive into the exciting world of extending Kubernetes. We'll explore how Crossplane, an open source CNCF project, takes Kubernetes to a new level and enhances it to a versatile control plane. Further, it'll cover how GitOps can boost this powerful combination by providing automation, security, improved collaboration and more.
+One agent assists with writing, while another retrieves information from an external system. We will explore the technical foundations, potential challenges, and practical benefits. After this session, you will understand how to integrate and effectively use your own declarative agents in M365.
 
-Katharina Sick, Software Engineer at Dynatrace
+Peter Paul Kirschner, Microsoft M365 Dev MVP | ACP CUBIDO Digital Solutions GmbH, Software Architect
 
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#k8s-control-plane
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen
-=============================================================================
-Im Vortrag "Vom Wort zum Vektor - Embeddings als Grundlage für moderne KI-Lösungen" beleuchten wir die essenzielle Rolle von Embeddings in der Entwicklung fortschrittlicher künstlicher Intelligenz. Beginnend mit einer Auffrischung der mathematischen Grundlagen der Vektorrechnung, legen wir das Fundament für ein tiefes Verständnis von Embedding-Vektoren und deren Bedeutung in der modernen KI. Wir untersuchen, wie sowohl OpenAI als auch lokal ausführbare Large Language Models (LLMs) zur Ermittlung von Embeddings eingesetzt werden können, und diskutieren die praktische Integration und Manipulation dieser Embeddings in eigene Softwarelösungen.
-
-Ein weiterer Schwerpunkt liegt auf der Speicherung und effizienten Abfrage von Embeddings in Vektordatenbanken, welche die Grundlage für skalierbare KI-Anwendungen bilden. Abschließend erörtern wir den Zusammenhang zwischen Embeddings und Retrieval-Augmented Generation (RAG) Lösungen, die die Kombination von generativer Sprachmodellierung und informationsbasiertem Retrieval nutzen, um die Qualität und Relevanz der KI-generierten Inhalte zu verbessern.
-
-Alex Kornfellner, Lehrer für Mathematik, KI und Advanced Algorithms an der HTL Leonding
-
-Global Azure Austria 2024
+Global Azure Austria 2025
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#wort-zum-vektor
+Session Details: https://globalazure.at/sessions/#declarative-agents
 *****************************************************************************
 
 =============================================================================
 =============================================================================
 
-Navigating the AI Skies: Unleashing Microsoft Copilot and Azure AI
+How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions
 =============================================================================
-In today’s dynamic workplace, efficiency and innovation are paramount. Enter Microsoft Copilot and Azure AI—the dynamic duo that can revolutionize your workflows within Microsoft 365. But how do you harness their full potential to tackle real-world challenges?
+Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?
 
-Join Martina in this engaging session as she demystifies Copilot and Azure AI. Through practical examples and real-world use cases, you’ll discover how to:
-•	Automate Repetitive Tasks: Copilot’s intelligent suggestions streamline your work, freeing you to focus on what truly matters.
-•	Integrate Data Seamlessly: Learn how to leverage Azure AI to connect disparate data sources, transforming raw information into actionable insights.
-•	Optimize Business Outcomes: Explore success stories where Copilot and Azure AI have driven efficiency, productivity, and growth.
-•	Create Your Own Solutions: Discover out-of-the-box tools and techniques to build custom Copilot solutions tailored to your organization’s needs.
-Whether you’re a seasoned pro or just dipping your toes into AI waters, this session promises practical takeaways that will elevate your Microsoft 365 experience. Get ready to soar with Copilot and Azure AI!
-
-Martina Grom, CEO atwork, MVP Azure and Microsoft 365, Microsoft RD
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#microsoft-copilot
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Dealing with Kuber-plexity: A perspective on human factors in automation & abstraction
-=============================================================================
-While Cloud Native technology has many benefits, leading to its wholesale adoption across the globe, there is one big elephant in the room keeping us from making even bigger progress: An ever increasing amount of complex systems interacting with each other.
-
-While we are happily exchanging our on premise hardware for cloudy resources, in other areas Developers and IT Ops personal struggle to let go of doing everything by themselves, causing fatigue, enormous lead times in adopting new technology like kubernetes.
-This talk will philosophically approach the issue by comparison with another industry (aviation), which already uses a lot of psychological research about how humans fuck up to increase reliability and safety when lives are at stake.
-
-Franz Theisen, Manager OpenShift Specialists Central Europe at Red Hat
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#kuberplexity
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-The Infinite Scale Illusion: Navigating Pitfalls and Limitations of Large-Scale Computing on Azure
-=============================================================================
-In the ever-growing adoption of cloud computing, actuarial computations demand robust, scalable solutions.
-
-This presentation dives into a system developed entirely in .NET Core, designed for large-scale batch computations in the finance & insurance domain. We explore its dual capability to operate seamlessly both on-premises and within the Azure cloud environment, underscoring the flexibility and maintainability of a monolithic architecture in distributed systems.
-A focal point is the system's strategic utilization of Azure's offerings, such as rapid elasticity, to enhance computational efficiency and scalability while keeping operational costs at a reasonable price. However, the cloud's distinct characteristics also introduce specific challenges. Throughout this session, we will dissect several pitfalls encountered while adapting to the cloud's unique features. We deep dive into working practices and strategies to navigate these complexities effectively.
-Join me on a cloud journey, gradually embracing its unique capabilities, while still maintaining full on-prem support. Let’s demystify some of the marketing promises towards infinite scale. Let’s find out Azure’s limits, why using a mix of IaaS and PaaS can be a valid choice and finally, why many teams would do better by embracing Monoliths over Microservices, especially when scaling to over 150 Virtual Machines.
-
-Michael Mittermayr, Principal Software Architect, Zühlke Group
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#infinite-scale
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Keynote: Total rational - Das größte Missverständnis im data-driven Business
-=============================================================================
-Als Datenexperten möchten wir, dass unsere Entscheider endlich datengetriebene, rationale Entscheidungen treffen. Doch: Oft fällt es uns schwer unsere Kollegen von Bauchentscheidungen abzuhalten und unsere Dashboards, Datenservices und KI-Produkte bei den Usern so richtig zum Durchbruch zu bringen.
-
-Die schlechte Nachricht zuerst: Das menschliche Gehirn ist biologisch gar nicht in der Lage dazu data-driven rationale Entscheidungen zu treffen, so wie wir uns das idealisiert vorstellen. Heißt das also, dass all unsere Mühen rundum Daten- und KI-Initiativen umsonst sind?
-Jetzt die gute Nachricht: Nein, natürlich nicht! Wir müssen data-driven jedoch neu denken (und umsetzen) um endlich das volle Potenzial unsere Datenprojekte auf die Straße zu bringen. Dann gelingt es uns auch, dass unsere Entscheider:innen und User:innen endlich wirklich datenbasiert arbeiten.
-
-Julia Zukrigl, Head Trainer @ DATA story LAB
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#total-rational
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Social Media als Spielfeld für künstliche Intelligenz
-=============================================================================
-Wir gehen der Frage nach, wie ChatGPT Social Media verändert und welche neuen Chancen sich dadurch für Marketing-Experten eröffnen - in großen Agenturen genauso wie in Ein-Personen-Unternehmen. Dabei werfen wir auch einen kritischen Blick auf die Herausforderungen und unzähligen offenen Fragen, die KI im Bereich Unternehmenspräsentation und Werbung mit sich bringt. Ein spannender Einblick, wie KI im Bereich Social Media bereits tatsächlich genutzt wird und was uns in den nächsten Monaten auf TikTok und Instagram erwarten wird.
-
-Verena Gottwald, Founder & Social Media Enthusiast
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#ki-social-media
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Enhance Microsoft 365 Copilot and Microsoft Graph with your own data
-=============================================================================
-In this session, we explore how to leverage Microsoft Graph to seamlessly integrate custom data into your Microsoft 365 environment, resulting in optimal output when using Copilot. Furthermore, we explore a Microsoft Teams sample bot that seamlessly incorporates personalized data to provide relevant answers and perform actions. Join and see how to integrate custom data into M365 Copilot!
-
-Toni Pohl, CTO atwork, Microsoft MVP
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#copilot-and-graph
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Project Kappa - Or how we successfully failed to avoid our own Serverless platform
-=============================================================================
-Sometimes things look similar but are fundamentally different. Pasta with bacon and cream is not a Carbonara, the Mega Drive never was a Super Nintendo, and whatever Serverless solution you use, it is not AWS Lambda.
-
-While all of those comparisons make for some inner turmoil, especially the latter one caused severe problems when we tried to move our Serverless workloads to Azure. Simply because they do come with a challenge: Every developer at Dynatrace, every partner, and every customer should have the possibility to run privacy-first, isolated, and secure workloads on top of our data lake infrastructure.
-In this talk, we will look at how Dynatrace managed to run their Serverless workloads on Azure, with a tailor-made, Kubernetes-based Serverless platform we so dearly tried to avoid at all costs. Not only will we look at the architecture at hand, but we will highlight every right decision that was paramount to solving this problem as painlessly as possible.
-
-Stefan Baumgartner, Dynatrace
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#project-kappa
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Supercharge Your AI App - OpenAI Function Calling Inside Out
-=============================================================================
-Function calling is an important capability of the OpenAI ChatGPT API. It has been present for a while and gets new features in ChatGPT's upcoming Assistant API. In this session, Rainer Stropek invites you to a deep dive into the capabilities of function calling. Rainer starts by quickly introducing the basics. Based on that he shows advanced features like streaming of function calls, function parallelization, tips for error handling etc.
-
-Rainer Stropek, software architects
-
-Global Azure Austria 2024
-*****************************************************************************
-Event Website: https://globalazure.at
-Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#openai-functions
-*****************************************************************************
-
-=============================================================================
-=============================================================================
-
-Infrastructure as Code and AI - does it fit?
-=============================================================================
-Infrastructure as Code is crucial for the cloud native development. It allows you to automate the deployment of your resources and comes with a lot of other benefits.
-
-How does Infrastructure as Code harmonize with AI tools like the GitHub Copilot?
-I wanted to investigate the matter and examine how well AI tools can be applied to several use cases related to Infrastructure as Code: for code generation, code interpretation, and error analysis. I intend to publish the results of this session.
+In this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.
 
 Patrick Koch, Cloud Adoption Engineer & Cloud Evangelist at AVL List GmbH
 
-Global Azure Austria 2024
+Global Azure Austria 2025
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#iac-ai
+Session Details: https://globalazure.at/sessions/#openai-service
 *****************************************************************************
 
 =============================================================================
 =============================================================================
 
-Transforming diverse system landscapes into sustainable API products with Azure API Management
+Finetuning of OpenAI LLMs
 =============================================================================
-Well-designed, secure and fast APIs are the backbone of many successful digital products. While APIs need to fulfill specific product-related needs, developers must think of security, monitoring, versioning and many further topics for creating a long-lasting robust API. Especially when dealing with a heterogenous system landscape as the starting basis, the integration of different sources into a unified clean API product is a key factor for enabling faster adoption by app developers while making full use of existing data.
+Prompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.
 
-Discover how Azure API Management revolutionizes API integration and development being a hybrid, multicloud management platform for APIs across all environments. Learn the secrets of analytics-driven decisions, as Azure API Management delivers insightful usage metrics, error diagnostics, and latency analysis while also providing the necessary tools for versioning and lifecycle management. With just a few steps developers can easily abstract backend diversity while securely exposing services hosted inside and outside of Azure. Let’s explore how Azure API Management can help you providing a centralized platform for managing manifold aspects of your APIs.
+Melanie Bauer, AI Enthusiast | HTL Leonding
 
-Tobias Berei, Software Architekt, softaware gmbh
-
-Global Azure Austria 2024
+Global Azure Austria 2025
 *****************************************************************************
 Event Website: https://globalazure.at
 Event Schedule: https://globalazure.at/schedule
-Session Details: https://globalazure.at/sessions/#azure-api-mgmt
+Session Details: https://globalazure.at/sessions/#finetuning-openai-llms
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Empowering Austria with Azure: Innovation & Trust in the Age of AI
+=============================================================================
+In today's rapidly evolving digital landscape, trust and innovation are paramount. Join us for an insightful keynote on how Microsoft Azure is revolutionizing the way we develop and deploy applications around the globe, in Europe, and soon also in our own cloud region in Austria. Discover how Azure's robust infrastructure supports cutting-edge AI models, ensuring compliance with European data privacy regulations. Learn about Microsoft's unwavering commitment to data security and privacy, and how Azure empowers developers to build scalable, secure, and innovative solutions. This session will provide a comprehensive overview of Azure's capabilities, highlighting its role in fostering trust and driving technological advancements within Europe.
+
+Jürgen Etzlstorfer, Application Innovation Specialist
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#empowering-austria-with-azure
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025
+=============================================================================
+To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.
+
+Christian Schabetsberger, Freelance Software Engineer & Architect
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#code-signing
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Build Their Platform, Not Yours: Empowering Developers
+=============================================================================
+Developer platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.
+
+This naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?
+This talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.
+
+Katharina Sick, Cloud Native & Open Source Enthusiast | DevRel @Dynatrace
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#empowering-developers
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+LEARN OVER LUNCH: AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht
+=============================================================================
+In unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.
+
+Paul Wenth, AI Enthusiast | HTL Spengergasse
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#ai-driven-sea-navigation
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Let’s build an AI agent
+=============================================================================
+In this session, we’ll explore how modern AI systems leverage external tools to extend their capabilities beyond pure language understanding. First, we’ll examine the central role of tools (including a short intro to the Model Context Protocol) in enabling agents to perform tasks such as retrieval, computation and real‑world action. Next, we’ll survey advances in reasoning‑focused models that dynamically plan and execute tool calls, highlighting recent model developments in OpenAI models. Finally, we’ll introduce the OpenAI Agent SDK, demonstrating step‑by‑step how to assemble AI agents.
+
+Rainer Stropek, Software Engineer, Microsoft Regional Director | software architects
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#ai-agents
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+IT-Spielplatz für 1000+ Poweruser - Proxmox in der Praxis an der HTL Leonding
+=============================================================================
+In dieser Session stellt Michael Wagner die Virtualisierungsumgebung an der HTL Leonding vor, in der über 1.000 Schüler:innen und Lehrer:innen mit Proxmox arbeiten. Er zeigt, wie Proxmox für den flexiblen Einsatz im Unterricht und in der Administration konfiguriert wurde, um skalierbare und sichere virtuelle Maschinen und LXC-Container bereitzustellen.
+
+Anhand konkreter Anwendungsfälle – von Entwicklerumgebungen über Netzwerklabore bis hin zu containerbasierten Microservices – demonstriert Michael Wagner Good Practices für Storage, Backup und Betrieb. Teilnehmende gewinnen wertvolle Einblicke in Projektplanung, Rollout und Betrieb einer sicheren und flexiblen Proxmox-Infrastruktur für kleine und mittelgroße Organisationen.
+
+Michael Wagner, HTL Leonding
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#proxmox-in-der-praxis
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Welcome
+=============================================================================
+
+
+Rainer Stropek, Software Engineer, Microsoft Regional Director | software architects
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#welcome
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Deployment Strategy for Multi-Tenant Capable Azure Applications Using Azure DevOps Pipelines
+=============================================================================
+In many of my projects over the past few years, the focus has increasingly shifted beyond general software architecture to include the development of hosting and deployment strategies. These strategies are designed to enable the operation of a shared hosting infrastructure for a wide range of customers, while also allowing for staggered updates to be rolled out over an extended period of time. This results in the need to run multiple versions of the software in parallel. In addition to a dynamic set of development and test systems, it quickly became clear that the setup of these environments had to be automated. As a side effect of this deployment automation, the possibility also emerged to create targeted, temporary test environments for feature branches, enabling testing on a setup that closely mirrors the production environment.
+
+Raphael Schwarz, codeworx GmbH
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#multitenant-deployment-strategy
+*****************************************************************************
+
+=============================================================================
+=============================================================================
+
+Between Skills, Sales & Success - Leading Through AI-Driven Transformation at Microsoft
+=============================================================================
+What does it mean to lead a sales and tech team in a world shaped by AI, innovation, and constant change? In this session, I'll share my personal journey as a Data & AI & App Innovation Sales Manager at Microsoft – leading a male-dominated team, navigating rapid upskilling, and learning what leadership really means when the ground is constantly shifting.
+
+You’ll hear real stories from the field: how Austrian customers are rethinking their business models with Azure, what it takes to sell innovation in an AI-first world, and how trust, empathy, and continuous learning can become superpowers in tech leadership. This talk is not about technology alone - it's about mindset, momentum, and making meaningful impact in times of transformation.
+
+Michaela Loher, Microsoft
+
+Global Azure Austria 2025
+*****************************************************************************
+Event Website: https://globalazure.at
+Event Schedule: https://globalazure.at/schedule
+Session Details: https://globalazure.at/sessions/#leading-through-ai-driven-transformation
 *****************************************************************************
 
 =============================================================================

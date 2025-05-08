@@ -4,8 +4,8 @@
       "id": "1",
       "title": "Central Network Management in Azure",
       "description": "Arbeiten Sie mit der Cloud? Haben Sie mehr als ein virtuelles Netzwerk miteinander verbunden, regional oder vielleicht global? Verwenden Sie auch Azure-NSGs und ASGs? Dann wissen Sie, warum ein gutes zentralisiertes Netzwerkmanagement wichtig ist. In dieser Session werde ich die Antwort von Microsoft auf diese Anforderung vorstellen.",
-      "startsAt": "2024-04-20T09:55:00",
-      "endsAt": "2024-04-20T10:40:00",
+      "startsAt": "2025-05-10T09:55:00",
+      "endsAt": "2025-05-10T10:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -15,11 +15,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "keynote-java-ai"
+          "answerValue": "central-network-management"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/mIguuYMFbh0"
+          "answerValue": "https://www.youtube.com/live/OCsLwwWycSk?si=CPv8h-GVHkVBbc6I"
         }
       ],
       "roomId": 2,
@@ -33,8 +33,8 @@
       "id": "2",
       "title": "Declarative Agents in M365 with REST API Integration",
       "description": "Declarative Agents in Microsoft 365 open up new possibilities for interacting with data and external systems. In this session, I will demonstrate through examples how to create such agents.\r\n\r\nOne agent assists with writing, while another retrieves information from an external system. We will explore the technical foundations, potential challenges, and practical benefits. After this session, you will understand how to integrate and effectively use your own declarative agents in M365.",
-      "startsAt": "2024-04-20T09:55:00",
-      "endsAt": "2024-04-20T10:40:00",
+      "startsAt": "2025-05-10T09:55:00",
+      "endsAt": "2025-05-10T10:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -44,11 +44,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "declarative-agents"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/TgI7N60K6Sk?si=pidzmaoHLl-rkSop"
         }
       ],
       "roomId": 3,
@@ -62,8 +62,8 @@
       "id": "3",
       "title": "How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions",
       "description": "Probably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\r\n\r\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
+      "startsAt": "2025-05-10T11:00:00",
+      "endsAt": "2025-05-10T11:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -73,11 +73,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "openai-service"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/Q_D9NZYpMVQ?si=IO9FsEss419j9nd3"
         }
       ],
       "roomId": 3,
@@ -91,8 +91,8 @@
       "id": "4",
       "title": "Finetuning of OpenAI LLMs",
       "description": "Prompt Engineering ist eine wertvolle Technik, die jedoch ihre Grenzen hat. Es gibt Beschränkungen hinsichtlich der Länge von Prompts, und komplexe Prompts können bei jeder Anfrage erhebliche Kosten verursachen. Außerdem sind große und teure Modelle erforderlich, um komplizierte Prompts zu verarbeiten. Die Feinabstimmung von LLMs ist ein alternativer oder ergänzender Ansatz. Ein Basismodell kann angepasst werden, indem man Beispieldaten bereitstellt, eine bessere Leistung bietet oder mit kleineren, günstigeren und schnelleren Modellen arbeitet. In dieser Session wird Melanie Bauer in das Thema der Feinabstimmung mit OpenAI-Modellen einführen und den Prozess sowohl mit als auch ohne Azure demonstrieren. Die Teilnehmer sollten bereits ein Grundverständnis für die Arbeit mit LLMs und Prompt Engineering haben.",
-      "startsAt": "2024-04-20T11:55:00",
-      "endsAt": "2024-04-20T12:40:00",
+      "startsAt": "2025-05-10T11:55:00",
+      "endsAt": "2025-05-10T12:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -102,11 +102,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "finetuning-openai-llms"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/G7_JJli-seM?si=Kf7hA_7FlBpPDevo"
         }
       ],
       "roomId": 3,
@@ -120,8 +120,8 @@
       "id": "5",
       "title": "Empowering Austria with Azure: Innovation & Trust in the Age of AI",
       "description": "In today's rapidly evolving digital landscape, trust and innovation are paramount. Join us for an insightful keynote on how Microsoft Azure is revolutionizing the way we develop and deploy applications around the globe, in Europe, and soon also in our own cloud region in Austria. Discover how Azure's robust infrastructure supports cutting-edge AI models, ensuring compliance with European data privacy regulations. Learn about Microsoft's unwavering commitment to data security and privacy, and how Azure empowers developers to build scalable, secure, and innovative solutions. This session will provide a comprehensive overview of Azure's capabilities, highlighting its role in fostering trust and driving technological advancements within Europe.",
-      "startsAt": "2024-04-20T09:10:00",
-      "endsAt": "2024-04-20T09:45:00",
+      "startsAt": "2025-05-10T09:10:00",
+      "endsAt": "2025-05-10T09:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -131,11 +131,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "empowering-austria-with-azure"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/Bq7ETjLpY1w?si=RpkiI0YGb7Jl2sW6"
         }
       ],
       "roomId": 1,
@@ -149,8 +149,8 @@
       "id": "6",
       "title": "Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025",
       "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.",
-      "startsAt": "2024-04-20T11:00:00",
-      "endsAt": "2024-04-20T11:45:00",
+      "startsAt": "2025-05-10T11:00:00",
+      "endsAt": "2025-05-10T11:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -160,11 +160,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "code-signing"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/GNdwd7zhpBg?si=OZRzl6M41wVQJ5Ka"
         }
       ],
       "roomId": 2,
@@ -178,8 +178,8 @@
       "id": "7",
       "title": "Build Their Platform, Not Yours: Empowering Developers",
       "description": "Developer platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.\r\n\r\nThis naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?\r\n\r\nThis talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.",
-      "startsAt": "2024-04-20T11:55:00",
-      "endsAt": "2024-04-20T12:40:00",
+      "startsAt": "2025-05-10T11:55:00",
+      "endsAt": "2025-05-10T12:40:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -189,11 +189,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "empowering-developers"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/R7wJjyL2mvA?si=xg_kmMlA8j5QLKLJ"
         }
       ],
       "roomId": 2,
@@ -207,8 +207,8 @@
       "id": "8",
       "title": "LEARN OVER LUNCH: AI-driven Sea Navigation, Hochseenavigation von Containerschiffen neu gedacht",
       "description": "In unserem Projekt NavigAI-tors entwickeln wir ein KI-basiertes Navigationssystem für Containerschiffe, das auf Reinforcement Learning basiert. Ziel ist es, durch intelligente Routenplanung nicht nur Treibstoffkosten zu senken, sondern auch CO₂-Emissionen drastisch zu reduzieren. Mithilfe digitaler Zwillinge simulieren wir verschiedene Routen unter Einbezug von Wind-, Wellen- und Wetterdaten.",
-      "startsAt": "2024-04-20T12:40:00",
-      "endsAt": "2024-04-20T13:00:00",
+      "startsAt": "2025-05-10T12:40:00",
+      "endsAt": "2025-05-10T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -218,11 +218,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "ai-driven-sea-navigation"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/Peg6YGZoLwQ?si=UHrwLJVx0ni0EVZ_"
         }
       ],
       "roomId": 3,
@@ -236,8 +236,8 @@
       "id": "9",
       "title": "Let’s build an AI agent",
       "description": "In this session, we’ll explore how modern AI systems leverage external tools to extend their capabilities beyond pure language understanding. First, we’ll examine the central role of tools (including a short intro to the Model Context Protocol) in enabling agents to perform tasks such as retrieval, computation and real‑world action. Next, we’ll survey advances in reasoning‑focused models that dynamically plan and execute tool calls, highlighting recent model developments in OpenAI models. Finally, we’ll introduce the OpenAI Agent SDK, demonstrating step‑by‑step how to assemble AI agents.",
-      "startsAt": "2024-04-20T14:25:00",
-      "endsAt": "2024-04-20T15:10:00",
+      "startsAt": "2025-05-10T14:25:00",
+      "endsAt": "2025-05-10T15:10:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -247,11 +247,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "ai-agents"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/cXIhvAJ5TYs?si=OQqn8qguoYeDBvhs"
         }
       ],
       "roomId": 3,
@@ -265,8 +265,8 @@
       "id": "10",
       "title": "IT-Spielplatz für 1000+ Poweruser - Proxmox in der Praxis an der HTL Leonding",
       "description": "In dieser Session stellt Michael Wagner die Virtualisierungsumgebung an der HTL Leonding vor, in der über 1.000 Schüler:innen und Lehrer:innen mit Proxmox arbeiten. Er zeigt, wie Proxmox für den flexiblen Einsatz im Unterricht und in der Administration konfiguriert wurde, um skalierbare und sichere virtuelle Maschinen und LXC-Container bereitzustellen.\r\n\r\nAnhand konkreter Anwendungsfälle – von Entwicklerumgebungen über Netzwerklabore bis hin zu containerbasierten Microservices – demonstriert Michael Wagner Good Practices für Storage, Backup und Betrieb. Teilnehmende gewinnen wertvolle Einblicke in Projektplanung, Rollout und Betrieb einer sicheren und flexiblen Proxmox-Infrastruktur für kleine und mittelgroße Organisationen.",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
+      "startsAt": "2025-05-10T13:30:00",
+      "endsAt": "2025-05-10T14:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -276,11 +276,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "proxmox-in-der-praxis"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/b8THQ2n_l68?si=XV4lbeuMuyr2_GRF"
         }
       ],
       "roomId": 2,
@@ -294,8 +294,8 @@
       "id": "11",
       "title": "Welcome",
       "description": "",
-      "startsAt": "2024-04-20T09:00:00",
-      "endsAt": "2024-04-20T09:10:00",
+      "startsAt": "2025-05-10T09:00:00",
+      "endsAt": "2025-05-10T09:10:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -305,11 +305,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "welcome"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/Bq7ETjLpY1w?si=RpkiI0YGb7Jl2sW6"
         }
       ],
       "roomId": 1,
@@ -321,10 +321,10 @@
     },
     {
       "id": "12",
-      "title": "Deployment Strategie für Multitenant fähige Azure Anwendungen mit Azure DevOps Pipelines",
-      "description": "Bei einer Vielzahl meiner Projekte der letzten Jahre ging es neben der allgemeinen Software-Architektur zunehmend auch darum, Hosting- und Deployment-Strategien zu entwickeln, die es ermöglichen, eine gemeinsame Hosting-Infrastruktur für eine Vielzahl von Kunden zu betreiben und gleichzeitig Updates gestaffelt über einen längeren Zeitraum auszuliefern. Daraus ergibt sich die Notwendigkeit, mehrere Versionen der Software parallel zu betreiben. Zusätzlich zu einer dynamischen Menge an Entwicklungs- und Testsystemen wurde relativ schnell klar, dass der Aufbau dieser Umgebungen automatisiert erfolgen muss. Als Nebeneffekt dieser Deployment-Automatisierung entstand so auch die Möglichkeit, gezielt temporäre Testumgebungen für Feature-Branches zu erstellen, um auf einem dem Produktionssystem maximal identischen Setup testen zu können.",
-      "startsAt": "2024-04-20T13:30:00",
-      "endsAt": "2024-04-20T14:15:00",
+      "title": "Deployment Strategy for Multi-Tenant Capable Azure Applications Using Azure DevOps Pipelines",
+      "description": "In many of my projects over the past few years, the focus has increasingly shifted beyond general software architecture to include the development of hosting and deployment strategies. These strategies are designed to enable the operation of a shared hosting infrastructure for a wide range of customers, while also allowing for staggered updates to be rolled out over an extended period of time. This results in the need to run multiple versions of the software in parallel. In addition to a dynamic set of development and test systems, it quickly became clear that the setup of these environments had to be automated. As a side effect of this deployment automation, the possibility also emerged to create targeted, temporary test environments for feature branches, enabling testing on a setup that closely mirrors the production environment.",
+      "startsAt": "2025-05-10T13:30:00",
+      "endsAt": "2025-05-10T14:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -334,11 +334,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "multitenant-deployment-strategy"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/FRGwx6f6K0s?si=-BMA5BB-5ca9OfWD"
         }
       ],
       "roomId": 3,
@@ -352,8 +352,8 @@
       "id": "13",
       "title": "Between Skills, Sales & Success - Leading Through AI-Driven Transformation at Microsoft",
       "description": "What does it mean to lead a sales and tech team in a world shaped by AI, innovation, and constant change? In this session, I'll share my personal journey as a Data & AI & App Innovation Sales Manager at Microsoft – leading a male-dominated team, navigating rapid upskilling, and learning what leadership really means when the ground is constantly shifting.\r\n\r\nYou’ll hear real stories from the field: how Austrian customers are rethinking their business models with Azure, what it takes to sell innovation in an AI-first world, and how trust, empathy, and continuous learning can become superpowers in tech leadership. This talk is not about technology alone - it's about mindset, momentum, and making meaningful impact in times of transformation.",
-      "startsAt": "2024-04-20T14:25:00",
-      "endsAt": "2024-04-20T15:10:00",
+      "startsAt": "2025-05-10T14:25:00",
+      "endsAt": "2025-05-10T15:10:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
@@ -363,11 +363,11 @@
       "questionAnswers": [
         {
           "questionId": 71787,
-          "answerValue": "hello-ai"
+          "answerValue": "leading-through-ai-driven-transformation"
         },
         {
           "questionId": 71788,
-          "answerValue": "https://youtube.com/live/qQzet_dzPuY"
+          "answerValue": "https://www.youtube.com/live/RnwQTUbBqtM?si=PGFQXWZrNLK4sTDw"
         }
       ],
       "roomId": 2,
@@ -465,7 +465,7 @@
       "lastName": "Schabetsberger",
       "bio": "Christian Schabetsberger, the world's okayest developer, is a Freelance Software Engineer & Architect from Linz, Austria. Having spent half of his life in the .NET ecosystem, he likes to stay on the bleeding edge of technology to become the (tech-savvy) ninja he pretends to be since he is six.",
       "tagLine": "Freelance Software Engineer & Architect",
-      "profilePicture": "https://www.finxit.at/assets/img/profile.webp",
+      "profilePicture": "/img/speakers/christian-schabetsberger.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
@@ -529,7 +529,7 @@
       "lastName": "Wagner",
       "bio": "Ich bin seit fünf Jahren Lehrer an der HTL Leonding mit dem Schwerpunkt auf Netzwerktechnik, IT-Infrastruktur und Automatisierung. Zuvor war ich 18 Jahre lang als technischer Verantwortlicher und Projektleiter tätig und konnte in dieser Zeit zahlreiche IT- und Industrieprojekte erfolgreich umsetzen – von der Planung über die Implementierung bis hin zum laufenden Betrieb. Diese umfassende Praxiserfahrung bringe ich heute in den Unterricht ein, um junge Talente praxisnah und zukunftsorientiert auszubilden. Mein Fokus liegt auf der Verbindung von Theorie und realen Anwendungsfällen, insbesondere in den Bereichen Virtualisierung, Netzwerktechnik und IT-Systemintegration.",
       "tagLine": "HTL Leonding",
-      "profilePicture": "https://media.licdn.com/dms/image/v2/C4E03AQGytDF4CmDd9Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632605570434?e=1750896000&v=beta&t=C7GL4esNqKmOd-UVFIVFlM5RbFct1rTulaOG-usTGX8",
+      "profilePicture": "/img/speakers/michael-wagner.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
