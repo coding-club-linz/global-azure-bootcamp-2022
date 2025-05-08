@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: Build Their Platform, Not Yours: Empowering Developers\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nDeveloper platforms are designed to make developers' lives easier. When built with the end user in mind, they can streamline workflows, foster collaboration, and speed up innovation. In essence, they act as a helpful assistant that takes care of the complex behind-the-scenes work, freeing developers to focus on what they usually do best – building great software.\n\nThis naturally leads us to some critical questions: How much of the underlying complexity should these platforms abstract away? How can we empower developers with helpful tools without making their work feel rigid? And how can we cater to the diverse needs and preferences within development teams?\n\nThis talk will explore various approaches to crafting opinionated user interfaces and compare their strengths and weaknesses. We'll journey from the concept of the thinnest viable platform (TVP) to the pitfalls of over-engineering, where meaningful abstractions turn into limitations.\n\n---\n\nVisit https://globalazure.at/ for more information
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20240420T115500
-DTEND;VALUE=DATE-TIME:20240420T124000
+DTSTART;VALUE=DATE-TIME:20250510T115500
+DTEND;VALUE=DATE-TIME:20250510T124000
 LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
 SUMMARY;LANGUAGE=en-us:GAA: Build Their Platform, Not Yours: Empowering Developers
 TRANSP:TRANSPARENT

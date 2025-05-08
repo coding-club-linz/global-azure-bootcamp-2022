@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nProbably almost everyone has used AI-powered tools, like the GitHub Copilot, ChatGPT, or the Microsoft Copilot. But how do these Gen-AI tools work, and what resources are behind them in Azure?\n\nIn this session, I would like to delve into the individual components and explain the infrastructure behind an OpenAI Service using Terraform. I would like to demonstrate live how this service, including a GPT-4 deployment, can be provisioned and destroyed in an automated way using a GitHub Action Workflow. In addition, I want to explain how the public endpoints can be used to conduct the prompting.\n\n---\n\nVisit https://globalazure.at/ for more information
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20240420T110000
-DTEND;VALUE=DATE-TIME:20240420T114500
+DTSTART;VALUE=DATE-TIME:20250510T110000
+DTEND;VALUE=DATE-TIME:20250510T114500
 LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
 SUMMARY;LANGUAGE=en-us:GAA: How to Deploy an OpenAI Service with a GPT-4 Model on Azure Using Terraform and GitHub Actions
 TRANSP:TRANSPARENT

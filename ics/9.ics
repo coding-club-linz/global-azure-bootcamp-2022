@@ -6,8 +6,8 @@ UID:0@gaaustria2021
 CLASS:PUBLIC
 DESCRIPTION:Global Azure Austria: GAA: Let’s build an AI agent\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn this session, we’ll explore how modern AI systems leverage external tools to extend their capabilities beyond pure language understanding. First, we’ll examine the central role of tools (including a short intro to the Model Context Protocol) in enabling agents to perform tasks such as retrieval, computation and real‑world action. Next, we’ll survey advances in reasoning‑focused models that dynamically plan and execute tool calls, highlighting recent model developments in OpenAI models. Finally, we’ll introduce the OpenAI Agent SDK, demonstrating step‑by‑step how to assemble AI agents.\n\n---\n\nVisit https://globalazure.at/ for more information
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20240420T142500
-DTEND;VALUE=DATE-TIME:20240420T151000
+DTSTART;VALUE=DATE-TIME:20250510T142500
+DTEND;VALUE=DATE-TIME:20250510T151000
 LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
 SUMMARY;LANGUAGE=en-us:GAA: Let’s build an AI agent
 TRANSP:TRANSPARENT

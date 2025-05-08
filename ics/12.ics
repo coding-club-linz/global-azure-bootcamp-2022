@@ -4,12 +4,12 @@ VERSION:2.0
 BEGIN:VEVENT
 UID:0@gaaustria2021
 CLASS:PUBLIC
-DESCRIPTION:Global Azure Austria: GAA: Deployment Strategie für Multitenant fähige Azure Anwendungen mit Azure DevOps Pipelines\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nBei einer Vielzahl meiner Projekte der letzten Jahre ging es neben der allgemeinen Software-Architektur zunehmend auch darum, Hosting- und Deployment-Strategien zu entwickeln, die es ermöglichen, eine gemeinsame Hosting-Infrastruktur für eine Vielzahl von Kunden zu betreiben und gleichzeitig Updates gestaffelt über einen längeren Zeitraum auszuliefern. Daraus ergibt sich die Notwendigkeit, mehrere Versionen der Software parallel zu betreiben. Zusätzlich zu einer dynamischen Menge an Entwicklungs- und Testsystemen wurde relativ schnell klar, dass der Aufbau dieser Umgebungen automatisiert erfolgen muss. Als Nebeneffekt dieser Deployment-Automatisierung entstand so auch die Möglichkeit, gezielt temporäre Testumgebungen für Feature-Branches zu erstellen, um auf einem dem Produktionssystem maximal identischen Setup testen zu können.\n\n---\n\nVisit https://globalazure.at/ for more information
+DESCRIPTION:Global Azure Austria: GAA: Deployment Strategy for Multi-Tenant Capable Azure Applications Using Azure DevOps Pipelines\n\nNOTE that date/time is in CEST time zone (UTC +2)\n\n---\n\nIn many of my projects over the past few years, the focus has increasingly shifted beyond general software architecture to include the development of hosting and deployment strategies. These strategies are designed to enable the operation of a shared hosting infrastructure for a wide range of customers, while also allowing for staggered updates to be rolled out over an extended period of time. This results in the need to run multiple versions of the software in parallel. In addition to a dynamic set of development and test systems, it quickly became clear that the setup of these environments had to be automated. As a side effect of this deployment automation, the possibility also emerged to create targeted, temporary test environments for feature branches, enabling testing on a setup that closely mirrors the production environment.\n\n---\n\nVisit https://globalazure.at/ for more information
 DTSTAMP;VALUE=DATE-TIME:20210416T120000
-DTSTART;VALUE=DATE-TIME:20240420T133000
-DTEND;VALUE=DATE-TIME:20240420T141500
+DTSTART;VALUE=DATE-TIME:20250510T133000
+DTEND;VALUE=DATE-TIME:20250510T141500
 LOCATION:HTL Leonding, Limesstraße 12-14, A-4060 Leonding
-SUMMARY;LANGUAGE=en-us:GAA: Deployment Strategie für Multitenant fähige Azure Anwendungen mit Azure DevOps Pipelines
+SUMMARY;LANGUAGE=en-us:GAA: Deployment Strategy for Multi-Tenant Capable Azure Applications Using Azure DevOps Pipelines
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
