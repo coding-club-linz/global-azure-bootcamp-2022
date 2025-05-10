@@ -148,7 +148,7 @@
     {
       "id": "6",
       "title": "Your Build Pipeline Needs a Notary: Surviving Code Signing in 2025",
-      "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure 'Trusted Signing' offering might help you.",
+      "description": "To sign or not to sign, that is not the question any more in 2025. As cyber threats are increasing to never seen dimensions, signing your application offers an easy way to provide verifiable software to your customers. But how do you get a code signing certificate? How do you keep it safe? And how to integrate it into your CI/CD pipeline? Those questions and many more will be answered in this talk, by taking a deep dive into the different options available and how the Azure Offerings 'Key Vault' or 'Trusted Signing' might help you.",
       "startsAt": "2025-05-10T11:00:00",
       "endsAt": "2025-05-10T11:45:00",
       "isServiceSession": false,
